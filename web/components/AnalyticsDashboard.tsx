@@ -43,7 +43,7 @@ export default function AnalyticsDashboard() {
   const [stats, setStats] = useState<any>(null);
   const [deep, setDeep] = useState<any>(null);
   const [stage3, setStage3] = useState<any>(null);
-  const [activeTab, setActiveTab] = useState<TabId>('overview');
+  const [activeTab, setActiveTab] = useState<TabId>('stage3');
 
   useEffect(() => {
     Promise.all([
