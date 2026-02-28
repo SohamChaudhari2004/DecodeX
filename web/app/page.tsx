@@ -6,6 +6,7 @@ import DubaiMap from '@/components/DubaiMap';
 import HUDNodeOverlay from '@/components/HUDNodeOverlay';
 import HUDRoutingOverlay from '@/components/HUDRoutingOverlay';
 import AnalyticsDashboard from '@/components/AnalyticsDashboard';
+import BusinessDashboard from '@/components/BusinessDashboard';
 
 export default function Home() {
   // UI Toggles
@@ -254,6 +255,18 @@ export default function Home() {
       {/* DASHBOARD SECTION */}
       <div className="relative w-full z-10 bg-[#090b10] min-h-screen border-t border-white/5 shadow-[0_-20px_50px_rgba(0,0,0,0.8)] pt-12">
         <AnalyticsDashboard />
+      </div>
+
+      {/* BUSINESS INTELLIGENCE SECTION */}
+      <div className="relative w-full z-10 bg-[#060809] border-t border-white/5 pt-12">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 mb-6">
+          <div className="flex items-center gap-4">
+            <div className="h-px flex-1 bg-gradient-to-r from-transparent to-[#a78bfa]/30"></div>
+            <div className="text-[9px] text-white/20 uppercase tracking-[0.4em] font-mono">Business Intelligence · ML Pipeline Output</div>
+            <div className="h-px flex-1 bg-gradient-to-l from-transparent to-[#a78bfa]/30"></div>
+          </div>
+        </div>
+        <BusinessDashboard />
       </div>
 
     </main>
