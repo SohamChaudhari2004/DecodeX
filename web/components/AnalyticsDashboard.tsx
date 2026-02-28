@@ -179,7 +179,7 @@ function GrowthTab({ deep }: { deep: any }) {
             <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" />
             <XAxis dataKey="period" tick={{ fill: 'rgba(255,255,255,0.4)', fontSize: 9 }} axisLine={false} angle={-30} textAnchor="end" height={50} />
             <YAxis tick={{ fill: 'rgba(255,255,255,0.3)', fontSize: 10 }} axisLine={false} tickFormatter={(v: number) => `${(v / 1000000).toFixed(1)}M`} />
-            <Tooltip contentStyle={{ background: '#0f131c', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 8, fontSize: 11, color: '#fff' }} formatter={(v: number) => `${(v / 1000).toFixed(0)}K`} />
+            <Tooltip contentStyle={{ background: '#0f131c', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 8, fontSize: 11, color: '#fff' }} formatter={(v: any) => [`${(Number(v) / 1000).toFixed(0)}K`]} />
             <Area type="monotone" dataKey="total_pax" fill="#10b98120" stroke="#10b981" strokeWidth={1} name="Raw Total Pax" />
             <Line type="monotone" dataKey="trend" stroke="#e2cca8" strokeWidth={2.5} dot={false} name="Extracted Trend" strokeDasharray="5 5" />
           </ComposedChart>
@@ -622,7 +622,7 @@ function ForecastTab({ deep, stats }: { deep: any; stats: any }) {
             <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" />
             <XAxis dataKey="month" tick={{ fill: 'rgba(255,255,255,0.4)', fontSize: 11 }} axisLine={false} />
             <YAxis tick={{ fill: 'rgba(255,255,255,0.3)', fontSize: 10 }} axisLine={false} tickFormatter={(v: number) => `${(v / 1000000).toFixed(1)}M`} />
-            <Tooltip contentStyle={{ background: '#0f131c', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 8, fontSize: 11, color: '#fff' }} formatter={(v: number) => `${(v / 1000).toFixed(0)}K`} />
+            <Tooltip contentStyle={{ background: '#0f131c', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 8, fontSize: 11, color: '#fff' }} formatter={(v: any) => [`${(Number(v) / 1000).toFixed(0)}K`]} />
             <Area type="monotone" dataKey="confidence_high" fill="#a855f710" stroke="transparent" name="Upper 95% CI" />
             <Area type="monotone" dataKey="confidence_low" fill="#a855f710" stroke="transparent" name="Lower 95% CI" />
             <Line type="monotone" dataKey="predicted_pax" stroke="#a855f7" strokeWidth={3} dot={{ fill: '#a855f7', r: 4, stroke: '#0f131c', strokeWidth: 2 }} name="Predicted Pax" />

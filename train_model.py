@@ -14,46 +14,51 @@ def main():
     
     # Feature Engineering
     ridership['DayOfWeek'] = ridership['Date'].dt.dayofweek
+    ridership['Day'] = ridership['Date'].dt.day
     ridership['Month'] = ridership['Date'].dt.month
     ridership['Year'] = ridership['Date'].dt.year
 
     # Aggregate total boardings per station per day to simplify model
-    daily_stop = ridership.groupby(['Date', 'Stop_ID', 'DayOfWeek', 'Month', 'Year'])['Boarding_Count'].sum().reset_index()
+    daily_stop = ridership.groupby(['Date', 'Stop_ID', 'DayOfWeek', 'Day', 'Month', 'Year'])['Boarding_Count'].sum().reset_index()
 
-    features = ['Stop_ID', 'DayOfWeek', 'Month', 'Year']
+    features = ['Stop_ID', 'DayOfWeek', 'Day', 'Month', 'Year']
     X = daily_stop[features]
     y = daily_stop['Boarding_Count']
 
     print("Training RandomForest model... (this may take a few seconds)")
-    model = RandomForestRegressor(n_estimators=50, max_depth=10, random_state=42)
+    model = RandomForestRegressor(n_estimators=200, max_depth=15, min_samples_leaf=2, random_state=42, n_jobs=-1)
     model.fit(X, y)
 
     last_date = daily_stop['Date'].max()
-    print(f"Data ends on {last_date.date()}. Generating 7-day forecast...")
+    print(f"Data ends on {last_date.date()}. Generating 30-day forecast starting from 2026-02-28...")
 
     # Stop IDs from the training set
     unique_stops = daily_stop['Stop_ID'].unique()
     
+    start_date_forecast = pd.to_datetime("2026-02-28")
+    
     forecast_data = {
-        "start_date": (last_date + timedelta(days=1)).strftime("%Y-%m-%d"),
-        "end_date": (last_date + timedelta(days=7)).strftime("%Y-%m-%d"),
+        "start_date": start_date_forecast.strftime("%Y-%m-%d"),
+        "end_date": (start_date_forecast + timedelta(days=29)).strftime("%Y-%m-%d"),
         "predictions": {}
     }
 
-    for i in range(1, 8):
-        future_date = last_date + timedelta(days=i)
+    for i in range(30):
+        future_date = start_date_forecast + timedelta(days=i)
         date_str = future_date.strftime("%Y-%m-%d")
         
         forecast_data["predictions"][date_str] = {}
         
         # Build features for this future day for all stops
+        dt_day = future_date.day
+        dt_dow = future_date.dayofweek
         dt_month = future_date.month
         dt_year = future_date.year
-        dt_dow = future_date.dayofweek
         
         X_pred = pd.DataFrame({
             'Stop_ID': unique_stops,
             'DayOfWeek': dt_dow,
+            'Day': dt_day,
             'Month': dt_month,
             'Year': dt_year
         })

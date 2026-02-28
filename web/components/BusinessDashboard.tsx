@@ -30,18 +30,16 @@ export default function BusinessDashboard() {
   const [zone, setZone]         = useState<any>(null);
   const [forecast, setForecast] = useState<any>(null);
   const [cong, setCong]         = useState<any>(null);
-  const [metrics, setMetrics]   = useState<any>(null);
   const [trends, setTrends]     = useState<any>(null);
 
   useEffect(() => {
     fetch('/data/zone_intelligence.json').then(r => r.json()).then(setZone);
     fetch('/data/h2_2025_forecast.json').then(r => r.json()).then(setForecast);
     fetch('/data/congestion_forecast.json').then(r => r.json()).then(setCong);
-    fetch('/data/model_metrics.json').then(r => r.json()).then(setMetrics);
     fetch('/data/historical_trends.json').then(r => r.json()).then(setTrends);
   }, []);
 
-  if (!zone || !forecast || !cong || !metrics || !trends) {
+  if (!zone || !forecast || !cong || !trends) {
     return (
       <div className="w-full flex items-center justify-center py-24 text-white/30 font-mono text-xs tracking-widest">
         [ LOADING BUSINESS INTELLIGENCE ENGINE... ]
@@ -114,12 +112,11 @@ export default function BusinessDashboard() {
       </div>
 
       {/* ROW 1 — KPI HEADLINE CARDS */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
         {[
           { label: 'Total Network Passengers', value: fmt(totalNetworkPax), sub: '2022 — H1 2025', color: '#a78bfa' },
           { label: 'Total Boardings', value: fmt(totalBoardings), sub: 'System-wide', color: '#60a5fa' },
           { label: 'H2 2025 Forecast (Total)', value: fmt(forecast.system.reduce((s: number, m: any) => s + m.total_pax, 0)), sub: 'Jul – Dec 2025', color: '#34d399' },
-          { label: 'RF Model Accuracy (R²)', value: `${(metrics.models.M1_ridership_forecast.r2_score * 100).toFixed(1)}%`, sub: `±${metrics.models.M1_ridership_forecast.mae_passengers} pax MAE`, color: '#fbbf24' },
         ].map((c, i) => (
           <div key={i} className="bg-[#0d1117] border border-white/10 rounded-xl p-5 relative overflow-hidden hover:border-white/20 transition-all">
             <div className="text-[9px] text-white/30 uppercase tracking-widest mb-4">{c.label}</div>
@@ -277,30 +274,7 @@ export default function BusinessDashboard() {
         </div>
       </div>
 
-      {/* ROW 6 — MODEL PERFORMANCE ROW */}
-      <div className="bg-[#0d1117] border border-white/10 rounded-xl p-8 mb-6">
-        <div className="text-[10px] text-white/30 uppercase tracking-widest mb-8 text-center">ML Model Pipeline — Performance Metrics</div>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-          {[
-            { name: 'M1 · Ridership Forecast', algo: 'Random Forest Regressor', metric: `R² = ${metrics.models.M1_ridership_forecast.r2_score}`, sub: `MAE ±${metrics.models.M1_ridership_forecast.mae_passengers} pax`, color: '#a78bfa', bar: metrics.models.M1_ridership_forecast.r2_score },
-            { name: 'M2 · Congestion Predictor', algo: 'Gradient Boosting Classifier', metric: `Acc = ${(metrics.models.M2_congestion_predictor.accuracy * 100).toFixed(1)}%`, sub: '5-class level prediction', color: '#f43f5e', bar: metrics.models.M2_congestion_predictor.accuracy },
-            { name: 'M3 · Route Recommender', algo: 'Gradient Boosting Regressor', metric: `R² = ${metrics.models.M3_route_recommender.r2_score}`, sub: '4 priority scoring modes', color: '#34d399', bar: metrics.models.M3_route_recommender.r2_score },
-            { name: 'M4 · Zone Trend Model', algo: 'Linear Regression (per zone)', metric: `7 zones modeled`, sub: '2022–2025 H1 training', color: '#fbbf24', bar: 0.82 },
-          ].map((m, i) => (
-            <div key={i} className="border border-white/5 bg-black/30 rounded-xl p-5 relative overflow-hidden">
-              <div className="text-xs font-bold mb-1" style={{ color: m.color }}>{m.name}</div>
-              <div className="text-[9px] text-white/30 mb-4">{m.algo}</div>
-              <div className="text-2xl font-mono font-bold text-white mb-1">{m.metric}</div>
-              <div className="text-[10px] text-white/30 mb-4">{m.sub}</div>
-              <div className="h-1 bg-white/5 rounded-full overflow-hidden">
-                <div className="h-full rounded-full" style={{ width: `${m.bar * 100}%`, background: m.color }}></div>
-              </div>
-              <div className="absolute right-4 top-4 text-[10px] text-white/10 font-mono">M{i+1}</div>
-            </div>
-          ))}
-        </div>
-      </div>
-
     </div>
   );
 }
+

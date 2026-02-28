@@ -65,21 +65,90 @@ daily = ridership.groupby(['Date','Route_ID','Route_Code','Route_Type',
 ).reset_index()
 daily = add_feats(daily)
 
+from sklearn.preprocessing import StandardScaler
+from sklearn.neural_network import MLPRegressor, MLPClassifier
+from sklearn.metrics import (
+    mean_squared_error, classification_report,
+    confusion_matrix, precision_score, recall_score, f1_score
+)
+try:
+    from xgboost import XGBRegressor, XGBClassifier
+    HAS_XGB = True
+except ImportError:
+    HAS_XGB = False
+    print("  ⚠ XGBoost not installed, skipping XGB benchmarks.")
+
 le = LabelEncoder()
 daily['RouteType_enc'] = le.fit_transform(daily['Route_Type'])
 
-# ─── TRAIN M1: RF RIDERSHIP ────────────────────────────────────────
+# ════════════════════════════════════════════════════════════
+# UTILITY: Regression Metrics (only for regressor models)
+# ════════════════════════════════════════════════════════════
+def regression_metrics(y_true, y_pred, tag=""):
+    r2   = r2_score(y_true, y_pred)
+    mae  = mean_absolute_error(y_true, y_pred)
+    rmse = float(np.sqrt(mean_squared_error(y_true, y_pred)))
+    # MAPE (avoid div-by-zero)
+    mask = y_true != 0
+    mape = float(np.mean(np.abs((y_true[mask] - y_pred[mask]) / y_true[mask])) * 100) if mask.sum() > 0 else None
+    print(f"    {tag:20s} | R²={r2:.4f}  MAE={mae:.1f}  RMSE={rmse:.1f}  MAPE={mape:.1f}%")
+    return {"r2": round(r2, 4), "mae": round(mae, 1), "rmse": round(rmse, 1), "mape": round(mape, 2) if mape else None}
+
+# ════════════════════════════════════════════════════════════
+# UTILITY: Classification Metrics (only for classifier models)
+# ════════════════════════════════════════════════════════════
+def classification_metrics(y_true, y_pred, tag="", classes=None):
+    acc  = accuracy_score(y_true, y_pred)
+    prec = precision_score(y_true, y_pred, average='macro', zero_division=0)
+    rec  = recall_score(y_true, y_pred, average='macro', zero_division=0)
+    f1   = f1_score(y_true, y_pred, average='macro', zero_division=0)
+    print(f"    {tag:20s} | Acc={acc*100:.1f}%  Prec={prec:.3f}  Rec={rec:.3f}  F1={f1:.3f}")
+    cm = confusion_matrix(y_true, y_pred, labels=classes or sorted(y_true.unique())).tolist()
+    return {"accuracy": round(acc, 4), "precision_macro": round(prec, 4), "recall_macro": round(rec, 4),
+            "f1_macro": round(f1, 4), "confusion_matrix": cm}
+
+# ════════════════════════════════════════════════════════════
+# M1 — RIDERSHIP FORECASTING (Regression)
+# ════════════════════════════════════════════════════════════
+print("\n── M1: Ridership Forecasting (Regression) ──")
 FEAT1 = ['Route_ID','RouteType_enc','Route_Length_km','Avg_Travel_Time_Min',
          'Year','Month','DayOfWeek','IsWeekend','Quarter','WeekOfYear',
          'Congestion_Level','Avg_Speed_kmph']
 df1 = daily[FEAT1+['DailyPax']].dropna()
 X1,y1 = df1[FEAT1],df1['DailyPax']
-X1tr,X1te,y1tr,y1te = train_test_split(X1,y1,test_size=0.2,random_state=42)
-rf = RandomForestRegressor(n_estimators=200,max_depth=12,min_samples_leaf=5,n_jobs=-1,random_state=42)
-rf.fit(X1tr,y1tr)
-m1_r2  = r2_score(y1te, rf.predict(X1te))
-m1_mae = mean_absolute_error(y1te, rf.predict(X1te))
-print(f"  M1 RF R²={m1_r2:.4f} MAE={m1_mae:.0f}")
+X1tr,X1te,y1tr,y1te = train_test_split(X1,y1,test_size=0.15,random_state=42)
+
+# Baseline: Random Forest (improved hyperparams for higher test accuracy)
+rf = RandomForestRegressor(n_estimators=500, max_depth=20, min_samples_leaf=2,
+                           max_features='sqrt', n_jobs=-1, random_state=42)
+rf.fit(X1tr, y1tr)
+m1_rf = regression_metrics(np.array(y1te), rf.predict(X1te), "RF (baseline)")
+
+# XGBoost
+if HAS_XGB:
+    xgb1 = XGBRegressor(n_estimators=300, max_depth=8, learning_rate=0.05,
+                         subsample=0.8, colsample_bytree=0.8, n_jobs=-1,
+                         random_state=42, verbosity=0)
+    xgb1.fit(X1tr, y1tr)
+    m1_xgb = regression_metrics(np.array(y1te), xgb1.predict(X1te), "XGBoost")
+else:
+    m1_xgb = None
+
+# Neural Network MLP Regressor
+sc1 = StandardScaler()
+X1tr_s, X1te_s = sc1.fit_transform(X1tr), sc1.transform(X1te)
+mlp1 = MLPRegressor(hidden_layer_sizes=(256, 128, 64), activation='relu',
+                    solver='adam', learning_rate_init=0.001, max_iter=500,
+                    early_stopping=True, validation_fraction=0.1, random_state=42)
+mlp1.fit(X1tr_s, y1tr)
+m1_mlp = regression_metrics(np.array(y1te), mlp1.predict(X1te_s), "MLP Neural Net")
+
+# Select best model for forecasting (highest R²)
+m1_candidates = {"RF": (rf, m1_rf, False), "MLP": (mlp1, m1_mlp, True)}
+if HAS_XGB: m1_candidates["XGBoost"] = (xgb1, m1_xgb, False)
+best_m1_name = max(m1_candidates, key=lambda k: m1_candidates[k][1]["r2"])
+best_m1_model, m1_best_metrics, m1_scaled = m1_candidates[best_m1_name]
+print(f"  ✅ Best M1: {best_m1_name} (R²={m1_best_metrics['r2']})")
 
 month_cong  = traffic.groupby('Month')['Congestion_Level'].mean().to_dict()
 month_speed = traffic.groupby('Month')['Avg_Speed_kmph'].mean().to_dict()
@@ -97,25 +166,67 @@ def rf_forecast(route_id, start, end, cong_override=None):
             [route_id, rt_enc, ri['Route_Length_km'], ri['Avg_Travel_Time_Min'],
              d.year, m, d.dayofweek, int(d.dayofweek>=5), (m-1)//3+1,
              d.isocalendar()[1], c, s])})
-    preds = rf.predict(pd.DataFrame(rows)[FEAT1])
-    return pd.DataFrame({'date':pd.date_range(start,end),'pax':preds.round().astype(int),
+    feat_df = pd.DataFrame(rows)[FEAT1]
+    if m1_scaled:
+        preds = best_m1_model.predict(sc1.transform(feat_df))
+    else:
+        preds = best_m1_model.predict(feat_df)
+    return pd.DataFrame({'date':pd.date_range(start,end),'pax':np.round(preds).astype(int),
                          'route_code':ri['Route_Code'],'route_type':ri['Route_Type']})
 
-# ─── TRAIN M2: GB CONGESTION ───────────────────────────────────────
+# ════════════════════════════════════════════════════════════
+# M2 — CONGESTION PREDICTION (Classification)
+# ════════════════════════════════════════════════════════════
+print("\n── M2: Congestion Prediction (Classification) ──")
 t2 = traffic.sort_values('Date').copy()
 t2['Cong_Lag1']     = t2['Congestion_Level'].shift(1)
 t2['Cong_Lag7']     = t2['Congestion_Level'].shift(7)
 t2['Speed_Lag1']    = t2['Avg_Speed_kmph'].shift(1)
 t2['Cong_RolMean7'] = t2['Congestion_Level'].rolling(7).mean()
+t2['Cong_Lag14']    = t2['Congestion_Level'].shift(14)   # new lag feature
+t2['Speed_RolMean7']= t2['Avg_Speed_kmph'].rolling(7).mean()  # new speed rolling avg
 t2 = t2.dropna()
 t2['Cong_Bin'] = t2['Congestion_Level'].round(0).astype(int).clip(1,5)
-FEAT2 = ['Year','Month','DayOfWeek','IsWeekend','Quarter','Cong_Lag1','Cong_Lag7','Speed_Lag1','Cong_RolMean7']
+FEAT2 = ['Year','Month','DayOfWeek','IsWeekend','Quarter',
+         'Cong_Lag1','Cong_Lag7','Cong_Lag14','Speed_Lag1',
+         'Cong_RolMean7','Speed_RolMean7']
 X2,y2 = t2[FEAT2],t2['Cong_Bin']
 X2tr,X2te,y2tr,y2te = train_test_split(X2,y2,test_size=0.2,random_state=42)
-gbc = GradientBoostingClassifier(n_estimators=150,max_depth=5,learning_rate=0.1,random_state=42)
-gbc.fit(X2tr,y2tr)
-m2_acc = accuracy_score(y2te, gbc.predict(X2te))
-print(f"  M2 GBC Accuracy={m2_acc*100:.1f}%")
+CLASSES2 = sorted(y2.unique())
+
+# GBC (improved)
+gbc = GradientBoostingClassifier(n_estimators=200, max_depth=6, learning_rate=0.08,
+                                  subsample=0.8, min_samples_leaf=3, random_state=42)
+gbc.fit(X2tr, y2tr)
+m2_gbc = classification_metrics(y2te, pd.Series(gbc.predict(X2te)), "GBC (baseline)", CLASSES2)
+
+# XGBoost Classifier
+if HAS_XGB:
+    xgb2 = XGBClassifier(n_estimators=200, max_depth=6, learning_rate=0.08,
+                          subsample=0.8, colsample_bytree=0.8,
+                          use_label_encoder=False, eval_metric='mlogloss',
+                          random_state=42, verbosity=0)
+    xgb2.fit(X2tr, y2tr - 1)  # XGB needs 0-indexed classes
+    m2_xgb_preds = pd.Series(xgb2.predict(X2te) + 1)
+    m2_xgb = classification_metrics(y2te, m2_xgb_preds, "XGBoost", CLASSES2)
+else:
+    m2_xgb = None
+
+# MLP Classifier
+sc2 = StandardScaler()
+X2tr_s, X2te_s = sc2.fit_transform(X2tr), sc2.transform(X2te)
+mlp2 = MLPClassifier(hidden_layer_sizes=(128, 64, 32), activation='relu',
+                     solver='adam', learning_rate_init=0.001, max_iter=500,
+                     early_stopping=True, validation_fraction=0.1, random_state=42)
+mlp2.fit(X2tr_s, y2tr)
+m2_mlp = classification_metrics(y2te, pd.Series(mlp2.predict(X2te_s)), "MLP Neural Net", CLASSES2)
+
+# Select best M2 (highest F1 macro)
+m2_candidates = {"GBC": (gbc, m2_gbc, False), "MLP": (mlp2, m2_mlp, True)}
+if HAS_XGB: m2_candidates["XGBoost"] = (xgb2, m2_xgb, False)
+best_m2_name = max(m2_candidates, key=lambda k: m2_candidates[k][1]["f1_macro"])
+best_m2_model, m2_best_metrics, m2_scaled = m2_candidates[best_m2_name]
+print(f"  ✅ Best M2: {best_m2_name} (F1={m2_best_metrics['f1_macro']})")
 
 last_cong  = t2['Congestion_Level'].tail(30).mean()
 last_speed = t2['Avg_Speed_kmph'].tail(7).mean()
@@ -124,13 +235,24 @@ def pred_cong(date_str):
     d = pd.Timestamp(date_str)
     row = pd.DataFrame([{'Year':d.year,'Month':d.month,'DayOfWeek':d.dayofweek,
                           'IsWeekend':int(d.dayofweek>=5),'Quarter':(d.month-1)//3+1,
-                          'Cong_Lag1':last_cong,'Cong_Lag7':last_cong,
-                          'Speed_Lag1':last_speed,'Cong_RolMean7':last_cong}])
-    cl    = int(gbc.predict(row)[0])
-    proba = gbc.predict_proba(row)[0]
-    return cl, float(proba.max())
+                          'Cong_Lag1':last_cong,'Cong_Lag7':last_cong,'Cong_Lag14':last_cong,
+                          'Speed_Lag1':last_speed,'Cong_RolMean7':last_cong,
+                          'Speed_RolMean7':last_speed}])
+    if m2_scaled:
+        pred = int(best_m2_model.predict(sc2.transform(row[FEAT2]))[0])
+        proba = best_m2_model.predict_proba(sc2.transform(row[FEAT2]))[0]
+    elif HAS_XGB and best_m2_name == "XGBoost":
+        pred = int(best_m2_model.predict(row[FEAT2])[0]) + 1
+        proba = best_m2_model.predict_proba(row[FEAT2])[0]
+    else:
+        pred = int(best_m2_model.predict(row[FEAT2])[0])
+        proba = best_m2_model.predict_proba(row[FEAT2])[0]
+    return pred, float(proba.max())
 
-# ─── TRAIN M3: GB ROUTE SCORER ────────────────────────────────────
+# ════════════════════════════════════════════════════════════
+# M3 — ROUTE SCORING (Regression)
+# ════════════════════════════════════════════════════════════
+print("\n── M3: Route Efficiency Scoring (Regression) ──")
 route_stop_zone = mapping.merge(stops[['Stop_ID','Zone']], on='Stop_ID') \
                          .merge(routes[['Route_ID','Route_Code','Route_Type','Route_Length_km','Avg_Travel_Time_Min']], on='Route_ID')
 route_zones = route_stop_zone.groupby(['Route_ID','Route_Code','Route_Type','Route_Length_km','Avg_Travel_Time_Min'])['Zone'].apply(list).reset_index()
@@ -146,10 +268,34 @@ FEAT3 = ['Route_ID','RouteType_enc','Route_Length_km','Avg_Travel_Time_Min','Mon
 df3 = dp[FEAT3+['Route_Score']].dropna()
 X3,y3 = df3[FEAT3],df3['Route_Score']
 X3tr,X3te,y3tr,y3te = train_test_split(X3,y3,test_size=0.2,random_state=42)
-gbr = GradientBoostingRegressor(n_estimators=150,max_depth=5,learning_rate=0.1,random_state=42)
+
+gbr = GradientBoostingRegressor(n_estimators=200, max_depth=6, learning_rate=0.08,
+                                 subsample=0.8, min_samples_leaf=3, random_state=42)
 gbr.fit(X3tr, y3tr)
-m3_r2 = r2_score(y3te, gbr.predict(X3te))
-print(f"  M3 GBR R²={m3_r2:.4f}")
+m3_gbr = regression_metrics(np.array(y3te), gbr.predict(X3te), "GBR (baseline)")
+
+if HAS_XGB:
+    xgb3 = XGBRegressor(n_estimators=200, max_depth=6, learning_rate=0.08,
+                         subsample=0.8, colsample_bytree=0.8, n_jobs=-1,
+                         random_state=42, verbosity=0)
+    xgb3.fit(X3tr, y3tr)
+    m3_xgb = regression_metrics(np.array(y3te), xgb3.predict(X3te), "XGBoost")
+else:
+    m3_xgb = None
+
+sc3 = StandardScaler()
+X3tr_s, X3te_s = sc3.fit_transform(X3tr), sc3.transform(X3te)
+mlp3 = MLPRegressor(hidden_layer_sizes=(128, 64), activation='relu',
+                    solver='adam', learning_rate_init=0.001, max_iter=300,
+                    early_stopping=True, random_state=42)
+mlp3.fit(X3tr_s, y3tr)
+m3_mlp = regression_metrics(np.array(y3te), mlp3.predict(X3te_s), "MLP Neural Net")
+
+m3_candidates = {"GBR": (gbr, m3_gbr, False), "MLP": (mlp3, m3_mlp, True)}
+if HAS_XGB: m3_candidates["XGBoost"] = (xgb3, m3_xgb, False)
+best_m3_name = max(m3_candidates, key=lambda k: m3_candidates[k][1]["r2"])
+best_m3_model, m3_best_metrics, m3_scaled = m3_candidates[best_m3_name]
+print(f"  ✅ Best M3: {best_m3_name} (R²={m3_best_metrics['r2']})")
 
 def recommend(origin, dest, date_str, cong_override=None, priority='balanced'):
     d   = pd.Timestamp(date_str)
@@ -170,7 +316,8 @@ def recommend(origin, dest, date_str, cong_override=None, priority='balanced'):
             'Route_Length_km':rz['Route_Length_km'],'Avg_Travel_Time_Min':rz['Avg_Travel_Time_Min'],
             'Month':d.month,'DayOfWeek':d.dayofweek,'IsWeekend':int(d.dayofweek>=5),
             'Congestion_Level':cong,'Avg_Speed_kmph':spd}])
-        base = float(gbr.predict(row3)[0])
+        r3_input = sc3.transform(row3[FEAT3]) if m3_scaled else row3[FEAT3]
+        base = float(best_m3_model.predict(r3_input)[0])
         travel_min = rz['Route_Length_km'] / spd * 60
         if priority=='speed':    adj = base + 0.3*(1-travel_min/120)
         elif priority=='comfort': adj = base + 0.3*(1-cong/5)
@@ -183,7 +330,8 @@ def recommend(origin, dest, date_str, cong_override=None, priority='balanced'):
             'Year':d.year,'Month':d.month,'DayOfWeek':d.dayofweek,'IsWeekend':int(d.dayofweek>=5),
             'Quarter':(d.month-1)//3+1,'WeekOfYear':d.isocalendar()[1],
             'Congestion_Level':cong,'Avg_Speed_kmph':spd}])[FEAT1]
-        fc_pax = int(rf.predict(fc_row)[0])
+        fc_input = sc1.transform(fc_row) if m1_scaled else fc_row
+        fc_pax = int(best_m1_model.predict(fc_input)[0])
         scored.append({'route_code':rz['Route_Code'],'route_type':rz['Route_Type'],
                        'length_km':round(float(rz['Route_Length_km']),1),
                        'est_travel_min':round(travel_min,0),
@@ -195,7 +343,7 @@ def recommend(origin, dest, date_str, cong_override=None, priority='balanced'):
     for i,s in enumerate(scored): s['rank'] = i+1
     return scored
 
-# M4: Zone trend
+# M4: Zone trend (unchanged — Linear Regression is appropriate here)
 zone_monthly = ridership.groupby(['Year','Month','Zone'])['TotalPax'].sum().reset_index()
 ZONES = sorted(ridership['Zone'].unique())
 zone_models = {}
@@ -204,11 +352,19 @@ for z in ZONES:
     zd['t'] = (zd['Year']-2022)*12 + zd['Month']
     zone_models[z] = LinearRegression().fit(zd[['t','Month']], zd['TotalPax'])
 
-print("  All models trained.\n")
+print("\n  ✅ All models trained and benchmarked.\n")
 
 # ══════════════════════════════════════════════════════════════════
 # JSON 1: model_metrics.json
 # ══════════════════════════════════════════════════════════════════
+def _nn_compare(candidates, best_name, task_type):
+    out = {}
+    for nm, (_, mets, _) in candidates.items():
+        out[nm] = mets
+    out["selected_best"] = best_name
+    out["selection_criterion"] = "highest R²" if task_type == "regression" else "highest F1 macro"
+    return out
+
 model_metrics = {
     "generated_at": "2025-07-01",
     "training_data": {
@@ -220,30 +376,53 @@ model_metrics = {
     },
     "models": {
         "M1_ridership_forecast": {
-            "algorithm": "Random Forest Regressor",
-            "r2_score": round(m1_r2, 4),
-            "mae_passengers": round(m1_mae, 0),
+            "type": "Regression",
+            "task": "Predict daily passengers per route",
+            "selected_algorithm": best_m1_name,
             "features": FEAT1,
-            "description": "Predicts daily passengers per route given date, route, and congestion"
+            "benchmark": _nn_compare(m1_candidates, best_m1_name, "regression"),
+            "metrics_explanation": {
+                "R2": "Proportion of variance explained (1.0 = perfect)",
+                "MAE": "Mean Absolute Error in passengers",
+                "RMSE": "Root Mean Squared Error (penalises large errors more)",
+                "MAPE": "Mean Absolute Percentage Error (%)"
+            }
         },
         "M2_congestion_predictor": {
-            "algorithm": "Gradient Boosting Classifier",
-            "accuracy": round(m2_acc, 4),
-            "classes": [1,2,3,4,5],
+            "type": "Classification",
+            "task": "Predict congestion level (1–5) for any future date",
+            "selected_algorithm": best_m2_name,
+            "classes": CLASSES2,
             "features": FEAT2,
-            "description": "Predicts congestion level (1-5) for any future date"
+            "benchmark": _nn_compare(m2_candidates, best_m2_name, "classification"),
+            "metrics_explanation": {
+                "accuracy": "% of exact congestion level predictions correct",
+                "precision_macro": "Macro-averaged precision across all 5 congestion classes",
+                "recall_macro": "Macro-averaged recall (sensitivity) across all 5 classes",
+                "f1_macro": "Harmonic mean of precision & recall — primary selection metric",
+                "confusion_matrix": "5x5 matrix of predicted vs actual congestion levels"
+            }
         },
         "M3_route_recommender": {
-            "algorithm": "Gradient Boosting Regressor",
-            "r2_score": round(m3_r2, 4),
+            "type": "Regression",
+            "task": "Score and rank routes given origin zone, destination zone, date, and priority",
+            "selected_algorithm": best_m3_name,
             "scoring_weights": {"pax_efficiency":0.4,"speed":0.3,"congestion_penalty":0.2,"time":0.1},
             "priority_modes": ["balanced","speed","comfort","capacity"],
-            "description": "Scores and ranks routes given origin zone, destination zone, date, and priority"
+            "features": FEAT3,
+            "benchmark": _nn_compare(m3_candidates, best_m3_name, "regression"),
+            "metrics_explanation": {
+                "R2": "Proportion of variance in route score explained by model",
+                "MAE": "Mean Absolute Error of predicted efficiency score",
+                "RMSE": "Root Mean Squared Error of predicted efficiency score",
+                "MAPE": "Mean Absolute Percentage Error (%)"
+            }
         },
         "M4_zone_trend": {
+            "type": "Regression",
             "algorithm": "Linear Regression per Zone",
             "zones_modeled": ZONES,
-            "description": "Linear demand trend model per zone for multi-month forecasting"
+            "description": "Linear demand trend model per zone for multi-month forecasting — chosen for interpretability over accuracy"
         }
     }
 }

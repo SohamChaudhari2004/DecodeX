@@ -56,7 +56,7 @@ export default function ScrollNarrative({ onChapterChange }: ScrollNarrativeProp
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ margin: "-20% 0px -20% 0px" }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="bg-slate-900/60 backdrop-blur-2xl border border-slate-700/50 p-8 rounded-[2rem] shadow-2xl pointer-events-auto"
+              className="bg-slate-900/60 backdrop-blur-2xl border border-slate-700/50 p-8 rounded-4xl shadow-2xl pointer-events-auto"
             >
               <div className="w-12 h-1 bg-sky-400 rounded-full mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-semibold mb-4 tracking-tight text-white">{chapter.title}</h2>
