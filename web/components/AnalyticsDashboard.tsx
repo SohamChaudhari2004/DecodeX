@@ -3,9 +3,10 @@
 import { useEffect, useState, useMemo } from 'react';
 import { ResponsiveContainer, AreaChart, Area, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, LineChart, Line, ComposedChart, Cell, RadarChart, PolarGrid, PolarAngleAxis, Radar, ScatterChart, Scatter, ZAxis } from 'recharts';
 
-type TabId = 'overview' | 'growth' | 'seasonality' | 'imbalance' | 'congestion' | 'forecast';
+type TabId = 'overview' | 'growth' | 'seasonality' | 'imbalance' | 'congestion' | 'forecast' | 'stage3';
 
 const TABS: { id: TabId; label: string; accent: string }[] = [
+  { id: 'stage3', label: 'F. STAGE 3', accent: '#ec4899' },
   { id: 'overview', label: 'OVERVIEW', accent: '#e2cca8' },
   { id: 'growth', label: 'A. GROWTH', accent: '#10b981' },
   { id: 'seasonality', label: 'B. SEASONALITY', accent: '#f59e0b' },
@@ -41,6 +42,7 @@ export default function AnalyticsDashboard() {
   const [diagnostics, setDiagnostics] = useState<any>(null);
   const [stats, setStats] = useState<any>(null);
   const [deep, setDeep] = useState<any>(null);
+  const [stage3, setStage3] = useState<any>(null);
   const [activeTab, setActiveTab] = useState<TabId>('overview');
 
   useEffect(() => {
@@ -48,14 +50,16 @@ export default function AnalyticsDashboard() {
       fetch('/data/system_diagnostics.json').then(r => r.json()),
       fetch('/data/dashboard_stats.json').then(r => r.json()),
       fetch('/data/deep_analytics.json').then(r => r.json()),
-    ]).then(([d, s, da]) => {
+      fetch('/data/stage3_metrics.json').then(r => r.json()),
+    ]).then(([d, s, da, st3]) => {
       setDiagnostics(d);
       setStats(s);
       setDeep(da);
+      setStage3(st3);
     }).catch(e => console.error("Error loading data:", e));
   }, []);
 
-  if (!diagnostics || !stats || !deep) {
+  if (!diagnostics || !stats || !deep || !stage3) {
     return (
       <div className="w-full flex justify-center items-center p-24 text-white/50 font-mono tracking-widest text-sm">
         <div className="flex items-center gap-3">
@@ -101,12 +105,122 @@ export default function AnalyticsDashboard() {
 
       {/* TAB CONTENT */}
       <div className="min-h-[60vh]">
+        {activeTab === 'stage3' && <Stage3Tab stage3={stage3} />}
         {activeTab === 'overview' && <OverviewTab stats={stats} diagnostics={diagnostics} deep={deep} />}
         {activeTab === 'growth' && <GrowthTab deep={deep} />}
         {activeTab === 'seasonality' && <SeasonalityTab deep={deep} diagnostics={diagnostics} />}
         {activeTab === 'imbalance' && <ImbalanceTab deep={deep} diagnostics={diagnostics} />}
         {activeTab === 'congestion' && <CongestionTab deep={deep} diagnostics={diagnostics} />}
         {activeTab === 'forecast' && <ForecastTab deep={deep} stats={stats} />}
+      </div>
+    </div>
+  );
+}
+
+/* ==================== STAGE 3 TAB ==================== */
+function Stage3Tab({ stage3 }: { stage3: any }) {
+  if (!stage3.audit) return <div className="p-10 text-center text-white/50 animate-pulse">Processing detailed audit data...</div>;
+
+  return (
+    <div>
+      <SectionHeader
+        title="F. Stage 3 Accountability & Stabilization"
+        subtitle="Evaluating structural judgments across stages. Out-Of-Time (Q4 2025) data reflects a fundamentally stabilized network requiring an updated 2026 strategy."
+        color="#ec4899"
+      />
+      
+      {/* Top Level Metrics */}
+      <h4 className="text-[10px] font-bold text-[#ec4899] uppercase tracking-widest mb-4">1. Forecast Performance Audit</h4>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <KPICard label="Baseline → Q3 MAPE" value={`${stage3.metrics.mape_stage1_vs_q3}%`} sub="Stage 1 Forecast Error vs Q3 Actuals" color="#ef4444" borderColor="#ef4444" />
+        <KPICard label="Recalibrated → Q4 MAPE" value={`${stage3.metrics.mape_stage2_vs_q4}%`} sub="Stage 2 Forecast Error vs Out-of-Time Q4" color="#10b981" borderColor="#10b981" />
+        <KPICard label="Accuracy Improvement" value={`${stage3.metrics.improvement} pp`} sub="Model correction magnitude after break" color="#38bdf8" borderColor="#38bdf8" />
+      </div>
+
+      {/* Route Type Audit */}
+      <div className="bg-[#0f131c]/80 backdrop-blur-md border border-white/10 p-6 rounded-xl mb-8">
+        <h4 className="text-[10px] font-bold text-[#ec4899] uppercase tracking-widest mb-4">Route-Type Aggregated Error & Directional Bias (Q4 Out-Of-Time)</h4>
+        <div className="overflow-x-auto">
+          <table className="w-full text-xs">
+            <thead>
+              <tr className="text-white/40 text-[10px] uppercase tracking-widest border-b border-white/10">
+                <th className="text-left pb-3">Route Type</th>
+                <th className="text-center pb-3">MAPE Error</th>
+                <th className="text-center pb-3">Dir. Bias (%)</th>
+                <th className="text-left pb-3 pl-3">Reaction Diagnosis</th>
+              </tr>
+            </thead>
+            <tbody>
+              {stage3.audit.route_type_performance.map((r: any, i: number) => (
+                <tr key={i} className="border-b border-white/5 hover:bg-white/5 transition-colors">
+                  <td className="py-3 text-white/80 font-bold capitalize">{r.type}</td>
+                  <td className="py-3 text-center font-mono text-white/90">{r.mape}%</td>
+                  <td className="py-3 text-center font-mono">
+                    <span style={{ color: r.bias > 5 ? '#ef4444' : r.bias < -5 ? '#38bdf8' : '#10b981' }}>
+                      {r.bias > 0 ? '+' : ''}{r.bias}%
+                    </span>
+                  </td>
+                  <td className="py-3 pl-3">
+                    <span className={`text-[9px] px-2 py-0.5 rounded font-bold ${
+                      r.reaction.includes('Overreaction') ? 'bg-[#ef4444]/20 text-[#ef4444]' :
+                      r.reaction.includes('Underreaction') ? 'bg-[#38bdf8]/20 text-[#38bdf8]' :
+                      'bg-[#10b981]/20 text-[#10b981]'
+                    }`}>
+                      {r.reaction}
+                    </span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="text-[10px] text-white/40 mt-3 p-2 bg-black/20 rounded">
+          * Positive bias implies model predicted more demand than actualized (overreaction). Negative bias implies underestimation (underreaction).
+        </div>
+      </div>
+
+      {/* Strategic Alignment */}
+      <div className="bg-[#0f131c]/80 backdrop-blur-md border border-[#f59e0b]/20 p-6 rounded-xl mb-8">
+        <div className="flex items-center gap-3 mb-4">
+          <div className="w-2 h-2 rounded-full bg-[#f59e0b] shadow-[0_0_8px_#f59e0b]" />
+          <h4 className="text-[10px] font-bold text-[#f59e0b] uppercase tracking-widest">2. Elasticity & Strategic Alignment Evaluation</h4>
+        </div>
+        <div className="flex flex-col gap-4">
+          {stage3.audit.strategic_alignment.map((al: any, i: number) => (
+            <div key={i} className="bg-black/40 border border-white/5 p-4 rounded-lg">
+              <div className="flex justify-between items-center mb-2">
+                <div className="text-xs font-bold text-white/90 uppercase">{al.metric}</div>
+                <div className="text-sm font-mono text-[#f59e0b]">{al.value}</div>
+              </div>
+              <div className="text-[11px] text-white/60 leading-relaxed border-t border-white/5 pt-2">
+                {al.interpretation}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* 2026 Forward Strategy */}
+      <div className="bg-[#0f131c]/80 backdrop-blur-md border border-[#10b981]/20 p-6 rounded-xl mb-8">
+        <h4 className="text-[10px] font-bold text-[#10b981] uppercase tracking-widest mb-4">3. 2026 Forward Target Strategy</h4>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {stage3.audit.forward_strategy.map((fs: any, i: number) => (
+            <div key={i} className="bg-black/30 border border-[#10b981]/10 p-4 rounded-lg flex flex-col justify-between">
+              <div>
+                <div className="text-[10px] text-white/40 uppercase tracking-widest mb-1">{fs.category}</div>
+                <div className="text-xs text-white/80 leading-relaxed mb-4">{fs.proposal}</div>
+              </div>
+              <div className="py-1 px-2 rounded bg-[#10b981]/10 text-[#10b981] font-mono text-[9px] tracking-widest border border-[#10b981]/20 self-start">
+                Impact: {fs.impact}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      
+      {/* 2026 Forecasting Confirmation */}
+      <div className="text-center bg-[#ec4899]/5 text-white/60 p-4 rounded-xl border border-[#ec4899]/10 text-xs">
+        <span className="text-[#ec4899] font-bold">JAN 2026 FORECAST GENERATED:</span> Successfully published baseline models for {Object.keys(stage3.predictions).length} days factoring stabilized parameters.
       </div>
     </div>
   );

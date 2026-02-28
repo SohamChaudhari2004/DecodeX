@@ -1,0 +1,251 @@
+ 
+DECODE X | 2026 
+03 – Case MOBILITY SHIFT  
+          P a g e  1 | 7 
+NLD Synapse 2026 | N. L. Dalmia Institute of Management Studies & Research. 
+ 
+Stage 1 – Baseline Network Diagnostics & Growth-Aware Forecasting  
+궁궂궃궄궅궆궇권궈궉궊궋  28 February 2026 | 11:00 AM  
+1. Executive Context    
+Dubai RTA manages a multi-corridor bus network serving:  
+ CBD corridors (Downtown, Business Bay, Deira)  
+ Coastal tourism belt (Marina)  
+ Residential zones (Al Qusais, International City)  
+ Industrial corridor (Jebel Ali)  
+Between 2022 and mid-2025:  
+ Urban population expanded steadily  
+ Tourism exhibited strong seasonal variation  
+ Road congestion intensiﬁed gradually  
+ Corridor-level demand divergence increased   
+The Board mandate:  
+“Align demand, corridor eƯiciency, and ﬂeet allocation under accelerating urban growth. ”  
+This is no longer a capacity estimation problem.  
+It is a system eƯiciency and allocation optimization problem under growth and congestion 
+pressure.  
+2. Operating Environment Characteristics  
+A. Demand Environment  
+ Winter uplift (Nov–Mar)  
+ Summer moderation (Jun–Aug)  
+ Event-driven mobility shifts  
+ Weekday/weekend divergence  
+ Non-uniform corridor growth  
+B. Network Structure  
+Routes categorized as:  
+ City  
+ Express  
+ Feeder  
+ Intercity  
+Stop-level demand varies by:  
+ Urban Zone  
+ Route Type  
+ Day Type  
+ Congestion Level  
+ 
+ 
+ 
+DECODE X | 2026 
+03 – Case MOBILITY SHIFT  
+          P a g e  2 | 7 
+NLD Synapse 2026 | N. L. Dalmia Institute of Management Studies & Research. 
+ 
+ 
+C. Congestion Interaction  
+Congestion aƯects:  
+ Average speed  
+ EƯective capacity  
+ Load redistribution  
+ Reliability  
+Full stationarity must not be assumed.  
+   
+3. Data Provided  
+A. Network Structure  
+ Bus_Routes.csv  
+ Bus_Stops.csv  
+ Route_Stop_Mapping.csv  
+B. Ridership Data (Training)  
+ Train_Ridership_2022_to_2025H1.csv  
+Derived metric (recommended): [ Total_Pax = Boarding_Count + Alighting_Count ]  
+ C. TraƯic Data  
+ Train_TraƯic_2022_to_2025H1.csv  
+ Datasets must be merged using:  
+ Route_ID  
+ Stop_ID  
+ Date  
+Incorrect relational merging may materially distort corridor analysis.  
+  
+ 
+DECODE X | 2026 
+03 – Case MOBILITY SHIFT  
+          P a g e  3 | 7 
+NLD Synapse 2026 | N. L. Dalmia Institute of Management Studies & Research. 
+ 
+4. Advisory Mandate   
+You must:  
+1. Diagnose multi-year demand dynamics (2022–H1 2025).  
+2. Detect seasonality and weekday/weekend divergence.  
+3. Identify corridor-level structural imbalance.  
+4. Model congestion–demand interaction.  
+5. Forecast route-level daily demand for:  July 1 – December 31, 2025.  
+a) Identify:  
+ Overload risk corridors  
+ Underutilized capacity  
+ Emerging imbalance  
+b) Propose operational adjustments:  
+ Fleet reallocation  
+ Headway modiﬁcation  
+ Corridor prioritization  
+   
+5. Stage 1 Expectations  
+By 7:00 PM, you should have:  
+ Growth decomposition  
+ Seasonal insight  
+ Route-type comparison  
+ Congestion elasticity understanding  
+ Baseline forecast  
+ Initial allocation strategy  
+  
+  
+ 
+DECODE X | 2026 
+03 – Case MOBILITY SHIFT  
+          P a g e  4 | 7 
+NLD Synapse 2026 | N. L. Dalmia Institute of Management Studies & Research. 
+ 
+Stage 2 – Structural Break: Metro Phase 2 Introduction  
+궁궂궃궄궅궆궇권궈궉궊궋  28 February 2026 | 7:00 PM  
+1. Structural Regime Shift  
+Metro Phase 2 commenced July 1, 2025.  
+Parallel impact corridors include:  
+ CBD_Downtown  
+ CBD_BusinessBay  
+ Core_Deira  
+ Select residential corridors  
+System eƯects observed:  
+ Feeder contraction  
+ Express redistribution  
+ CBD overlap reduction  
+ Congestion redistribution  
+This represents a structural break.  
+2. New Data Released  
+ Shock_Ridership_2025_Q3.csv  
+ Shock_TraƯic_2025_Q3.csv  
+Covering July 1 – September 30, 2025.  
+This period was not included in Stage 1 modeling.  
+3. Stage 2 Mandate  
+You must:  
+A. Detect Structural Break  
+Quantify:  
+ Stage 1 forecast vs Q3 actual deviation  
+ Route-level divergence magnitude  
+ Shift classiﬁcation:  
+o Level shift  
+o Volatility shift  
+o Elasticity shift  
+o Congestion-mediated shift  
+  
+ 
+DECODE X | 2026 
+03 – Case MOBILITY SHIFT  
+          P a g e  5 | 7 
+NLD Synapse 2026 | N. L. Dalmia Institute of Management Studies & Research. 
+ 
+B. Recalibrate Forecast  
+Using:  
+ 2022–H1 2025  
+ Q3 2025  
+Produce revised forecasts for:  
+October 1 – December 31, 2025  
+Explicitly state:  
+ Temporary shock vs regime change  
+ Elasticity adjustment logic  
+ Uncertainty revision  
+C. Operational Risk Reassessment  
+Identify:  
+ Overload corridors  
+ Underutilized routes  
+ Feeder viability  
+ Express sustainability  
+D. Fleet Reallocation Strategy  
+Propose:  
+ Headway revisions  
+ Fleet redeployment  
+ Corridor rationalization  
+ Volatility buƯer approach  
+Quantify:  
+ Passenger redistribution  
+ EƯiciency impact  
+ Congestion interaction  
+  
+  
+ 
+DECODE X | 2026 
+03 – Case MOBILITY SHIFT  
+          P a g e  6 | 7 
+NLD Synapse 2026 | N. L. Dalmia Institute of Management Studies & Research. 
+ 
+ 
+Stage 3 – Strategic Accountability & Stabilized Regime Evaluation  
+궁궂궃궄궅궆궇권궈궉궊궋  01 March 2026 | 1:00 AM  
+1. Out-of-Time Operational Data Release  
+Provided:  
+ OutOfTime_Ridership_2025_Q4.csv  
+ OutOfTime_TraƯic_2025_Q4.csv  
+Covering October 1 – December 31, 2025.  
+This reﬂects:  
+ Partial ﬂeet rationalization  
+ Express frequency moderation  
+ Feeder adjustments  
+ Persistent winter uplift  
+ Stabilized redistribution  
+The network neither reverted nor retained full shock intensity.  
+It entered a redistributed equilibrium.  
+2. Stage 3 Mandate – Accountability Audit  
+This stage evaluates structural judgment across all stages.  
+It is not merely forecast validation.  
+3. Required Analysis  
+A. Forecast Performance Audit  
+Compare:  
+ Stage 1 forecast vs Q3 actual  
+ Stage 2 forecast vs Q4 actual  
+Report:  
+ Route-level MAPE  
+ Route-type aggregated error  
+ Directional bias  
+ Variance misestimation  
+Identify:  
+ Overreaction vs underreaction  
+ Structural permanence misclassiﬁcation  
+  
+ 
+DECODE X | 2026 
+03 – Case MOBILITY SHIFT  
+          P a g e  7 | 7 
+NLD Synapse 2026 | N. L. Dalmia Institute of Management Studies & Research. 
+ 
+ 
+B. Strategic Alignment Evaluation  
+Assess:  
+ Did Stage 2 ﬂeet reallocation align with Q4 stabilization?  
+ Were adjustments excessive or insuƯicient?  
+ Did elasticity assumptions persist or decay?  
+ 
+C. Elasticity & Substitution Diagnosis  
+Determine:  
+ Metro substitution elasticity magnitude  
+ Congestion elasticity persistence  
+ Route-type structural rebalancing  
+ 
+D. 2026 Forward Strategy  
+Propose a stabilized 2026 design:  
+ Feeder redesign  
+ Express capacity calibration  
+ CBD rationalization framework  
+ Volatility buƯer mechanism  
+Quantify:  
+ Passenger redistribution  
+ EƯiciency gain  
+ Risk exposure under future infrastructure expansion  
+ 4. Final Submission (9:00 AM)  
+All Stage 1, 2, and 3 analyses must be integrated into a single ﬁnal submission.  
+No partial submissions will be evaluated.  
+ 

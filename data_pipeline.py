@@ -27,10 +27,30 @@ class MobilityDataPipeline:
         self.stops = pd.read_csv(os.path.join(self.data_dir, "Bus_Stops.csv"))
         self.mapping = pd.read_csv(os.path.join(self.data_dir, "Route_Stop_Mapping.csv"))
         
-        # If folder structure changes in future rounds, just update these paths
+        # Load Train
         train_dir = os.path.join(self.data_dir, "Train")
-        self.ridership = pd.read_csv(os.path.join(train_dir, "Train_Ridership_2022_to_2025H1.csv"))
-        self.traffic = pd.read_csv(os.path.join(train_dir, "Train_Traffic_2022_to_2025H1.csv"))
+        r_train = pd.read_csv(os.path.join(train_dir, "Train_Ridership_2022_to_2025H1.csv"))
+        t_train = pd.read_csv(os.path.join(train_dir, "Train_Traffic_2022_to_2025H1.csv"))
+        r_train['Stage'] = 'Train'
+        
+        # Load Shock
+        shock_dir = os.path.join(self.data_dir, "SHOCK", "SHOCK")
+        if not os.path.exists(shock_dir):
+            shock_dir = os.path.join(self.data_dir, "SHOCK")
+        r_shock = pd.read_csv(os.path.join(shock_dir, "Shock_Ridership_2025_Q3.csv"))
+        t_shock = pd.read_csv(os.path.join(shock_dir, "Shock_Traffic_2025_Q3.csv"))
+        r_shock['Stage'] = 'Shock'
+        
+        # Load OutOfTime
+        oot_dir = os.path.join(self.data_dir, "OutofTime")
+        if not os.path.exists(oot_dir):
+            oot_dir = os.path.join(self.data_dir, "OutOfTime")
+        r_oot = pd.read_csv(os.path.join(oot_dir, "OutOfTime_Ridership_2025_Q4.csv"))
+        t_oot = pd.read_csv(os.path.join(oot_dir, "OutOfTime_Traffic_2025_Q4.csv"))
+        r_oot['Stage'] = 'OutOfTime'
+        
+        self.ridership = pd.concat([r_train, r_shock, r_oot], ignore_index=True)
+        self.traffic = pd.concat([t_train, t_shock, t_oot], ignore_index=True)
         
         # Cast dates to datetime objects immediately
         self.ridership['Date'] = pd.to_datetime(self.ridership['Date'])
@@ -78,6 +98,7 @@ class MobilityDataPipeline:
         # Date components for seasonality
         self.master_df['Year'] = self.master_df['Date'].dt.year
         self.master_df['Month'] = self.master_df['Date'].dt.month
+        self.master_df['Day'] = self.master_df['Date'].dt.day
         self.master_df['DayOfWeek'] = self.master_df['Date'].dt.dayofweek
         self.master_df['Is_Weekend'] = self.master_df['DayOfWeek'].isin([5, 6]) # Assuming Sat/Sun weekend
         
