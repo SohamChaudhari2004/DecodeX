@@ -42,7 +42,7 @@ export default function Home() {
     } else {
       // Routing mode logic
       if (!stopData) return; // ignore clicks on empty space if routing
-      
+
       if (!routingStartNode) {
         setRoutingStartNode(stopData);
         setSelectedRoutingRouteId(null);
@@ -99,10 +99,10 @@ export default function Home() {
 
   return (
     <main className="relative w-full min-h-screen bg-[#090b10] text-slate-50 font-sans selection:bg-[#e2cca8]/30">
-      
+
       {/* MAP */}
       <div className="fixed inset-0 w-full h-full z-0 overflow-hidden bg-dot-grid">
-        <DubaiMap 
+        <DubaiMap
           showAllRoutes={showAllRoutes}
           congestionMode={congestionMode}
           activeRouteIds={activeRouteIds}
@@ -111,8 +111,8 @@ export default function Home() {
           routingEndId={routingEndNode?.Stop_ID || null}
           onStopClick={handleStopClick}
           forecastData={
-            showForecastUI && forecastData 
-              ? forecastData.predictions[Object.keys(forecastData.predictions)[selectedForecastDateIndex]] 
+            showForecastUI && forecastData
+              ? forecastData.predictions[Object.keys(forecastData.predictions)[selectedForecastDateIndex]]
               : null
           }
           initialViewState={{
@@ -139,7 +139,7 @@ export default function Home() {
 
       {/* TOP RIGHT GLOBAL TOGGLES */}
       <div className="fixed top-48 right-8 z-30 flex flex-col gap-3 font-mono">
-        <button 
+        <button
           onClick={() => {
             setShowAllRoutes(!showAllRoutes);
             cancelRouting();
@@ -149,13 +149,13 @@ export default function Home() {
         >
           SYS.ROUTES: {showAllRoutes ? '[ON]' : '[OFF]'}
         </button>
-        <button 
+        <button
           onClick={() => setCongestionMode(!congestionMode)}
           className={`px-4 py-2 border text-xs tracking-widest transition-colors backdrop-blur-md ${congestionMode ? 'bg-[#ef4444]/20 border-[#ef4444] text-[#ef4444]' : 'bg-black/40 border-white/20 text-white/50 hover:border-white/50 hover:text-white'}`}
         >
           SYS.CONGESTION: {congestionMode ? '[ON]' : '[OFF]'}
         </button>
-        <button 
+        <button
           onClick={() => setShowForecastUI(!showForecastUI)}
           className={`px-4 py-2 border text-xs tracking-widest transition-colors backdrop-blur-md ${showForecastUI ? 'bg-[#a855f7]/20 border-[#a855f7] text-[#a855f7]' : 'bg-black/40 border-white/20 text-white/50 hover:border-white/50 hover:text-white'}`}
         >
@@ -179,23 +179,23 @@ export default function Home() {
               </div>
               <div className="text-white/60 text-xs">Model: Random Forest (7-Day)</div>
             </div>
-            
+
             <div className="mb-2 text-white/80 text-lg flex justify-between font-light">
               <span>Date:</span>
               <span className="text-white font-bold">
                 {Object.keys(forecastData.predictions)[selectedForecastDateIndex]}
               </span>
             </div>
-            
-            <input 
-              type="range" 
-              min="0" 
-              max="6" 
+
+            <input
+              type="range"
+              min="0"
+              max="6"
               value={selectedForecastDateIndex}
               onChange={(e) => setSelectedForecastDateIndex(parseInt(e.target.value))}
               className="w-full h-1 bg-[#a855f7]/20 rounded-lg appearance-none cursor-pointer accent-[#a855f7]"
             />
-            
+
             <div className="flex justify-between mt-2 text-[10px] text-white/40">
               <span>{forecastData.start_date}</span>
               <span>{forecastData.end_date}</span>
@@ -204,17 +204,18 @@ export default function Home() {
         )}
       </AnimatePresence>
 
-      {/* OVERLAYS */}
+      {/* NODE STOP OVERLAY (card when clicking a stop) */}
       <AnimatePresence>
         {selectedNode && !routingMode && (
-          <HUDNodeOverlay 
-            data={selectedNode} 
-            onClose={() => setSelectedNode(null)} 
+          <HUDNodeOverlay
+            data={selectedNode}
+            onClose={() => setSelectedNode(null)}
             onRouteAction={initRouting}
           />
         )}
       </AnimatePresence>
 
+      {/* ROUTING OVERLAY */}
       <AnimatePresence>
         {routingMode && (
           <HUDRoutingOverlay
@@ -228,12 +229,8 @@ export default function Home() {
         )}
       </AnimatePresence>
 
-
-
-      {/* CROSSHAIR */}
-      <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none opacity-10">
-      {/* OVERLAYS */}
-      <div className="absolute top-0 right-0 z-50 pointer-events-none p-8 flex justify-end items-start w-full">
+      {/* TOP RIGHT TITLE */}
+      <div className="fixed top-0 right-0 z-50 pointer-events-none p-8 flex justify-end items-start w-full">
         <div className="text-[#38bdf8] font-mono pointer-events-auto text-right">
           <h1 className="text-2xl font-bold tracking-widest uppercase hud-border p-4 bg-[#090b10]/80 text-[#e2cca8]">DXB_RTA // ISOMETRIC</h1>
           <div className="flex flex-col gap-2 mt-2 items-end">
@@ -243,6 +240,13 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* CROSSHAIR */}
+      <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 pointer-events-none opacity-10">
+        <div className="relative w-[30vh] h-[30vh] border border-white/10 rounded-full flex items-center justify-center">
+          <div className="absolute top-0 bottom-0 left-1/2 w-px bg-white/10 -translate-x-1/2"></div>
+          <div className="absolute left-0 right-0 top-1/2 h-px bg-white/10 -translate-y-1/2"></div>
+        </div>
       </div>
     </main>
   );

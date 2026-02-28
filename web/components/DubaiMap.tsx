@@ -22,8 +22,8 @@ interface DubaiMapProps {
   };
 }
 
-export default function DubaiMap({ 
-  showAllRoutes, 
+export default function DubaiMap({
+  showAllRoutes,
   congestionMode,
   activeRouteIds,
   selectedStopId,
@@ -67,7 +67,16 @@ export default function DubaiMap({
     if (e.features && e.features.length > 0) {
       const stopFeature = e.features.find((f: any) => f.layer.id.includes('stop'));
       if (stopFeature) {
-        onStopClick(stopFeature.properties);
+        const props = { ...stopFeature.properties };
+        // MapLibre serializes arrays to strings — parse passing_routes back into a real array
+        if (typeof props.passing_routes === 'string') {
+          try {
+            props.passing_routes = JSON.parse(props.passing_routes);
+          } catch {
+            props.passing_routes = props.passing_routes.split(',').filter(Boolean);
+          }
+        }
+        onStopClick(props);
         return;
       }
     }
@@ -75,27 +84,28 @@ export default function DubaiMap({
     onStopClick(null);
   }, [onStopClick]);
 
+
   const glowColor = '#e2cca8';
   const activeColor = '#ffffff';
 
   // Build the match array for highlighted routes
   // format: ['in', ['get', 'Route_ID'], ['literal', ['A', 'B', 'C']]]
   const combinedHighlights = Array.from(new Set([...activeRouteIds, ...hoveredStopRoutes]));
-  const highlightExpression = (combinedHighlights.length > 0 
+  const highlightExpression = (combinedHighlights.length > 0
     ? ['in', ['get', 'Route_ID'], ['literal', combinedHighlights]]
     : ['==', '1', '2']) as any;
-  
-  const isHoveredRoute = (hoveredRouteId 
-    ? ['==', ['get', 'Route_ID'], hoveredRouteId] 
+
+  const isHoveredRoute = (hoveredRouteId
+    ? ['==', ['get', 'Route_ID'], hoveredRouteId]
     : ['==', '1', '2']) as any;
 
   const showRouteBase = showAllRoutes ? true : highlightExpression;
 
-  const isSelectedStop = (selectedStopId 
+  const isSelectedStop = (selectedStopId
     ? ['==', ['get', 'Stop_ID'], selectedStopId]
     : ['==', '1', '2']) as any;
 
-  const isRoutingNode = (routingStartId || routingEndId 
+  const isRoutingNode = (routingStartId || routingEndId
     ? ['in', ['get', 'Stop_ID'], ['literal', [routingStartId || '', routingEndId || '']]]
     : ['==', '1', '2']) as any;
 
@@ -156,7 +166,7 @@ export default function DubaiMap({
               'line-opacity': showAllRoutes ? 1 : 0
             }}
           />
-          
+
           {/* Outer Glow for Highlights */}
           <Layer
             id="routes-glow-layer"
@@ -239,8 +249,8 @@ export default function DubaiMap({
                 activeStopExp, 0.5,
                 // Highlight adjacent, keep others at default glow
                 isAnyStopHovered, [
-                  'case', 
-                  isAdjacentStop, 0.35, 
+                  'case',
+                  isAdjacentStop, 0.35,
                   0.15 // Default instead of hiding
                 ],
                 0.15 // Default
@@ -248,7 +258,7 @@ export default function DubaiMap({
               'circle-blur': 1
             }}
           />
-          
+
           {/* Node Core */}
           <Layer
             id="stops-core-layer"

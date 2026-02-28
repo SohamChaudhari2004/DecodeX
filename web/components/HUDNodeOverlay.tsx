@@ -19,7 +19,9 @@ interface HUDNodeOverlayProps {
 }
 
 export default function HUDNodeOverlay({ data, onClose, onRouteAction }: HUDNodeOverlayProps) {
-  const routes = (data.passing_routes || "").split(",").filter(Boolean);
+  const routes = Array.isArray(data.passing_routes)
+    ? data.passing_routes.filter(Boolean)
+    : (data.passing_routes || "").split(",").filter(Boolean);
 
   return (
     <motion.div
@@ -27,7 +29,7 @@ export default function HUDNodeOverlay({ data, onClose, onRouteAction }: HUDNode
       animate={{ opacity: 1, x: 0, scale: 1 }}
       exit={{ opacity: 0, x: -20, scale: 0.95 }}
       transition={{ duration: 0.4, ease: "easeOut" }}
-      className="absolute top-1/2 left-24 -translate-y-1/2 w-80 z-30 pointer-events-auto"
+      className="fixed top-1/2 left-24 -translate-y-1/2 w-80 z-30 pointer-events-auto"
     >
       {/* Sci-Fi connecting line visual simulating connection to Node */}
       <div className="absolute top-1/2 -right-12 w-12 h-px bg-white/40 -translate-y-1/2">
@@ -35,7 +37,7 @@ export default function HUDNodeOverlay({ data, onClose, onRouteAction }: HUDNode
       </div>
 
       <div className="bg-[#090b10]/80 backdrop-blur-md hud-border p-6 font-mono text-sm uppercase tracking-widest text-[#f3f4f6]">
-        
+
         <div className="flex justify-between items-center mb-6 pb-2 border-b border-white/20">
           <div className="text-[#e2cca8] text-[10px] flex items-center gap-2">
             <div className="w-1.5 h-1.5 rounded-full bg-[#e2cca8] animate-pulse"></div>
@@ -81,11 +83,11 @@ export default function HUDNodeOverlay({ data, onClose, onRouteAction }: HUDNode
           </div>
         </div>
 
-        <button 
+        <button
           onClick={onRouteAction}
           className="w-full interactive-btn border border-[#38bdf8]/50 bg-[#38bdf8]/10 hover:bg-[#38bdf8]/20 transition-colors py-3 text-xs text-[#38bdf8] flex items-center justify-center gap-2"
         >
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z" /><circle cx="12" cy="10" r="3" /></svg>
           INITIATE ROUTING (A-B)
         </button>
 
