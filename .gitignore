@@ -84,3 +84,4 @@ ENV/
 !web/public/data/train_forecast.json
 !web/public/data/system_diagnostics.json
 !web/public/data/dubai_routes.geojson
+!web/lib/
