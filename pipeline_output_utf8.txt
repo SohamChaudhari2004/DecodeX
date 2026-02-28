@@ -1,0 +1,14 @@
+﻿Loading datasets...
+Data loaded successfully.
+Building master analytical table...
+Master table built. Shape: (195381, 23)
+Applying feature engineering...
+Features engineered.
+   Ridership_ID  Route_ID  Stop_ID  ... DayOfWeek  Is_Weekend  Season
+0             1       101       16  ...         5        True  Winter
+1             2       101       43  ...         5        True  Winter
+2             3       101       52  ...         5        True  Winter
+3             4       101       33  ...         5        True  Winter
+4             5       101       20  ...         5        True  Winter
+
+[5 rows x 28 columns]

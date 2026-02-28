@@ -1,0 +1,1588 @@
+{
+  "start_date": "2025-07-01",
+  "end_date": "2025-07-07",
+  "predictions": {
+    "2025-07-01": {
+      "1": {
+        "predicted_boardings": 268.29,
+        "congestion_color": "#f97316"
+      },
+      "2": {
+        "predicted_boardings": 204.81,
+        "congestion_color": "#eab308"
+      },
+      "3": {
+        "predicted_boardings": 82.1,
+        "congestion_color": "#22c55e"
+      },
+      "4": {
+        "predicted_boardings": 355.2,
+        "congestion_color": "#f97316"
+      },
+      "5": {
+        "predicted_boardings": 367.58,
+        "congestion_color": "#f97316"
+      },
+      "6": {
+        "predicted_boardings": 411.22,
+        "congestion_color": "#f97316"
+      },
+      "7": {
+        "predicted_boardings": 404.32,
+        "congestion_color": "#f97316"
+      },
+      "8": {
+        "predicted_boardings": 416.65,
+        "congestion_color": "#f97316"
+      },
+      "9": {
+        "predicted_boardings": 207.82,
+        "congestion_color": "#eab308"
+      },
+      "10": {
+        "predicted_boardings": 101.64,
+        "congestion_color": "#eab308"
+      },
+      "11": {
+        "predicted_boardings": 108.77,
+        "congestion_color": "#eab308"
+      },
+      "12": {
+        "predicted_boardings": 165.28,
+        "congestion_color": "#eab308"
+      },
+      "13": {
+        "predicted_boardings": 383.2,
+        "congestion_color": "#f97316"
+      },
+      "15": {
+        "predicted_boardings": 203.29,
+        "congestion_color": "#eab308"
+      },
+      "16": {
+        "predicted_boardings": 425.67,
+        "congestion_color": "#f97316"
+      },
+      "17": {
+        "predicted_boardings": 326.2,
+        "congestion_color": "#f97316"
+      },
+      "18": {
+        "predicted_boardings": 326.2,
+        "congestion_color": "#f97316"
+      },
+      "19": {
+        "predicted_boardings": 173.89,
+        "congestion_color": "#eab308"
+      },
+      "20": {
+        "predicted_boardings": 559.96,
+        "congestion_color": "#ef4444"
+      },
+      "21": {
+        "predicted_boardings": 376.18,
+        "congestion_color": "#f97316"
+      },
+      "22": {
+        "predicted_boardings": 239.82,
+        "congestion_color": "#eab308"
+      },
+      "23": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "24": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "25": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "26": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "27": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "28": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "29": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "30": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "31": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "32": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "33": {
+        "predicted_boardings": 395.45,
+        "congestion_color": "#f97316"
+      },
+      "34": {
+        "predicted_boardings": 320.48,
+        "congestion_color": "#f97316"
+      },
+      "35": {
+        "predicted_boardings": 213.34,
+        "congestion_color": "#eab308"
+      },
+      "37": {
+        "predicted_boardings": 200.41,
+        "congestion_color": "#eab308"
+      },
+      "38": {
+        "predicted_boardings": 226.47,
+        "congestion_color": "#eab308"
+      },
+      "39": {
+        "predicted_boardings": 240.43,
+        "congestion_color": "#eab308"
+      },
+      "40": {
+        "predicted_boardings": 198.61,
+        "congestion_color": "#eab308"
+      },
+      "41": {
+        "predicted_boardings": 445.41,
+        "congestion_color": "#f97316"
+      },
+      "42": {
+        "predicted_boardings": 115.16,
+        "congestion_color": "#eab308"
+      },
+      "43": {
+        "predicted_boardings": 210.81,
+        "congestion_color": "#eab308"
+      },
+      "44": {
+        "predicted_boardings": 91.34,
+        "congestion_color": "#22c55e"
+      },
+      "45": {
+        "predicted_boardings": 213.16,
+        "congestion_color": "#eab308"
+      },
+      "46": {
+        "predicted_boardings": 367.48,
+        "congestion_color": "#f97316"
+      },
+      "47": {
+        "predicted_boardings": 301.73,
+        "congestion_color": "#f97316"
+      },
+      "48": {
+        "predicted_boardings": 156.22,
+        "congestion_color": "#eab308"
+      },
+      "49": {
+        "predicted_boardings": 128.01,
+        "congestion_color": "#eab308"
+      },
+      "50": {
+        "predicted_boardings": 215.0,
+        "congestion_color": "#eab308"
+      },
+      "51": {
+        "predicted_boardings": 215.0,
+        "congestion_color": "#eab308"
+      },
+      "52": {
+        "predicted_boardings": 472.45,
+        "congestion_color": "#f97316"
+      },
+      "54": {
+        "predicted_boardings": 107.4,
+        "congestion_color": "#eab308"
+      },
+      "55": {
+        "predicted_boardings": 355.53,
+        "congestion_color": "#f97316"
+      },
+      "56": {
+        "predicted_boardings": 243.41,
+        "congestion_color": "#eab308"
+      },
+      "57": {
+        "predicted_boardings": 275.8,
+        "congestion_color": "#f97316"
+      },
+      "58": {
+        "predicted_boardings": 228.42,
+        "congestion_color": "#eab308"
+      },
+      "59": {
+        "predicted_boardings": 295.05,
+        "congestion_color": "#f97316"
+      }
+    },
+    "2025-07-02": {
+      "1": {
+        "predicted_boardings": 267.72,
+        "congestion_color": "#f97316"
+      },
+      "2": {
+        "predicted_boardings": 205.67,
+        "congestion_color": "#eab308"
+      },
+      "3": {
+        "predicted_boardings": 86.34,
+        "congestion_color": "#22c55e"
+      },
+      "4": {
+        "predicted_boardings": 353.9,
+        "congestion_color": "#f97316"
+      },
+      "5": {
+        "predicted_boardings": 367.58,
+        "congestion_color": "#f97316"
+      },
+      "6": {
+        "predicted_boardings": 411.22,
+        "congestion_color": "#f97316"
+      },
+      "7": {
+        "predicted_boardings": 404.32,
+        "congestion_color": "#f97316"
+      },
+      "8": {
+        "predicted_boardings": 417.55,
+        "congestion_color": "#f97316"
+      },
+      "9": {
+        "predicted_boardings": 210.85,
+        "congestion_color": "#eab308"
+      },
+      "10": {
+        "predicted_boardings": 103.08,
+        "congestion_color": "#eab308"
+      },
+      "11": {
+        "predicted_boardings": 110.43,
+        "congestion_color": "#eab308"
+      },
+      "12": {
+        "predicted_boardings": 165.2,
+        "congestion_color": "#eab308"
+      },
+      "13": {
+        "predicted_boardings": 383.2,
+        "congestion_color": "#f97316"
+      },
+      "15": {
+        "predicted_boardings": 203.77,
+        "congestion_color": "#eab308"
+      },
+      "16": {
+        "predicted_boardings": 425.67,
+        "congestion_color": "#f97316"
+      },
+      "17": {
+        "predicted_boardings": 326.2,
+        "congestion_color": "#f97316"
+      },
+      "18": {
+        "predicted_boardings": 326.2,
+        "congestion_color": "#f97316"
+      },
+      "19": {
+        "predicted_boardings": 175.0,
+        "congestion_color": "#eab308"
+      },
+      "20": {
+        "predicted_boardings": 560.19,
+        "congestion_color": "#ef4444"
+      },
+      "21": {
+        "predicted_boardings": 376.18,
+        "congestion_color": "#f97316"
+      },
+      "22": {
+        "predicted_boardings": 239.82,
+        "congestion_color": "#eab308"
+      },
+      "23": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "24": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "25": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "26": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "27": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "28": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "29": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "30": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "31": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "32": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "33": {
+        "predicted_boardings": 395.45,
+        "congestion_color": "#f97316"
+      },
+      "34": {
+        "predicted_boardings": 320.48,
+        "congestion_color": "#f97316"
+      },
+      "35": {
+        "predicted_boardings": 213.34,
+        "congestion_color": "#eab308"
+      },
+      "37": {
+        "predicted_boardings": 200.41,
+        "congestion_color": "#eab308"
+      },
+      "38": {
+        "predicted_boardings": 226.47,
+        "congestion_color": "#eab308"
+      },
+      "39": {
+        "predicted_boardings": 240.43,
+        "congestion_color": "#eab308"
+      },
+      "40": {
+        "predicted_boardings": 198.61,
+        "congestion_color": "#eab308"
+      },
+      "41": {
+        "predicted_boardings": 444.48,
+        "congestion_color": "#f97316"
+      },
+      "42": {
+        "predicted_boardings": 115.16,
+        "congestion_color": "#eab308"
+      },
+      "43": {
+        "predicted_boardings": 211.19,
+        "congestion_color": "#eab308"
+      },
+      "44": {
+        "predicted_boardings": 91.67,
+        "congestion_color": "#22c55e"
+      },
+      "45": {
+        "predicted_boardings": 213.16,
+        "congestion_color": "#eab308"
+      },
+      "46": {
+        "predicted_boardings": 367.48,
+        "congestion_color": "#f97316"
+      },
+      "47": {
+        "predicted_boardings": 301.73,
+        "congestion_color": "#f97316"
+      },
+      "48": {
+        "predicted_boardings": 156.22,
+        "congestion_color": "#eab308"
+      },
+      "49": {
+        "predicted_boardings": 128.01,
+        "congestion_color": "#eab308"
+      },
+      "50": {
+        "predicted_boardings": 215.0,
+        "congestion_color": "#eab308"
+      },
+      "51": {
+        "predicted_boardings": 215.0,
+        "congestion_color": "#eab308"
+      },
+      "52": {
+        "predicted_boardings": 464.6,
+        "congestion_color": "#f97316"
+      },
+      "54": {
+        "predicted_boardings": 105.34,
+        "congestion_color": "#eab308"
+      },
+      "55": {
+        "predicted_boardings": 355.02,
+        "congestion_color": "#f97316"
+      },
+      "56": {
+        "predicted_boardings": 243.41,
+        "congestion_color": "#eab308"
+      },
+      "57": {
+        "predicted_boardings": 275.8,
+        "congestion_color": "#f97316"
+      },
+      "58": {
+        "predicted_boardings": 228.42,
+        "congestion_color": "#eab308"
+      },
+      "59": {
+        "predicted_boardings": 295.05,
+        "congestion_color": "#f97316"
+      }
+    },
+    "2025-07-03": {
+      "1": {
+        "predicted_boardings": 267.53,
+        "congestion_color": "#f97316"
+      },
+      "2": {
+        "predicted_boardings": 205.05,
+        "congestion_color": "#eab308"
+      },
+      "3": {
+        "predicted_boardings": 85.26,
+        "congestion_color": "#22c55e"
+      },
+      "4": {
+        "predicted_boardings": 354.73,
+        "congestion_color": "#f97316"
+      },
+      "5": {
+        "predicted_boardings": 367.92,
+        "congestion_color": "#f97316"
+      },
+      "6": {
+        "predicted_boardings": 411.22,
+        "congestion_color": "#f97316"
+      },
+      "7": {
+        "predicted_boardings": 404.32,
+        "congestion_color": "#f97316"
+      },
+      "8": {
+        "predicted_boardings": 417.55,
+        "congestion_color": "#f97316"
+      },
+      "9": {
+        "predicted_boardings": 190.99,
+        "congestion_color": "#eab308"
+      },
+      "10": {
+        "predicted_boardings": 103.68,
+        "congestion_color": "#eab308"
+      },
+      "11": {
+        "predicted_boardings": 111.03,
+        "congestion_color": "#eab308"
+      },
+      "12": {
+        "predicted_boardings": 166.6,
+        "congestion_color": "#eab308"
+      },
+      "13": {
+        "predicted_boardings": 383.2,
+        "congestion_color": "#f97316"
+      },
+      "15": {
+        "predicted_boardings": 203.77,
+        "congestion_color": "#eab308"
+      },
+      "16": {
+        "predicted_boardings": 425.67,
+        "congestion_color": "#f97316"
+      },
+      "17": {
+        "predicted_boardings": 326.2,
+        "congestion_color": "#f97316"
+      },
+      "18": {
+        "predicted_boardings": 326.2,
+        "congestion_color": "#f97316"
+      },
+      "19": {
+        "predicted_boardings": 172.95,
+        "congestion_color": "#eab308"
+      },
+      "20": {
+        "predicted_boardings": 557.67,
+        "congestion_color": "#ef4444"
+      },
+      "21": {
+        "predicted_boardings": 377.5,
+        "congestion_color": "#f97316"
+      },
+      "22": {
+        "predicted_boardings": 239.82,
+        "congestion_color": "#eab308"
+      },
+      "23": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "24": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "25": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "26": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "27": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "28": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "29": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "30": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "31": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "32": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "33": {
+        "predicted_boardings": 395.45,
+        "congestion_color": "#f97316"
+      },
+      "34": {
+        "predicted_boardings": 320.48,
+        "congestion_color": "#f97316"
+      },
+      "35": {
+        "predicted_boardings": 213.34,
+        "congestion_color": "#eab308"
+      },
+      "37": {
+        "predicted_boardings": 200.41,
+        "congestion_color": "#eab308"
+      },
+      "38": {
+        "predicted_boardings": 226.47,
+        "congestion_color": "#eab308"
+      },
+      "39": {
+        "predicted_boardings": 240.43,
+        "congestion_color": "#eab308"
+      },
+      "40": {
+        "predicted_boardings": 198.61,
+        "congestion_color": "#eab308"
+      },
+      "41": {
+        "predicted_boardings": 443.99,
+        "congestion_color": "#f97316"
+      },
+      "42": {
+        "predicted_boardings": 115.16,
+        "congestion_color": "#eab308"
+      },
+      "43": {
+        "predicted_boardings": 211.19,
+        "congestion_color": "#eab308"
+      },
+      "44": {
+        "predicted_boardings": 91.26,
+        "congestion_color": "#22c55e"
+      },
+      "45": {
+        "predicted_boardings": 213.16,
+        "congestion_color": "#eab308"
+      },
+      "46": {
+        "predicted_boardings": 367.48,
+        "congestion_color": "#f97316"
+      },
+      "47": {
+        "predicted_boardings": 301.73,
+        "congestion_color": "#f97316"
+      },
+      "48": {
+        "predicted_boardings": 156.22,
+        "congestion_color": "#eab308"
+      },
+      "49": {
+        "predicted_boardings": 128.01,
+        "congestion_color": "#eab308"
+      },
+      "50": {
+        "predicted_boardings": 215.0,
+        "congestion_color": "#eab308"
+      },
+      "51": {
+        "predicted_boardings": 215.0,
+        "congestion_color": "#eab308"
+      },
+      "52": {
+        "predicted_boardings": 464.6,
+        "congestion_color": "#f97316"
+      },
+      "54": {
+        "predicted_boardings": 103.93,
+        "congestion_color": "#eab308"
+      },
+      "55": {
+        "predicted_boardings": 353.64,
+        "congestion_color": "#f97316"
+      },
+      "56": {
+        "predicted_boardings": 243.41,
+        "congestion_color": "#eab308"
+      },
+      "57": {
+        "predicted_boardings": 275.8,
+        "congestion_color": "#f97316"
+      },
+      "58": {
+        "predicted_boardings": 228.42,
+        "congestion_color": "#eab308"
+      },
+      "59": {
+        "predicted_boardings": 295.05,
+        "congestion_color": "#f97316"
+      }
+    },
+    "2025-07-04": {
+      "1": {
+        "predicted_boardings": 271.31,
+        "congestion_color": "#f97316"
+      },
+      "2": {
+        "predicted_boardings": 206.52,
+        "congestion_color": "#eab308"
+      },
+      "3": {
+        "predicted_boardings": 87.81,
+        "congestion_color": "#22c55e"
+      },
+      "4": {
+        "predicted_boardings": 355.6,
+        "congestion_color": "#f97316"
+      },
+      "5": {
+        "predicted_boardings": 367.92,
+        "congestion_color": "#f97316"
+      },
+      "6": {
+        "predicted_boardings": 411.22,
+        "congestion_color": "#f97316"
+      },
+      "7": {
+        "predicted_boardings": 404.32,
+        "congestion_color": "#f97316"
+      },
+      "8": {
+        "predicted_boardings": 417.55,
+        "congestion_color": "#f97316"
+      },
+      "9": {
+        "predicted_boardings": 190.18,
+        "congestion_color": "#eab308"
+      },
+      "10": {
+        "predicted_boardings": 104.04,
+        "congestion_color": "#eab308"
+      },
+      "11": {
+        "predicted_boardings": 110.61,
+        "congestion_color": "#eab308"
+      },
+      "12": {
+        "predicted_boardings": 164.65,
+        "congestion_color": "#eab308"
+      },
+      "13": {
+        "predicted_boardings": 383.2,
+        "congestion_color": "#f97316"
+      },
+      "15": {
+        "predicted_boardings": 204.27,
+        "congestion_color": "#eab308"
+      },
+      "16": {
+        "predicted_boardings": 425.67,
+        "congestion_color": "#f97316"
+      },
+      "17": {
+        "predicted_boardings": 326.2,
+        "congestion_color": "#f97316"
+      },
+      "18": {
+        "predicted_boardings": 326.2,
+        "congestion_color": "#f97316"
+      },
+      "19": {
+        "predicted_boardings": 171.27,
+        "congestion_color": "#eab308"
+      },
+      "20": {
+        "predicted_boardings": 558.46,
+        "congestion_color": "#ef4444"
+      },
+      "21": {
+        "predicted_boardings": 377.5,
+        "congestion_color": "#f97316"
+      },
+      "22": {
+        "predicted_boardings": 239.82,
+        "congestion_color": "#eab308"
+      },
+      "23": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "24": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "25": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "26": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "27": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "28": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "29": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "30": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "31": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "32": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "33": {
+        "predicted_boardings": 395.45,
+        "congestion_color": "#f97316"
+      },
+      "34": {
+        "predicted_boardings": 320.48,
+        "congestion_color": "#f97316"
+      },
+      "35": {
+        "predicted_boardings": 213.34,
+        "congestion_color": "#eab308"
+      },
+      "37": {
+        "predicted_boardings": 200.41,
+        "congestion_color": "#eab308"
+      },
+      "38": {
+        "predicted_boardings": 226.47,
+        "congestion_color": "#eab308"
+      },
+      "39": {
+        "predicted_boardings": 240.43,
+        "congestion_color": "#eab308"
+      },
+      "40": {
+        "predicted_boardings": 198.61,
+        "congestion_color": "#eab308"
+      },
+      "41": {
+        "predicted_boardings": 441.17,
+        "congestion_color": "#f97316"
+      },
+      "42": {
+        "predicted_boardings": 115.16,
+        "congestion_color": "#eab308"
+      },
+      "43": {
+        "predicted_boardings": 211.66,
+        "congestion_color": "#eab308"
+      },
+      "44": {
+        "predicted_boardings": 88.72,
+        "congestion_color": "#22c55e"
+      },
+      "45": {
+        "predicted_boardings": 213.65,
+        "congestion_color": "#eab308"
+      },
+      "46": {
+        "predicted_boardings": 367.48,
+        "congestion_color": "#f97316"
+      },
+      "47": {
+        "predicted_boardings": 301.73,
+        "congestion_color": "#f97316"
+      },
+      "48": {
+        "predicted_boardings": 156.22,
+        "congestion_color": "#eab308"
+      },
+      "49": {
+        "predicted_boardings": 128.01,
+        "congestion_color": "#eab308"
+      },
+      "50": {
+        "predicted_boardings": 214.41,
+        "congestion_color": "#eab308"
+      },
+      "51": {
+        "predicted_boardings": 214.41,
+        "congestion_color": "#eab308"
+      },
+      "52": {
+        "predicted_boardings": 467.6,
+        "congestion_color": "#f97316"
+      },
+      "54": {
+        "predicted_boardings": 99.27,
+        "congestion_color": "#22c55e"
+      },
+      "55": {
+        "predicted_boardings": 353.64,
+        "congestion_color": "#f97316"
+      },
+      "56": {
+        "predicted_boardings": 243.41,
+        "congestion_color": "#eab308"
+      },
+      "57": {
+        "predicted_boardings": 275.8,
+        "congestion_color": "#f97316"
+      },
+      "58": {
+        "predicted_boardings": 228.42,
+        "congestion_color": "#eab308"
+      },
+      "59": {
+        "predicted_boardings": 295.05,
+        "congestion_color": "#f97316"
+      }
+    },
+    "2025-07-05": {
+      "1": {
+        "predicted_boardings": 210.18,
+        "congestion_color": "#eab308"
+      },
+      "2": {
+        "predicted_boardings": 161.56,
+        "congestion_color": "#eab308"
+      },
+      "3": {
+        "predicted_boardings": 61.99,
+        "congestion_color": "#22c55e"
+      },
+      "4": {
+        "predicted_boardings": 278.91,
+        "congestion_color": "#f97316"
+      },
+      "5": {
+        "predicted_boardings": 283.71,
+        "congestion_color": "#f97316"
+      },
+      "6": {
+        "predicted_boardings": 285.18,
+        "congestion_color": "#f97316"
+      },
+      "7": {
+        "predicted_boardings": 285.18,
+        "congestion_color": "#f97316"
+      },
+      "8": {
+        "predicted_boardings": 284.68,
+        "congestion_color": "#f97316"
+      },
+      "9": {
+        "predicted_boardings": 157.51,
+        "congestion_color": "#eab308"
+      },
+      "10": {
+        "predicted_boardings": 78.49,
+        "congestion_color": "#22c55e"
+      },
+      "11": {
+        "predicted_boardings": 81.52,
+        "congestion_color": "#22c55e"
+      },
+      "12": {
+        "predicted_boardings": 134.47,
+        "congestion_color": "#eab308"
+      },
+      "13": {
+        "predicted_boardings": 293.03,
+        "congestion_color": "#f97316"
+      },
+      "15": {
+        "predicted_boardings": 214.1,
+        "congestion_color": "#eab308"
+      },
+      "16": {
+        "predicted_boardings": 368.11,
+        "congestion_color": "#f97316"
+      },
+      "17": {
+        "predicted_boardings": 269.65,
+        "congestion_color": "#f97316"
+      },
+      "18": {
+        "predicted_boardings": 269.65,
+        "congestion_color": "#f97316"
+      },
+      "19": {
+        "predicted_boardings": 142.9,
+        "congestion_color": "#eab308"
+      },
+      "20": {
+        "predicted_boardings": 404.19,
+        "congestion_color": "#f97316"
+      },
+      "21": {
+        "predicted_boardings": 291.2,
+        "congestion_color": "#f97316"
+      },
+      "22": {
+        "predicted_boardings": 195.59,
+        "congestion_color": "#eab308"
+      },
+      "23": {
+        "predicted_boardings": 208.9,
+        "congestion_color": "#eab308"
+      },
+      "24": {
+        "predicted_boardings": 193.25,
+        "congestion_color": "#eab308"
+      },
+      "25": {
+        "predicted_boardings": 193.25,
+        "congestion_color": "#eab308"
+      },
+      "26": {
+        "predicted_boardings": 193.25,
+        "congestion_color": "#eab308"
+      },
+      "27": {
+        "predicted_boardings": 172.12,
+        "congestion_color": "#eab308"
+      },
+      "28": {
+        "predicted_boardings": 172.12,
+        "congestion_color": "#eab308"
+      },
+      "29": {
+        "predicted_boardings": 247.54,
+        "congestion_color": "#eab308"
+      },
+      "30": {
+        "predicted_boardings": 218.66,
+        "congestion_color": "#eab308"
+      },
+      "31": {
+        "predicted_boardings": 219.3,
+        "congestion_color": "#eab308"
+      },
+      "32": {
+        "predicted_boardings": 215.69,
+        "congestion_color": "#eab308"
+      },
+      "33": {
+        "predicted_boardings": 459.48,
+        "congestion_color": "#f97316"
+      },
+      "34": {
+        "predicted_boardings": 213.34,
+        "congestion_color": "#eab308"
+      },
+      "35": {
+        "predicted_boardings": 153.66,
+        "congestion_color": "#eab308"
+      },
+      "37": {
+        "predicted_boardings": 139.33,
+        "congestion_color": "#eab308"
+      },
+      "38": {
+        "predicted_boardings": 177.58,
+        "congestion_color": "#eab308"
+      },
+      "39": {
+        "predicted_boardings": 193.06,
+        "congestion_color": "#eab308"
+      },
+      "40": {
+        "predicted_boardings": 155.58,
+        "congestion_color": "#eab308"
+      },
+      "41": {
+        "predicted_boardings": 308.6,
+        "congestion_color": "#f97316"
+      },
+      "42": {
+        "predicted_boardings": 88.06,
+        "congestion_color": "#22c55e"
+      },
+      "43": {
+        "predicted_boardings": 211.95,
+        "congestion_color": "#eab308"
+      },
+      "44": {
+        "predicted_boardings": 73.58,
+        "congestion_color": "#22c55e"
+      },
+      "45": {
+        "predicted_boardings": 147.1,
+        "congestion_color": "#eab308"
+      },
+      "46": {
+        "predicted_boardings": 244.77,
+        "congestion_color": "#eab308"
+      },
+      "47": {
+        "predicted_boardings": 201.9,
+        "congestion_color": "#eab308"
+      },
+      "48": {
+        "predicted_boardings": 116.63,
+        "congestion_color": "#eab308"
+      },
+      "49": {
+        "predicted_boardings": 93.52,
+        "congestion_color": "#22c55e"
+      },
+      "50": {
+        "predicted_boardings": 175.42,
+        "congestion_color": "#eab308"
+      },
+      "51": {
+        "predicted_boardings": 181.97,
+        "congestion_color": "#eab308"
+      },
+      "52": {
+        "predicted_boardings": 537.05,
+        "congestion_color": "#ef4444"
+      },
+      "54": {
+        "predicted_boardings": 70.34,
+        "congestion_color": "#22c55e"
+      },
+      "55": {
+        "predicted_boardings": 271.49,
+        "congestion_color": "#f97316"
+      },
+      "56": {
+        "predicted_boardings": 153.12,
+        "congestion_color": "#eab308"
+      },
+      "57": {
+        "predicted_boardings": 235.04,
+        "congestion_color": "#eab308"
+      },
+      "58": {
+        "predicted_boardings": 157.9,
+        "congestion_color": "#eab308"
+      },
+      "59": {
+        "predicted_boardings": 221.45,
+        "congestion_color": "#eab308"
+      }
+    },
+    "2025-07-06": {
+      "1": {
+        "predicted_boardings": 202.13,
+        "congestion_color": "#eab308"
+      },
+      "2": {
+        "predicted_boardings": 164.37,
+        "congestion_color": "#eab308"
+      },
+      "3": {
+        "predicted_boardings": 64.58,
+        "congestion_color": "#22c55e"
+      },
+      "4": {
+        "predicted_boardings": 278.66,
+        "congestion_color": "#f97316"
+      },
+      "5": {
+        "predicted_boardings": 283.46,
+        "congestion_color": "#f97316"
+      },
+      "6": {
+        "predicted_boardings": 285.97,
+        "congestion_color": "#f97316"
+      },
+      "7": {
+        "predicted_boardings": 285.97,
+        "congestion_color": "#f97316"
+      },
+      "8": {
+        "predicted_boardings": 286.65,
+        "congestion_color": "#f97316"
+      },
+      "9": {
+        "predicted_boardings": 157.92,
+        "congestion_color": "#eab308"
+      },
+      "10": {
+        "predicted_boardings": 79.33,
+        "congestion_color": "#22c55e"
+      },
+      "11": {
+        "predicted_boardings": 82.11,
+        "congestion_color": "#22c55e"
+      },
+      "12": {
+        "predicted_boardings": 131.94,
+        "congestion_color": "#eab308"
+      },
+      "13": {
+        "predicted_boardings": 293.03,
+        "congestion_color": "#f97316"
+      },
+      "15": {
+        "predicted_boardings": 214.1,
+        "congestion_color": "#eab308"
+      },
+      "16": {
+        "predicted_boardings": 368.11,
+        "congestion_color": "#f97316"
+      },
+      "17": {
+        "predicted_boardings": 269.65,
+        "congestion_color": "#f97316"
+      },
+      "18": {
+        "predicted_boardings": 269.65,
+        "congestion_color": "#f97316"
+      },
+      "19": {
+        "predicted_boardings": 142.52,
+        "congestion_color": "#eab308"
+      },
+      "20": {
+        "predicted_boardings": 411.73,
+        "congestion_color": "#f97316"
+      },
+      "21": {
+        "predicted_boardings": 287.48,
+        "congestion_color": "#f97316"
+      },
+      "22": {
+        "predicted_boardings": 196.01,
+        "congestion_color": "#eab308"
+      },
+      "23": {
+        "predicted_boardings": 208.9,
+        "congestion_color": "#eab308"
+      },
+      "24": {
+        "predicted_boardings": 193.25,
+        "congestion_color": "#eab308"
+      },
+      "25": {
+        "predicted_boardings": 193.25,
+        "congestion_color": "#eab308"
+      },
+      "26": {
+        "predicted_boardings": 193.25,
+        "congestion_color": "#eab308"
+      },
+      "27": {
+        "predicted_boardings": 172.12,
+        "congestion_color": "#eab308"
+      },
+      "28": {
+        "predicted_boardings": 172.12,
+        "congestion_color": "#eab308"
+      },
+      "29": {
+        "predicted_boardings": 247.54,
+        "congestion_color": "#eab308"
+      },
+      "30": {
+        "predicted_boardings": 218.66,
+        "congestion_color": "#eab308"
+      },
+      "31": {
+        "predicted_boardings": 219.3,
+        "congestion_color": "#eab308"
+      },
+      "32": {
+        "predicted_boardings": 215.69,
+        "congestion_color": "#eab308"
+      },
+      "33": {
+        "predicted_boardings": 450.59,
+        "congestion_color": "#f97316"
+      },
+      "34": {
+        "predicted_boardings": 209.38,
+        "congestion_color": "#eab308"
+      },
+      "35": {
+        "predicted_boardings": 153.66,
+        "congestion_color": "#eab308"
+      },
+      "37": {
+        "predicted_boardings": 139.87,
+        "congestion_color": "#eab308"
+      },
+      "38": {
+        "predicted_boardings": 177.58,
+        "congestion_color": "#eab308"
+      },
+      "39": {
+        "predicted_boardings": 193.4,
+        "congestion_color": "#eab308"
+      },
+      "40": {
+        "predicted_boardings": 155.58,
+        "congestion_color": "#eab308"
+      },
+      "41": {
+        "predicted_boardings": 307.59,
+        "congestion_color": "#f97316"
+      },
+      "42": {
+        "predicted_boardings": 93.24,
+        "congestion_color": "#22c55e"
+      },
+      "43": {
+        "predicted_boardings": 212.29,
+        "congestion_color": "#eab308"
+      },
+      "44": {
+        "predicted_boardings": 74.29,
+        "congestion_color": "#22c55e"
+      },
+      "45": {
+        "predicted_boardings": 146.75,
+        "congestion_color": "#eab308"
+      },
+      "46": {
+        "predicted_boardings": 242.07,
+        "congestion_color": "#eab308"
+      },
+      "47": {
+        "predicted_boardings": 202.77,
+        "congestion_color": "#eab308"
+      },
+      "48": {
+        "predicted_boardings": 116.7,
+        "congestion_color": "#eab308"
+      },
+      "49": {
+        "predicted_boardings": 93.69,
+        "congestion_color": "#22c55e"
+      },
+      "50": {
+        "predicted_boardings": 174.7,
+        "congestion_color": "#eab308"
+      },
+      "51": {
+        "predicted_boardings": 176.78,
+        "congestion_color": "#eab308"
+      },
+      "52": {
+        "predicted_boardings": 538.88,
+        "congestion_color": "#ef4444"
+      },
+      "54": {
+        "predicted_boardings": 71.16,
+        "congestion_color": "#22c55e"
+      },
+      "55": {
+        "predicted_boardings": 271.87,
+        "congestion_color": "#f97316"
+      },
+      "56": {
+        "predicted_boardings": 153.12,
+        "congestion_color": "#eab308"
+      },
+      "57": {
+        "predicted_boardings": 235.04,
+        "congestion_color": "#eab308"
+      },
+      "58": {
+        "predicted_boardings": 157.9,
+        "congestion_color": "#eab308"
+      },
+      "59": {
+        "predicted_boardings": 221.45,
+        "congestion_color": "#eab308"
+      }
+    },
+    "2025-07-07": {
+      "1": {
+        "predicted_boardings": 267.7,
+        "congestion_color": "#f97316"
+      },
+      "2": {
+        "predicted_boardings": 204.08,
+        "congestion_color": "#eab308"
+      },
+      "3": {
+        "predicted_boardings": 84.42,
+        "congestion_color": "#22c55e"
+      },
+      "4": {
+        "predicted_boardings": 353.8,
+        "congestion_color": "#f97316"
+      },
+      "5": {
+        "predicted_boardings": 366.99,
+        "congestion_color": "#f97316"
+      },
+      "6": {
+        "predicted_boardings": 411.22,
+        "congestion_color": "#f97316"
+      },
+      "7": {
+        "predicted_boardings": 404.32,
+        "congestion_color": "#f97316"
+      },
+      "8": {
+        "predicted_boardings": 416.65,
+        "congestion_color": "#f97316"
+      },
+      "9": {
+        "predicted_boardings": 208.24,
+        "congestion_color": "#eab308"
+      },
+      "10": {
+        "predicted_boardings": 99.13,
+        "congestion_color": "#22c55e"
+      },
+      "11": {
+        "predicted_boardings": 105.84,
+        "congestion_color": "#eab308"
+      },
+      "12": {
+        "predicted_boardings": 168.19,
+        "congestion_color": "#eab308"
+      },
+      "13": {
+        "predicted_boardings": 383.2,
+        "congestion_color": "#f97316"
+      },
+      "15": {
+        "predicted_boardings": 203.29,
+        "congestion_color": "#eab308"
+      },
+      "16": {
+        "predicted_boardings": 425.67,
+        "congestion_color": "#f97316"
+      },
+      "17": {
+        "predicted_boardings": 326.2,
+        "congestion_color": "#f97316"
+      },
+      "18": {
+        "predicted_boardings": 326.2,
+        "congestion_color": "#f97316"
+      },
+      "19": {
+        "predicted_boardings": 180.42,
+        "congestion_color": "#eab308"
+      },
+      "20": {
+        "predicted_boardings": 566.75,
+        "congestion_color": "#ef4444"
+      },
+      "21": {
+        "predicted_boardings": 372.54,
+        "congestion_color": "#f97316"
+      },
+      "22": {
+        "predicted_boardings": 239.82,
+        "congestion_color": "#eab308"
+      },
+      "23": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "24": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "25": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "26": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "27": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "28": {
+        "predicted_boardings": 251.43,
+        "congestion_color": "#f97316"
+      },
+      "29": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "30": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "31": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "32": {
+        "predicted_boardings": 253.94,
+        "congestion_color": "#f97316"
+      },
+      "33": {
+        "predicted_boardings": 395.45,
+        "congestion_color": "#f97316"
+      },
+      "34": {
+        "predicted_boardings": 320.48,
+        "congestion_color": "#f97316"
+      },
+      "35": {
+        "predicted_boardings": 213.34,
+        "congestion_color": "#eab308"
+      },
+      "37": {
+        "predicted_boardings": 200.41,
+        "congestion_color": "#eab308"
+      },
+      "38": {
+        "predicted_boardings": 226.47,
+        "congestion_color": "#eab308"
+      },
+      "39": {
+        "predicted_boardings": 240.43,
+        "congestion_color": "#eab308"
+      },
+      "40": {
+        "predicted_boardings": 198.61,
+        "congestion_color": "#eab308"
+      },
+      "41": {
+        "predicted_boardings": 445.45,
+        "congestion_color": "#f97316"
+      },
+      "42": {
+        "predicted_boardings": 115.16,
+        "congestion_color": "#eab308"
+      },
+      "43": {
+        "predicted_boardings": 210.81,
+        "congestion_color": "#eab308"
+      },
+      "44": {
+        "predicted_boardings": 91.34,
+        "congestion_color": "#22c55e"
+      },
+      "45": {
+        "predicted_boardings": 213.16,
+        "congestion_color": "#eab308"
+      },
+      "46": {
+        "predicted_boardings": 367.48,
+        "congestion_color": "#f97316"
+      },
+      "47": {
+        "predicted_boardings": 301.73,
+        "congestion_color": "#f97316"
+      },
+      "48": {
+        "predicted_boardings": 156.22,
+        "congestion_color": "#eab308"
+      },
+      "49": {
+        "predicted_boardings": 128.01,
+        "congestion_color": "#eab308"
+      },
+      "50": {
+        "predicted_boardings": 215.0,
+        "congestion_color": "#eab308"
+      },
+      "51": {
+        "predicted_boardings": 215.0,
+        "congestion_color": "#eab308"
+      },
+      "52": {
+        "predicted_boardings": 473.3,
+        "congestion_color": "#f97316"
+      },
+      "54": {
+        "predicted_boardings": 108.9,
+        "congestion_color": "#eab308"
+      },
+      "55": {
+        "predicted_boardings": 355.53,
+        "congestion_color": "#f97316"
+      },
+      "56": {
+        "predicted_boardings": 243.41,
+        "congestion_color": "#eab308"
+      },
+      "57": {
+        "predicted_boardings": 275.8,
+        "congestion_color": "#f97316"
+      },
+      "58": {
+        "predicted_boardings": 228.42,
+        "congestion_color": "#eab308"
+      },
+      "59": {
+        "predicted_boardings": 295.05,
+        "congestion_color": "#f97316"
+      }
+    }
+  }
+}

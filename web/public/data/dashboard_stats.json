@@ -1,0 +1,112 @@
+{
+  "average_congestion": {
+    "value": "270.5%",
+    "subtext": "7.4 pp higher than in 2024"
+  },
+  "average_distance_15m": {
+    "value": "5.4 km",
+    "subtext": "0.2 km less than in 2024"
+  },
+  "average_travel_time_10km": {
+    "value": "27 min 46 s",
+    "subtext": "30 s more than in 2024"
+  },
+  "average_speed_rush_hour": {
+    "value": "31.6 km/h",
+    "subtext": "0.5 km/h slower than in 2024"
+  },
+  "highway_trip_ratio": {
+    "value": "41.7%",
+    "subtext": "1.2 pp lower than in 2024"
+  },
+  "average_speed_highways": {
+    "value": "21.3 km/h",
+    "subtext": "1.8 km/h slower than in 2024"
+  },
+  "worst_day": {
+    "date": "January 02, Thursday",
+    "congestion": "500%",
+    "rush_hour_cong": "700%",
+    "distance_15m": "3.2 km"
+  },
+  "rush_hour": {
+    "morning": {
+      "time_10km": "25 min 15 s",
+      "congestion": "257.0%",
+      "speed": "23.8 km/h"
+    },
+    "evening": {
+      "time_10km": "34 min 43 s",
+      "congestion": "405.7%",
+      "speed": "17.3 km/h"
+    },
+    "time_lost": {
+      "hours": 206,
+      "days": 8,
+      "remaining_hours": 14,
+      "subtext": "20 hours 36 min more than in 2024."
+    }
+  },
+  "monthly_chart": [
+    {
+      "name": "Jan",
+      "2024": 258.1,
+      "2025": 258.1
+    },
+    {
+      "name": "Feb",
+      "2024": 255.2,
+      "2025": 310.7
+    },
+    {
+      "name": "Mar",
+      "2024": 241.9,
+      "2025": 300.0
+    },
+    {
+      "name": "Apr",
+      "2024": 280.0,
+      "2025": 280.0
+    },
+    {
+      "name": "May",
+      "2024": 267.7,
+      "2025": 238.7
+    },
+    {
+      "name": "Jun",
+      "2024": 236.7,
+      "2025": 286.7
+    },
+    {
+      "name": "Jul",
+      "2024": 258.1,
+      "2025": 238.5
+    },
+    {
+      "name": "Aug",
+      "2024": 241.9,
+      "2025": 243.2
+    },
+    {
+      "name": "Sep",
+      "2024": 273.3,
+      "2025": 263.5
+    },
+    {
+      "name": "Oct",
+      "2024": 277.4,
+      "2025": 257.3
+    },
+    {
+      "name": "Nov",
+      "2024": 273.3,
+      "2025": 274.0
+    },
+    {
+      "name": "Dec",
+      "2024": 293.5,
+      "2025": 299.9
+    }
+  ]
+}

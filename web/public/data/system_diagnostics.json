@@ -1,0 +1,101 @@
+{
+  "growth": {
+    "top_zone": {
+      "name": "Ind_JebelAli",
+      "cagr": "11.3%"
+    },
+    "bottom_zone": {
+      "name": "Core_Deira",
+      "cagr": "11.0%"
+    }
+  },
+  "seasonality": [
+    {
+      "zone": "CBD_BusinessBay",
+      "winter_uplift": 1.11,
+      "summer_depression": 0.85,
+      "weekend_divergence": 1.43
+    },
+    {
+      "zone": "CBD_Downtown",
+      "winter_uplift": 1.11,
+      "summer_depression": 0.85,
+      "weekend_divergence": 1.43
+    },
+    {
+      "zone": "Coastal_Marina",
+      "winter_uplift": 1.11,
+      "summer_depression": 0.84,
+      "weekend_divergence": 0.91
+    },
+    {
+      "zone": "Core_Deira",
+      "winter_uplift": 1.11,
+      "summer_depression": 0.85,
+      "weekend_divergence": 1.28
+    }
+  ],
+  "imbalance": {
+    "origins": [
+      {
+        "name": "Res_InternationalCity_Stop_29",
+        "zone": "Res_InternationalCity",
+        "ratio": 1.07
+      },
+      {
+        "name": "CBD_BusinessBay_Stop_45",
+        "zone": "CBD_BusinessBay",
+        "ratio": 1.07
+      },
+      {
+        "name": "Core_Deira_Stop_24",
+        "zone": "Core_Deira",
+        "ratio": 1.07
+      }
+    ],
+    "destinations": [
+      {
+        "name": "Res_AlQusais_Stop_57",
+        "zone": "Res_AlQusais",
+        "ratio": 1.03
+      },
+      {
+        "name": "CBD_BusinessBay_Stop_49",
+        "zone": "CBD_BusinessBay",
+        "ratio": 1.03
+      },
+      {
+        "name": "Core_Deira_Stop_02",
+        "zone": "Core_Deira",
+        "ratio": 1.03
+      }
+    ]
+  },
+  "elasticity": [
+    {
+      "zone": "Coastal_Marina",
+      "correlation": 0.03,
+      "category": "Stationary"
+    },
+    {
+      "zone": "Res_AlQusais",
+      "correlation": 0.24,
+      "category": "Inelastic (Captive Riders)"
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "correlation": 0.246,
+      "category": "Inelastic (Captive Riders)"
+    },
+    {
+      "zone": "Core_Deira",
+      "correlation": 0.258,
+      "category": "Inelastic (Captive Riders)"
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "correlation": 0.258,
+      "category": "Inelastic (Captive Riders)"
+    }
+  ]
+}
