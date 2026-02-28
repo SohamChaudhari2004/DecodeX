@@ -128,16 +128,21 @@ function OverviewTab({ stats, diagnostics, deep }: { stats: any; diagnostics: an
 
       {/* Monthly Congestion Chart */}
       <div className="bg-[#0f131c]/80 backdrop-blur-md border border-white/10 p-6 rounded-xl mb-8">
-        <h4 className="text-[10px] font-bold text-white/40 uppercase tracking-widest mb-6">Monthly Congestion Trend (2024 vs 2025)</h4>
+        <h4 className="text-[10px] font-bold text-white/60 uppercase tracking-widest mb-6">Monthly Congestion Trend (2024 vs 2025)</h4>
         <ResponsiveContainer width="100%" height={260}>
           <BarChart data={stats.monthly_chart} barGap={2} barCategoryGap="20%">
-            <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" />
-            <XAxis dataKey="name" tick={{ fill: 'rgba(255,255,255,0.4)', fontSize: 10 }} axisLine={false} />
-            <YAxis tick={{ fill: 'rgba(255,255,255,0.3)', fontSize: 10 }} axisLine={false} />
-            <Tooltip contentStyle={{ background: '#0f131c', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 8, fontSize: 12, color: '#fff' }} />
-            <Bar dataKey="2024" fill="#ffffff15" radius={[4, 4, 0, 0]} />
-            <Bar dataKey="2025" fill="#e2cca8" radius={[4, 4, 0, 0]} />
-            <Legend wrapperStyle={{ fontSize: 10, color: 'rgba(255,255,255,0.5)' }} />
+            <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.1)" />
+            <XAxis dataKey="name" tick={{ fill: 'rgba(255,255,255,0.6)', fontSize: 10 }} axisLine={false} />
+            <YAxis tick={{ fill: 'rgba(255,255,255,0.6)', fontSize: 10 }} axisLine={false} />
+            <Tooltip 
+              contentStyle={{ background: '#090b10', border: '1px solid rgba(255,255,255,0.2)', borderRadius: 8, fontSize: 12, color: '#fff' }} 
+              itemStyle={{ color: '#fff' }} 
+              labelStyle={{ color: '#a1a1aa', fontWeight: 'bold', marginBottom: 4 }}
+              cursor={{ fill: 'rgba(255,255,255,0.05)' }}
+            />
+            <Bar dataKey="2024" fill="#38bdf8" radius={[4, 4, 0, 0]} activeBar={{ fillOpacity: 0.6 }} />
+            <Bar dataKey="2025" fill="#e2cca8" radius={[4, 4, 0, 0]} activeBar={{ fillOpacity: 0.6 }} />
+            <Legend wrapperStyle={{ fontSize: 10, color: 'rgba(255,255,255,0.8)' }} />
           </BarChart>
         </ResponsiveContainer>
       </div>
