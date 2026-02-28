@@ -1,0 +1,897 @@
+{
+  "generated_at": "2025-07-01",
+  "kpi_summary": {
+    "system_cagr": "11.1%",
+    "total_routes": 12,
+    "total_stops": 60,
+    "total_zones": 7,
+    "critical_bottlenecks": 4,
+    "overload_corridors": 3
+  },
+  "growth_decomposition": {
+    "headline": "System demand grew at 11.1% CAGR (2022\u20132024) with clear seasonal signature and consistent structural trend acceleration.",
+    "growth_acceleration": "accelerating (trend slope +1.5% per quarter)",
+    "system_total_pax_trend": [
+      {
+        "period": "2022-01",
+        "total_pax": 767508,
+        "trend": 744483
+      },
+      {
+        "period": "2022-02",
+        "total_pax": 698248,
+        "trend": 677301
+      },
+      {
+        "period": "2022-03",
+        "total_pax": 785712,
+        "trend": 762141
+      },
+      {
+        "period": "2022-04",
+        "total_pax": 674518,
+        "trend": 654282
+      },
+      {
+        "period": "2022-05",
+        "total_pax": 691450,
+        "trend": 670706
+      },
+      {
+        "period": "2022-06",
+        "total_pax": 591070,
+        "trend": 573338
+      },
+      {
+        "period": "2022-07",
+        "total_pax": 608379,
+        "trend": 590128
+      },
+      {
+        "period": "2022-08",
+        "total_pax": 618133,
+        "trend": 599589
+      },
+      {
+        "period": "2022-09",
+        "total_pax": 671539,
+        "trend": 651393
+      },
+      {
+        "period": "2022-10",
+        "total_pax": 689959,
+        "trend": 669260
+      },
+      {
+        "period": "2022-11",
+        "total_pax": 751952,
+        "trend": 729393
+      },
+      {
+        "period": "2022-12",
+        "total_pax": 810669,
+        "trend": 786349
+      },
+      {
+        "period": "2023-01",
+        "total_pax": 904885,
+        "trend": 877738
+      },
+      {
+        "period": "2023-02",
+        "total_pax": 760161,
+        "trend": 737356
+      },
+      {
+        "period": "2023-03",
+        "total_pax": 837563,
+        "trend": 812436
+      },
+      {
+        "period": "2023-04",
+        "total_pax": 721928,
+        "trend": 700270
+      },
+      {
+        "period": "2023-05",
+        "total_pax": 754980,
+        "trend": 732331
+      },
+      {
+        "period": "2023-06",
+        "total_pax": 642872,
+        "trend": 623586
+      },
+      {
+        "period": "2023-07",
+        "total_pax": 660755,
+        "trend": 640932
+      },
+      {
+        "period": "2023-08",
+        "total_pax": 664001,
+        "trend": 644081
+      },
+      {
+        "period": "2023-09",
+        "total_pax": 724398,
+        "trend": 702666
+      },
+      {
+        "period": "2023-10",
+        "total_pax": 752478,
+        "trend": 729904
+      },
+      {
+        "period": "2023-11",
+        "total_pax": 816732,
+        "trend": 792230
+      },
+      {
+        "period": "2023-12",
+        "total_pax": 886327,
+        "trend": 859737
+      },
+      {
+        "period": "2024-01",
+        "total_pax": 993994,
+        "trend": 964174
+      },
+      {
+        "period": "2024-02",
+        "total_pax": 888103,
+        "trend": 861460
+      },
+      {
+        "period": "2024-03",
+        "total_pax": 924109,
+        "trend": 896386
+      },
+      {
+        "period": "2024-04",
+        "total_pax": 828347,
+        "trend": 803497
+      },
+      {
+        "period": "2024-05",
+        "total_pax": 855151,
+        "trend": 829496
+      },
+      {
+        "period": "2024-06",
+        "total_pax": 716836,
+        "trend": 695331
+      },
+      {
+        "period": "2024-07",
+        "total_pax": 752310,
+        "trend": 729741
+      },
+      {
+        "period": "2024-08",
+        "total_pax": 746822,
+        "trend": 724417
+      },
+      {
+        "period": "2024-09",
+        "total_pax": 821780,
+        "trend": 797127
+      },
+      {
+        "period": "2024-10",
+        "total_pax": 860165,
+        "trend": 834360
+      },
+      {
+        "period": "2024-11",
+        "total_pax": 921780,
+        "trend": 894127
+      },
+      {
+        "period": "2024-12",
+        "total_pax": 1013156,
+        "trend": 982761
+      },
+      {
+        "period": "2025-01",
+        "total_pax": 1073619,
+        "trend": 1041410
+      },
+      {
+        "period": "2025-02",
+        "total_pax": 937792,
+        "trend": 909658
+      },
+      {
+        "period": "2025-03",
+        "total_pax": 1000190,
+        "trend": 970184
+      },
+      {
+        "period": "2025-04",
+        "total_pax": 906191,
+        "trend": 879005
+      },
+      {
+        "period": "2025-05",
+        "total_pax": 931842,
+        "trend": 903887
+      },
+      {
+        "period": "2025-06",
+        "total_pax": 792503,
+        "trend": 768728
+      }
+    ],
+    "cagr_by_zone": [
+      {
+        "zone": "Ind_JebelAli",
+        "cagr": 11.3,
+        "trend_slope": 2.4,
+        "status": "accelerating"
+      },
+      {
+        "zone": "Coastal_Marina",
+        "cagr": 11.2,
+        "trend_slope": 3.0,
+        "status": "accelerating"
+      },
+      {
+        "zone": "Res_AlQusais",
+        "cagr": 11.2,
+        "trend_slope": 2.6,
+        "status": "accelerating"
+      },
+      {
+        "zone": "CBD_BusinessBay",
+        "cagr": 11.1,
+        "trend_slope": 2.6,
+        "status": "accelerating"
+      },
+      {
+        "zone": "CBD_Downtown",
+        "cagr": 11.1,
+        "trend_slope": 2.4,
+        "status": "accelerating"
+      },
+      {
+        "zone": "Res_InternationalCity",
+        "cagr": 11.1,
+        "trend_slope": 2.6,
+        "status": "stable"
+      },
+      {
+        "zone": "Core_Deira",
+        "cagr": 11.0,
+        "trend_slope": 2.7,
+        "status": "stable"
+      }
+    ],
+    "cagr_by_route_type": [
+      {
+        "type": "Feeder",
+        "cagr": 12.8
+      },
+      {
+        "type": "City",
+        "cagr": 11.4
+      },
+      {
+        "type": "Express",
+        "cagr": 10.2
+      },
+      {
+        "type": "Intercity",
+        "cagr": 9.7
+      }
+    ]
+  },
+  "seasonality": {
+    "key_finding": "Winter uplift (+11\u201318%) is consistent across zones. Coastal_Marina shows reversed weekend pattern (tourism-leisure), while Ind_JebelAli remains inelastic year-round (captive workforce riders).",
+    "heatmap": [
+      {
+        "zone": "CBD_BusinessBay",
+        "Jan": 1.1,
+        "Feb": 1.08,
+        "Mar": 1.06,
+        "Apr": 1.02,
+        "May": 0.98,
+        "Jun": 0.9,
+        "Jul": 0.86,
+        "Aug": 0.87,
+        "Sep": 0.94,
+        "Oct": 1.02,
+        "Nov": 1.12,
+        "Dec": 1.2
+      },
+      {
+        "zone": "CBD_Downtown",
+        "Jan": 1.1,
+        "Feb": 1.08,
+        "Mar": 1.06,
+        "Apr": 1.02,
+        "May": 0.98,
+        "Jun": 0.9,
+        "Jul": 0.86,
+        "Aug": 0.87,
+        "Sep": 0.94,
+        "Oct": 1.02,
+        "Nov": 1.12,
+        "Dec": 1.2
+      },
+      {
+        "zone": "Coastal_Marina",
+        "Jan": 1.05,
+        "Feb": 1.03,
+        "Mar": 1.01,
+        "Apr": 0.97,
+        "May": 0.93,
+        "Jun": 0.85,
+        "Jul": 0.81,
+        "Aug": 0.82,
+        "Sep": 0.89,
+        "Oct": 0.97,
+        "Nov": 1.07,
+        "Dec": 1.14
+      },
+      {
+        "zone": "Core_Deira",
+        "Jan": 1.08,
+        "Feb": 1.06,
+        "Mar": 1.04,
+        "Apr": 1.0,
+        "May": 0.96,
+        "Jun": 0.88,
+        "Jul": 0.84,
+        "Aug": 0.85,
+        "Sep": 0.92,
+        "Oct": 1.0,
+        "Nov": 1.1,
+        "Dec": 1.18
+      },
+      {
+        "zone": "Ind_JebelAli",
+        "Jan": 1.08,
+        "Feb": 1.06,
+        "Mar": 1.04,
+        "Apr": 1.0,
+        "May": 0.96,
+        "Jun": 0.88,
+        "Jul": 0.84,
+        "Aug": 0.85,
+        "Sep": 0.92,
+        "Oct": 1.0,
+        "Nov": 1.1,
+        "Dec": 1.18
+      },
+      {
+        "zone": "Res_AlQusais",
+        "Jan": 1.08,
+        "Feb": 1.06,
+        "Mar": 1.04,
+        "Apr": 1.0,
+        "May": 0.96,
+        "Jun": 0.88,
+        "Jul": 0.84,
+        "Aug": 0.85,
+        "Sep": 0.92,
+        "Oct": 1.0,
+        "Nov": 1.1,
+        "Dec": 1.18
+      },
+      {
+        "zone": "Res_InternationalCity",
+        "Jan": 1.08,
+        "Feb": 1.06,
+        "Mar": 1.04,
+        "Apr": 1.0,
+        "May": 0.96,
+        "Jun": 0.88,
+        "Jul": 0.84,
+        "Aug": 0.85,
+        "Sep": 0.92,
+        "Oct": 1.0,
+        "Nov": 1.1,
+        "Dec": 1.18
+      }
+    ],
+    "weekend_divergence": [
+      {
+        "zone": "CBD_Downtown",
+        "index": 1.38,
+        "type": "Commuter"
+      },
+      {
+        "zone": "CBD_BusinessBay",
+        "index": 1.22,
+        "type": "Commuter"
+      },
+      {
+        "zone": "Core_Deira",
+        "index": 1.15,
+        "type": "Commuter"
+      },
+      {
+        "zone": "Res_AlQusais",
+        "index": 1.09,
+        "type": "Mixed"
+      },
+      {
+        "zone": "Res_InternationalCity",
+        "index": 0.98,
+        "type": "Mixed"
+      },
+      {
+        "zone": "Coastal_Marina",
+        "index": 0.84,
+        "type": "Tourism"
+      },
+      {
+        "zone": "Ind_JebelAli",
+        "index": 1.42,
+        "type": "Industrial"
+      }
+    ],
+    "event_spikes": [
+      {
+        "event": "Dubai Shopping Festival",
+        "date": "Jan 15\u2013Feb 12, 2024",
+        "zone": "CBD_Downtown",
+        "pax": 14820,
+        "sigma": 3.2,
+        "baseline": 10500
+      },
+      {
+        "event": "UAE National Day",
+        "date": "Dec 2\u20133, 2023",
+        "zone": "CBD_BusinessBay",
+        "pax": 12300,
+        "sigma": 2.8,
+        "baseline": 8900
+      },
+      {
+        "event": "GITEX Global",
+        "date": "Oct 14\u201318, 2024",
+        "zone": "Res_InternationalCity",
+        "pax": 11450,
+        "sigma": 2.4,
+        "baseline": 8200
+      },
+      {
+        "event": "Eid Al Fitr Holiday",
+        "date": "Apr 9\u201312, 2024",
+        "zone": "Core_Deira",
+        "pax": 10900,
+        "sigma": 2.1,
+        "baseline": 7800
+      }
+    ]
+  },
+  "structural_imbalance": {
+    "load_profiles": [
+      {
+        "route_id": 1,
+        "route_code": "C01",
+        "route_type": "City",
+        "stops": [
+          {
+            "name": "S1",
+            "boarding": 1090,
+            "alighting": 364
+          },
+          {
+            "name": "S2",
+            "boarding": 945,
+            "alighting": 509
+          },
+          {
+            "name": "S3",
+            "boarding": 800,
+            "alighting": 654
+          },
+          {
+            "name": "S4",
+            "boarding": 654,
+            "alighting": 800
+          },
+          {
+            "name": "S5",
+            "boarding": 509,
+            "alighting": 945
+          },
+          {
+            "name": "S6",
+            "boarding": 363,
+            "alighting": 1091
+          }
+        ],
+        "plp_position": 1,
+        "plp_load": 2181,
+        "bus_capacity": 80,
+        "utilization": "4544%",
+        "status": "IMBALANCED"
+      },
+      {
+        "route_id": 2,
+        "route_code": "C02",
+        "route_type": "City",
+        "stops": [
+          {
+            "name": "S1",
+            "boarding": 884,
+            "alighting": 295
+          },
+          {
+            "name": "S2",
+            "boarding": 766,
+            "alighting": 413
+          },
+          {
+            "name": "S3",
+            "boarding": 648,
+            "alighting": 530
+          },
+          {
+            "name": "S4",
+            "boarding": 530,
+            "alighting": 648
+          },
+          {
+            "name": "S5",
+            "boarding": 413,
+            "alighting": 766
+          },
+          {
+            "name": "S6",
+            "boarding": 295,
+            "alighting": 884
+          }
+        ],
+        "plp_position": 1,
+        "plp_load": 1768,
+        "bus_capacity": 80,
+        "utilization": "3684%",
+        "status": "IMBALANCED"
+      },
+      {
+        "route_id": 3,
+        "route_code": "C03",
+        "route_type": "City",
+        "stops": [
+          {
+            "name": "S1",
+            "boarding": 1064,
+            "alighting": 355
+          },
+          {
+            "name": "S2",
+            "boarding": 922,
+            "alighting": 497
+          },
+          {
+            "name": "S3",
+            "boarding": 781,
+            "alighting": 639
+          },
+          {
+            "name": "S4",
+            "boarding": 639,
+            "alighting": 781
+          },
+          {
+            "name": "S5",
+            "boarding": 497,
+            "alighting": 922
+          },
+          {
+            "name": "S6",
+            "boarding": 355,
+            "alighting": 1064
+          }
+        ],
+        "plp_position": 1,
+        "plp_load": 2129,
+        "bus_capacity": 80,
+        "utilization": "4435%",
+        "status": "IMBALANCED"
+      },
+      {
+        "route_id": 4,
+        "route_code": "X11",
+        "route_type": "Express",
+        "stops": [
+          {
+            "name": "S1",
+            "boarding": 851,
+            "alighting": 284
+          },
+          {
+            "name": "S2",
+            "boarding": 738,
+            "alighting": 397
+          },
+          {
+            "name": "S3",
+            "boarding": 624,
+            "alighting": 511
+          },
+          {
+            "name": "S4",
+            "boarding": 511,
+            "alighting": 624
+          },
+          {
+            "name": "S5",
+            "boarding": 397,
+            "alighting": 738
+          },
+          {
+            "name": "S6",
+            "boarding": 284,
+            "alighting": 851
+          }
+        ],
+        "plp_position": 1,
+        "plp_load": 1702,
+        "bus_capacity": 80,
+        "utilization": "3546%",
+        "status": "IMBALANCED"
+      }
+    ],
+    "feeder_trunk_disconnect": [
+      {
+        "feeder_route": "F12",
+        "trunk_route": "C01",
+        "feeder_cagr": 12.8,
+        "trunk_cagr": 10.2,
+        "gap": 2.6,
+        "shared_stop": "CBD_Downtown_Terminal",
+        "status": "CRITICAL"
+      },
+      {
+        "feeder_route": "F18",
+        "trunk_route": "C02",
+        "feeder_cagr": 11.9,
+        "trunk_cagr": 10.5,
+        "gap": 1.4,
+        "shared_stop": "Res_AlQusais_Central",
+        "status": "WATCH"
+      },
+      {
+        "feeder_route": "F25",
+        "trunk_route": "C03",
+        "feeder_cagr": 12.1,
+        "trunk_cagr": 10.8,
+        "gap": 1.3,
+        "shared_stop": "Core_Deira_Hub",
+        "status": "WATCH"
+      }
+    ],
+    "bottleneck_stops": [
+      {
+        "name": "CBD_Downtown_Terminal",
+        "type": "Interchange",
+        "zone": "CBD_Downtown",
+        "routes_served": 8,
+        "avg_boarding": 820,
+        "dwell_time": 4.2,
+        "risk": "CRITICAL"
+      },
+      {
+        "name": "Res_AlQusais_Central",
+        "type": "Metro_Link",
+        "zone": "Res_AlQusais",
+        "routes_served": 6,
+        "avg_boarding": 650,
+        "dwell_time": 3.8,
+        "risk": "HIGH"
+      },
+      {
+        "name": "Core_Deira_Hub",
+        "type": "Terminal",
+        "zone": "Core_Deira",
+        "routes_served": 5,
+        "avg_boarding": 580,
+        "dwell_time": 3.4,
+        "risk": "HIGH"
+      },
+      {
+        "name": "CBD_BusinessBay_Int",
+        "type": "Interchange",
+        "zone": "CBD_BusinessBay",
+        "routes_served": 5,
+        "avg_boarding": 490,
+        "dwell_time": 2.9,
+        "risk": "MEDIUM"
+      }
+    ]
+  },
+  "congestion_elasticity": {
+    "headline": "Elasticity ranges from -0.28 (Tourism) to -0.02 (Industrial) \u2014 confirming zone-stratified intervention is essential.",
+    "zone_analysis": [
+      {
+        "zone": "CBD_Downtown",
+        "rho": -0.31,
+        "epsilon": -0.28,
+        "category": "Highly Elastic",
+        "interpretation": "Tourism-heavy; demand drops strongly when congestion rises"
+      },
+      {
+        "zone": "Coastal_Marina",
+        "rho": -0.28,
+        "epsilon": -0.22,
+        "category": "Highly Elastic",
+        "interpretation": "Leisure riders switch to private transport under congestion"
+      },
+      {
+        "zone": "Res_AlQusais",
+        "rho": -0.18,
+        "epsilon": -0.14,
+        "category": "Moderately Elastic",
+        "interpretation": "Mixed use; workers partially inelastic, leisure fraction flexible"
+      },
+      {
+        "zone": "CBD_BusinessBay",
+        "rho": -0.15,
+        "epsilon": -0.11,
+        "category": "Moderately Elastic",
+        "interpretation": "Office-commercial; some schedule flexibility mitigates impact"
+      },
+      {
+        "zone": "Res_InternationalCity",
+        "rho": -0.09,
+        "epsilon": -0.06,
+        "category": "Inelastic",
+        "interpretation": "Captive low-income riders with no alternative transport options"
+      },
+      {
+        "zone": "Core_Deira",
+        "rho": -0.07,
+        "epsilon": -0.05,
+        "category": "Inelastic",
+        "interpretation": "Dense commercial hub; bus essential for last-mile connectivity"
+      },
+      {
+        "zone": "Ind_JebelAli",
+        "rho": -0.04,
+        "epsilon": -0.02,
+        "category": "Highly Inelastic",
+        "interpretation": "Industrial shift workers with fixed schedules; fully captive"
+      }
+    ],
+    "speed_congestion_scatter": [
+      {
+        "zone": "CBD_BusinessBay",
+        "avg_congestion": 2.5,
+        "avg_daily_pax_drop_pct": 56.0
+      },
+      {
+        "zone": "CBD_Downtown",
+        "avg_congestion": 2.7,
+        "avg_daily_pax_drop_pct": 44.0
+      },
+      {
+        "zone": "Coastal_Marina",
+        "avg_congestion": 2.9,
+        "avg_daily_pax_drop_pct": 28.0
+      },
+      {
+        "zone": "Core_Deira",
+        "avg_congestion": 3.1,
+        "avg_daily_pax_drop_pct": 22.0
+      },
+      {
+        "zone": "Ind_JebelAli",
+        "avg_congestion": 3.3,
+        "avg_daily_pax_drop_pct": 12.0
+      },
+      {
+        "zone": "Res_AlQusais",
+        "avg_congestion": 3.5,
+        "avg_daily_pax_drop_pct": 10.0
+      },
+      {
+        "zone": "Res_InternationalCity",
+        "avg_congestion": 3.7,
+        "avg_daily_pax_drop_pct": 4.0
+      }
+    ],
+    "redistribution_recommendation": "During congestion level \u2265 4, redirect Coastal_Marina demand to Res_AlQusais corridor via F18-X11 transfer. Expected pax absorption: +12%."
+  },
+  "forecast_allocation": {
+    "period": "H2 2025",
+    "method": "Random Forest Regressor + STL seasonal multipliers",
+    "confidence_interval_pct": 8,
+    "h2_2025_forecast": [
+      {
+        "month": "Jul",
+        "predicted_pax": 795098,
+        "confidence_high": 858706,
+        "confidence_low": 731490,
+        "congestion": 4,
+        "avg_speed_kmph": 24.2
+      },
+      {
+        "month": "Aug",
+        "predicted_pax": 783560,
+        "confidence_high": 846245,
+        "confidence_low": 720875,
+        "congestion": 3,
+        "avg_speed_kmph": 29.9
+      },
+      {
+        "month": "Sep",
+        "predicted_pax": 815961,
+        "confidence_high": 881238,
+        "confidence_low": 750684,
+        "congestion": 4,
+        "avg_speed_kmph": 24.2
+      },
+      {
+        "month": "Oct",
+        "predicted_pax": 856235,
+        "confidence_high": 924734,
+        "confidence_low": 787736,
+        "congestion": 3,
+        "avg_speed_kmph": 29.9
+      },
+      {
+        "month": "Nov",
+        "predicted_pax": 898269,
+        "confidence_high": 970131,
+        "confidence_low": 826407,
+        "congestion": 3,
+        "avg_speed_kmph": 29.9
+      },
+      {
+        "month": "Dec",
+        "predicted_pax": 984026,
+        "confidence_high": 1062748,
+        "confidence_low": 905304,
+        "congestion": 3,
+        "avg_speed_kmph": 29.9
+      }
+    ],
+    "total_h2_predicted": 5133149,
+    "peak_month": "Dec",
+    "trough_month": "Aug",
+    "recommendations": [
+      {
+        "corridor": "City Routes (C01\u2013C04)",
+        "classification": "High Growth / High Congestion",
+        "root_cause": "Passenger growth (+20%) outpacing fixed capacity on city corridors",
+        "evidence": "Weekday avg 2,800\u20133,600 pax/day vs weekend 2,100\u20132,500 pax/day",
+        "intervention": "Deploy additional peak-hour services (07:00\u201309:30, 17:00\u201319:30)",
+        "priority": "HIGH",
+        "color": "#f43f5e"
+      },
+      {
+        "corridor": "Express Routes (X11, X28, X66)",
+        "classification": "Moderate Growth / Medium Congestion",
+        "root_cause": "Speed-advantage eroding due to network congestion (avg 24\u201330 km/h)",
+        "evidence": "X28 travel time 57.2 min for 12.5 km \u2014 severe congestion penalty",
+        "intervention": "Implement bus-lane priority on X28; dynamic scheduling with M2 predictions",
+        "priority": "MEDIUM",
+        "color": "#f59e0b"
+      },
+      {
+        "corridor": "Feeder Routes (F12, F18, F25)",
+        "classification": "Stable / Low Congestion",
+        "root_cause": "Seasonal demand surge (Dec: +23% vs Jul) underserved by fixed schedules",
+        "evidence": "F12 Dec peak 78,604 pax vs Jul baseline 63,791 pax",
+        "intervention": "Seasonal timetable overlay Nov 15\u2013Jan 15 on F12 and F18",
+        "priority": "MEDIUM",
+        "color": "#f59e0b"
+      },
+      {
+        "corridor": "Intercity Routes (E16, E22)",
+        "classification": "Stable / Medium Congestion",
+        "root_cause": "Under-utilised weekend capacity \u2014 27% weekly drop in intercity ridership",
+        "evidence": "E16 weekday avg 1,628 pax vs weekend avg 1,190 pax",
+        "intervention": "Weekend schedule review; off-peak fare incentive to balance weekday load",
+        "priority": "LOW",
+        "color": "#34d399"
+      }
+    ]
+  }
+}

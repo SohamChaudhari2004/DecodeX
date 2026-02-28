@@ -80,8 +80,6 @@ ENV/
 *.json
 !package.json
 !tsconfig.json
-!web/public/data/dashboard_stats.json
-!web/public/data/train_forecast.json
-!web/public/data/system_diagnostics.json
-!web/public/data/dubai_routes.geojson
+!web/public/data/*.json
+!web/public/data/*.geojson
 !web/lib/

@@ -1,0 +1,3001 @@
+{
+  "scenarios": [
+    {
+      "origin_zone": "Res_AlQusais",
+      "destination_zone": "CBD_Downtown",
+      "date": "2025-11-15",
+      "priority": "speed",
+      "congestion_level": 3,
+      "congestion_label": "Moderate",
+      "congestion_confidence": 0.554,
+      "routes": [
+        {
+          "route_code": "C03",
+          "route_type": "City",
+          "length_km": 14.6,
+          "est_travel_min": 29.0,
+          "predicted_score": 0.8332,
+          "forecasted_daily_pax": 2885,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "Res_InternationalCity",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 1
+        },
+        {
+          "route_code": "X28",
+          "route_type": "Express",
+          "length_km": 12.5,
+          "est_travel_min": 25.0,
+          "predicted_score": 0.809,
+          "forecasted_daily_pax": 2117,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 2
+        },
+        {
+          "route_code": "E22",
+          "route_type": "Intercity",
+          "length_km": 13.0,
+          "est_travel_min": 26.0,
+          "predicted_score": 0.7611,
+          "forecasted_daily_pax": 1684,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Res_InternationalCity"
+          ],
+          "rank": 3
+        },
+        {
+          "route_code": "F25",
+          "route_type": "Feeder",
+          "length_km": 13.9,
+          "est_travel_min": 28.0,
+          "predicted_score": 0.7505,
+          "forecasted_daily_pax": 1974,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "CBD_BusinessBay",
+            "Core_Deira",
+            "CBD_Downtown",
+            "Res_AlQusais"
+          ],
+          "rank": 4
+        },
+        {
+          "route_code": "C02",
+          "route_type": "City",
+          "length_km": 18.1,
+          "est_travel_min": 36.0,
+          "predicted_score": 0.7328,
+          "forecasted_daily_pax": 2222,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Ind_JebelAli",
+            "Core_Deira",
+            "CBD_Downtown",
+            "Res_AlQusais"
+          ],
+          "rank": 5
+        },
+        {
+          "route_code": "C01",
+          "route_type": "City",
+          "length_km": 20.7,
+          "est_travel_min": 42.0,
+          "predicted_score": 0.7188,
+          "forecasted_daily_pax": 2873,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 6
+        },
+        {
+          "route_code": "F18",
+          "route_type": "Feeder",
+          "length_km": 18.1,
+          "est_travel_min": 36.0,
+          "predicted_score": 0.6979,
+          "forecasted_daily_pax": 2236,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 7
+        },
+        {
+          "route_code": "X11",
+          "route_type": "Express",
+          "length_km": 23.2,
+          "est_travel_min": 47.0,
+          "predicted_score": 0.6739,
+          "forecasted_daily_pax": 2094,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 8
+        },
+        {
+          "route_code": "F12",
+          "route_type": "Feeder",
+          "length_km": 27.0,
+          "est_travel_min": 54.0,
+          "predicted_score": 0.5978,
+          "forecasted_daily_pax": 1922,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 9
+        },
+        {
+          "route_code": "C04",
+          "route_type": "City",
+          "length_km": 34.4,
+          "est_travel_min": 69.0,
+          "predicted_score": 0.5462,
+          "forecasted_daily_pax": 2398,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "origin_zone": "Res_AlQusais",
+      "destination_zone": "CBD_Downtown",
+      "date": "2025-11-15",
+      "priority": "comfort",
+      "congestion_level": 3,
+      "congestion_label": "Moderate",
+      "congestion_confidence": 0.554,
+      "routes": [
+        {
+          "route_code": "C03",
+          "route_type": "City",
+          "length_km": 14.6,
+          "est_travel_min": 29.0,
+          "predicted_score": 0.7263,
+          "forecasted_daily_pax": 2885,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "Res_InternationalCity",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 1
+        },
+        {
+          "route_code": "X28",
+          "route_type": "Express",
+          "length_km": 12.5,
+          "est_travel_min": 25.0,
+          "predicted_score": 0.6916,
+          "forecasted_daily_pax": 2117,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 2
+        },
+        {
+          "route_code": "E22",
+          "route_type": "Intercity",
+          "length_km": 13.0,
+          "est_travel_min": 26.0,
+          "predicted_score": 0.6464,
+          "forecasted_daily_pax": 1684,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Res_InternationalCity"
+          ],
+          "rank": 3
+        },
+        {
+          "route_code": "C02",
+          "route_type": "City",
+          "length_km": 18.1,
+          "est_travel_min": 36.0,
+          "predicted_score": 0.6436,
+          "forecasted_daily_pax": 2222,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Ind_JebelAli",
+            "Core_Deira",
+            "CBD_Downtown",
+            "Res_AlQusais"
+          ],
+          "rank": 4
+        },
+        {
+          "route_code": "C01",
+          "route_type": "City",
+          "length_km": 20.7,
+          "est_travel_min": 42.0,
+          "predicted_score": 0.6429,
+          "forecasted_daily_pax": 2873,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 5
+        },
+        {
+          "route_code": "F25",
+          "route_type": "Feeder",
+          "length_km": 13.9,
+          "est_travel_min": 28.0,
+          "predicted_score": 0.6402,
+          "forecasted_daily_pax": 1974,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "CBD_BusinessBay",
+            "Core_Deira",
+            "CBD_Downtown",
+            "Res_AlQusais"
+          ],
+          "rank": 6
+        },
+        {
+          "route_code": "X11",
+          "route_type": "Express",
+          "length_km": 23.2,
+          "est_travel_min": 47.0,
+          "predicted_score": 0.6102,
+          "forecasted_daily_pax": 2094,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 7
+        },
+        {
+          "route_code": "F18",
+          "route_type": "Feeder",
+          "length_km": 18.1,
+          "est_travel_min": 36.0,
+          "predicted_score": 0.6087,
+          "forecasted_daily_pax": 2236,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 8
+        },
+        {
+          "route_code": "F12",
+          "route_type": "Feeder",
+          "length_km": 27.0,
+          "est_travel_min": 54.0,
+          "predicted_score": 0.5534,
+          "forecasted_daily_pax": 1922,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 9
+        },
+        {
+          "route_code": "C04",
+          "route_type": "City",
+          "length_km": 34.4,
+          "est_travel_min": 69.0,
+          "predicted_score": 0.5387,
+          "forecasted_daily_pax": 2398,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "origin_zone": "Res_AlQusais",
+      "destination_zone": "CBD_Downtown",
+      "date": "2025-11-15",
+      "priority": "balanced",
+      "congestion_level": 3,
+      "congestion_label": "Moderate",
+      "congestion_confidence": 0.554,
+      "routes": [
+        {
+          "route_code": "C03",
+          "route_type": "City",
+          "length_km": 14.6,
+          "est_travel_min": 29.0,
+          "predicted_score": 0.6063,
+          "forecasted_daily_pax": 2885,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "Res_InternationalCity",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 1
+        },
+        {
+          "route_code": "X28",
+          "route_type": "Express",
+          "length_km": 12.5,
+          "est_travel_min": 25.0,
+          "predicted_score": 0.5716,
+          "forecasted_daily_pax": 2117,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 2
+        },
+        {
+          "route_code": "E22",
+          "route_type": "Intercity",
+          "length_km": 13.0,
+          "est_travel_min": 26.0,
+          "predicted_score": 0.5264,
+          "forecasted_daily_pax": 1684,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Res_InternationalCity"
+          ],
+          "rank": 3
+        },
+        {
+          "route_code": "C02",
+          "route_type": "City",
+          "length_km": 18.1,
+          "est_travel_min": 36.0,
+          "predicted_score": 0.5236,
+          "forecasted_daily_pax": 2222,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Ind_JebelAli",
+            "Core_Deira",
+            "CBD_Downtown",
+            "Res_AlQusais"
+          ],
+          "rank": 4
+        },
+        {
+          "route_code": "C01",
+          "route_type": "City",
+          "length_km": 20.7,
+          "est_travel_min": 42.0,
+          "predicted_score": 0.5229,
+          "forecasted_daily_pax": 2873,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 5
+        },
+        {
+          "route_code": "F25",
+          "route_type": "Feeder",
+          "length_km": 13.9,
+          "est_travel_min": 28.0,
+          "predicted_score": 0.5202,
+          "forecasted_daily_pax": 1974,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "CBD_BusinessBay",
+            "Core_Deira",
+            "CBD_Downtown",
+            "Res_AlQusais"
+          ],
+          "rank": 6
+        },
+        {
+          "route_code": "X11",
+          "route_type": "Express",
+          "length_km": 23.2,
+          "est_travel_min": 47.0,
+          "predicted_score": 0.4902,
+          "forecasted_daily_pax": 2094,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 7
+        },
+        {
+          "route_code": "F18",
+          "route_type": "Feeder",
+          "length_km": 18.1,
+          "est_travel_min": 36.0,
+          "predicted_score": 0.4887,
+          "forecasted_daily_pax": 2236,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 8
+        },
+        {
+          "route_code": "F12",
+          "route_type": "Feeder",
+          "length_km": 27.0,
+          "est_travel_min": 54.0,
+          "predicted_score": 0.4334,
+          "forecasted_daily_pax": 1922,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 9
+        },
+        {
+          "route_code": "C04",
+          "route_type": "City",
+          "length_km": 34.4,
+          "est_travel_min": 69.0,
+          "predicted_score": 0.4187,
+          "forecasted_daily_pax": 2398,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "origin_zone": "Coastal_Marina",
+      "destination_zone": "Ind_JebelAli",
+      "date": "2025-12-20",
+      "priority": "comfort",
+      "congestion_level": 4,
+      "congestion_label": "Heavy",
+      "congestion_confidence": 0.419,
+      "routes": [
+        {
+          "route_code": "C03",
+          "route_type": "City",
+          "length_km": 14.6,
+          "est_travel_min": 36.0,
+          "predicted_score": 0.5238,
+          "forecasted_daily_pax": 3015,
+          "congestion_level": 4,
+          "congestion_speed_kmph": 24.2,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "Res_InternationalCity",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 1
+        },
+        {
+          "route_code": "C01",
+          "route_type": "City",
+          "length_km": 20.7,
+          "est_travel_min": 51.0,
+          "predicted_score": 0.4635,
+          "forecasted_daily_pax": 3003,
+          "congestion_level": 4,
+          "congestion_speed_kmph": 24.2,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 2
+        },
+        {
+          "route_code": "F18",
+          "route_type": "Feeder",
+          "length_km": 18.1,
+          "est_travel_min": 45.0,
+          "predicted_score": 0.4224,
+          "forecasted_daily_pax": 2307,
+          "congestion_level": 4,
+          "congestion_speed_kmph": 24.2,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 3
+        },
+        {
+          "route_code": "X66",
+          "route_type": "Express",
+          "length_km": 19.0,
+          "est_travel_min": 47.0,
+          "predicted_score": 0.4016,
+          "forecasted_daily_pax": 2080,
+          "congestion_level": 4,
+          "congestion_speed_kmph": 24.2,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 4
+        },
+        {
+          "route_code": "F12",
+          "route_type": "Feeder",
+          "length_km": 27.0,
+          "est_travel_min": 67.0,
+          "predicted_score": 0.377,
+          "forecasted_daily_pax": 2073,
+          "congestion_level": 4,
+          "congestion_speed_kmph": 24.2,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "origin_zone": "Coastal_Marina",
+      "destination_zone": "Ind_JebelAli",
+      "date": "2025-12-20",
+      "priority": "speed",
+      "congestion_level": 4,
+      "congestion_label": "Heavy",
+      "congestion_confidence": 0.419,
+      "routes": [
+        {
+          "route_code": "C03",
+          "route_type": "City",
+          "length_km": 14.6,
+          "est_travel_min": 36.0,
+          "predicted_score": 0.6735,
+          "forecasted_daily_pax": 3015,
+          "congestion_level": 4,
+          "congestion_speed_kmph": 24.2,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "Res_InternationalCity",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 1
+        },
+        {
+          "route_code": "C01",
+          "route_type": "City",
+          "length_km": 20.7,
+          "est_travel_min": 51.0,
+          "predicted_score": 0.575,
+          "forecasted_daily_pax": 3003,
+          "congestion_level": 4,
+          "congestion_speed_kmph": 24.2,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 2
+        },
+        {
+          "route_code": "F18",
+          "route_type": "Feeder",
+          "length_km": 18.1,
+          "est_travel_min": 45.0,
+          "predicted_score": 0.5502,
+          "forecasted_daily_pax": 2307,
+          "congestion_level": 4,
+          "congestion_speed_kmph": 24.2,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 3
+        },
+        {
+          "route_code": "X66",
+          "route_type": "Express",
+          "length_km": 19.0,
+          "est_travel_min": 47.0,
+          "predicted_score": 0.5237,
+          "forecasted_daily_pax": 2080,
+          "congestion_level": 4,
+          "congestion_speed_kmph": 24.2,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 4
+        },
+        {
+          "route_code": "F12",
+          "route_type": "Feeder",
+          "length_km": 27.0,
+          "est_travel_min": 67.0,
+          "predicted_score": 0.4495,
+          "forecasted_daily_pax": 2073,
+          "congestion_level": 4,
+          "congestion_speed_kmph": 24.2,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "origin_zone": "Res_InternationalCity",
+      "destination_zone": "CBD_BusinessBay",
+      "date": "2025-07-04",
+      "priority": "balanced",
+      "congestion_level": 3,
+      "congestion_label": "Moderate",
+      "congestion_confidence": 0.684,
+      "routes": [
+        {
+          "route_code": "C03",
+          "route_type": "City",
+          "length_km": 14.6,
+          "est_travel_min": 29.0,
+          "predicted_score": 0.5774,
+          "forecasted_daily_pax": 2834,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "Res_InternationalCity",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 1
+        },
+        {
+          "route_code": "X28",
+          "route_type": "Express",
+          "length_km": 12.5,
+          "est_travel_min": 25.0,
+          "predicted_score": 0.556,
+          "forecasted_daily_pax": 2225,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 2
+        },
+        {
+          "route_code": "C01",
+          "route_type": "City",
+          "length_km": 20.7,
+          "est_travel_min": 42.0,
+          "predicted_score": 0.5016,
+          "forecasted_daily_pax": 2795,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 3
+        },
+        {
+          "route_code": "X11",
+          "route_type": "Express",
+          "length_km": 23.2,
+          "est_travel_min": 47.0,
+          "predicted_score": 0.4811,
+          "forecasted_daily_pax": 2224,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 4
+        },
+        {
+          "route_code": "X66",
+          "route_type": "Express",
+          "length_km": 19.0,
+          "est_travel_min": 38.0,
+          "predicted_score": 0.4533,
+          "forecasted_daily_pax": 2080,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 5
+        },
+        {
+          "route_code": "E16",
+          "route_type": "Intercity",
+          "length_km": 22.1,
+          "est_travel_min": 44.0,
+          "predicted_score": 0.4275,
+          "forecasted_daily_pax": 1618,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Res_InternationalCity"
+          ],
+          "rank": 6
+        },
+        {
+          "route_code": "C04",
+          "route_type": "City",
+          "length_km": 34.4,
+          "est_travel_min": 69.0,
+          "predicted_score": 0.4044,
+          "forecasted_daily_pax": 2240,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "origin_zone": "Core_Deira",
+      "destination_zone": "Coastal_Marina",
+      "date": "2025-10-01",
+      "priority": "capacity",
+      "congestion_level": 3,
+      "congestion_label": "Moderate",
+      "congestion_confidence": 0.567,
+      "routes": [
+        {
+          "route_code": "C03",
+          "route_type": "City",
+          "length_km": 14.6,
+          "est_travel_min": 29.0,
+          "predicted_score": 0.7864,
+          "forecasted_daily_pax": 3009,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "Res_InternationalCity",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 1
+        },
+        {
+          "route_code": "X28",
+          "route_type": "Express",
+          "length_km": 12.5,
+          "est_travel_min": 25.0,
+          "predicted_score": 0.7225,
+          "forecasted_daily_pax": 2398,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 2
+        },
+        {
+          "route_code": "C01",
+          "route_type": "City",
+          "length_km": 20.7,
+          "est_travel_min": 42.0,
+          "predicted_score": 0.7092,
+          "forecasted_daily_pax": 3103,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 3
+        },
+        {
+          "route_code": "X11",
+          "route_type": "Express",
+          "length_km": 23.2,
+          "est_travel_min": 47.0,
+          "predicted_score": 0.6432,
+          "forecasted_daily_pax": 2362,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "origin_zone": "Core_Deira",
+      "destination_zone": "Coastal_Marina",
+      "date": "2025-10-01",
+      "priority": "speed",
+      "congestion_level": 3,
+      "congestion_label": "Moderate",
+      "congestion_confidence": 0.567,
+      "routes": [
+        {
+          "route_code": "C03",
+          "route_type": "City",
+          "length_km": 14.6,
+          "est_travel_min": 29.0,
+          "predicted_score": 0.8252,
+          "forecasted_daily_pax": 3009,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "Res_InternationalCity",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 1
+        },
+        {
+          "route_code": "X28",
+          "route_type": "Express",
+          "length_km": 12.5,
+          "est_travel_min": 25.0,
+          "predicted_score": 0.8121,
+          "forecasted_daily_pax": 2398,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 2
+        },
+        {
+          "route_code": "C01",
+          "route_type": "City",
+          "length_km": 20.7,
+          "est_travel_min": 42.0,
+          "predicted_score": 0.7172,
+          "forecasted_daily_pax": 3103,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 3
+        },
+        {
+          "route_code": "X11",
+          "route_type": "Express",
+          "length_km": 23.2,
+          "est_travel_min": 47.0,
+          "predicted_score": 0.6795,
+          "forecasted_daily_pax": 2362,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "origin_zone": "CBD_Downtown",
+      "destination_zone": "Ind_JebelAli",
+      "date": "2025-08-12",
+      "priority": "speed",
+      "congestion_level": 2,
+      "congestion_label": "Light",
+      "congestion_confidence": 0.632,
+      "routes": [
+        {
+          "route_code": "C03",
+          "route_type": "City",
+          "length_km": 14.6,
+          "est_travel_min": 25.0,
+          "predicted_score": 0.9007,
+          "forecasted_daily_pax": 2813,
+          "congestion_level": 2,
+          "congestion_speed_kmph": 35.0,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "Res_InternationalCity",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 1
+        },
+        {
+          "route_code": "E22",
+          "route_type": "Intercity",
+          "length_km": 13.0,
+          "est_travel_min": 22.0,
+          "predicted_score": 0.8515,
+          "forecasted_daily_pax": 1928,
+          "congestion_level": 2,
+          "congestion_speed_kmph": 35.0,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Res_InternationalCity"
+          ],
+          "rank": 2
+        },
+        {
+          "route_code": "C02",
+          "route_type": "City",
+          "length_km": 18.1,
+          "est_travel_min": 31.0,
+          "predicted_score": 0.8248,
+          "forecasted_daily_pax": 2445,
+          "congestion_level": 2,
+          "congestion_speed_kmph": 35.0,
+          "zones_served": [
+            "Ind_JebelAli",
+            "Core_Deira",
+            "CBD_Downtown",
+            "Res_AlQusais"
+          ],
+          "rank": 3
+        },
+        {
+          "route_code": "C01",
+          "route_type": "City",
+          "length_km": 20.7,
+          "est_travel_min": 36.0,
+          "predicted_score": 0.7984,
+          "forecasted_daily_pax": 2772,
+          "congestion_level": 2,
+          "congestion_speed_kmph": 35.0,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 4
+        },
+        {
+          "route_code": "F18",
+          "route_type": "Feeder",
+          "length_km": 18.1,
+          "est_travel_min": 31.0,
+          "predicted_score": 0.7878,
+          "forecasted_daily_pax": 2346,
+          "congestion_level": 2,
+          "congestion_speed_kmph": 35.0,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 5
+        },
+        {
+          "route_code": "E16",
+          "route_type": "Intercity",
+          "length_km": 22.1,
+          "est_travel_min": 38.0,
+          "predicted_score": 0.7207,
+          "forecasted_daily_pax": 1602,
+          "congestion_level": 2,
+          "congestion_speed_kmph": 35.0,
+          "zones_served": [
+            "Core_Deira",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Res_InternationalCity"
+          ],
+          "rank": 6
+        },
+        {
+          "route_code": "F12",
+          "route_type": "Feeder",
+          "length_km": 27.0,
+          "est_travel_min": 46.0,
+          "predicted_score": 0.6945,
+          "forecasted_daily_pax": 2086,
+          "congestion_level": 2,
+          "congestion_speed_kmph": 35.0,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "origin_zone": "CBD_Downtown",
+      "destination_zone": "Ind_JebelAli",
+      "date": "2025-08-12",
+      "priority": "balanced",
+      "congestion_level": 2,
+      "congestion_label": "Light",
+      "congestion_confidence": 0.632,
+      "routes": [
+        {
+          "route_code": "C03",
+          "route_type": "City",
+          "length_km": 14.6,
+          "est_travel_min": 25.0,
+          "predicted_score": 0.6632,
+          "forecasted_daily_pax": 2813,
+          "congestion_level": 2,
+          "congestion_speed_kmph": 35.0,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "Res_InternationalCity",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 1
+        },
+        {
+          "route_code": "E22",
+          "route_type": "Intercity",
+          "length_km": 13.0,
+          "est_travel_min": 22.0,
+          "predicted_score": 0.6073,
+          "forecasted_daily_pax": 1928,
+          "congestion_level": 2,
+          "congestion_speed_kmph": 35.0,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Res_InternationalCity"
+          ],
+          "rank": 2
+        },
+        {
+          "route_code": "C02",
+          "route_type": "City",
+          "length_km": 18.1,
+          "est_travel_min": 31.0,
+          "predicted_score": 0.6024,
+          "forecasted_daily_pax": 2445,
+          "congestion_level": 2,
+          "congestion_speed_kmph": 35.0,
+          "zones_served": [
+            "Ind_JebelAli",
+            "Core_Deira",
+            "CBD_Downtown",
+            "Res_AlQusais"
+          ],
+          "rank": 3
+        },
+        {
+          "route_code": "C01",
+          "route_type": "City",
+          "length_km": 20.7,
+          "est_travel_min": 36.0,
+          "predicted_score": 0.5873,
+          "forecasted_daily_pax": 2772,
+          "congestion_level": 2,
+          "congestion_speed_kmph": 35.0,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 4
+        },
+        {
+          "route_code": "F18",
+          "route_type": "Feeder",
+          "length_km": 18.1,
+          "est_travel_min": 31.0,
+          "predicted_score": 0.5653,
+          "forecasted_daily_pax": 2346,
+          "congestion_level": 2,
+          "congestion_speed_kmph": 35.0,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 5
+        },
+        {
+          "route_code": "E16",
+          "route_type": "Intercity",
+          "length_km": 22.1,
+          "est_travel_min": 38.0,
+          "predicted_score": 0.5153,
+          "forecasted_daily_pax": 1602,
+          "congestion_level": 2,
+          "congestion_speed_kmph": 35.0,
+          "zones_served": [
+            "Core_Deira",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Res_InternationalCity"
+          ],
+          "rank": 6
+        },
+        {
+          "route_code": "F12",
+          "route_type": "Feeder",
+          "length_km": 27.0,
+          "est_travel_min": 46.0,
+          "predicted_score": 0.5103,
+          "forecasted_daily_pax": 2086,
+          "congestion_level": 2,
+          "congestion_speed_kmph": 35.0,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "origin_zone": "Res_AlQusais",
+      "destination_zone": "Res_InternationalCity",
+      "date": "2025-09-05",
+      "priority": "balanced",
+      "congestion_level": 3,
+      "congestion_label": "Moderate",
+      "congestion_confidence": 0.737,
+      "routes": [
+        {
+          "route_code": "C03",
+          "route_type": "City",
+          "length_km": 14.6,
+          "est_travel_min": 29.0,
+          "predicted_score": 0.6004,
+          "forecasted_daily_pax": 2960,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "Res_InternationalCity",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 1
+        },
+        {
+          "route_code": "X28",
+          "route_type": "Express",
+          "length_km": 12.5,
+          "est_travel_min": 25.0,
+          "predicted_score": 0.5764,
+          "forecasted_daily_pax": 2420,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 2
+        },
+        {
+          "route_code": "E22",
+          "route_type": "Intercity",
+          "length_km": 13.0,
+          "est_travel_min": 26.0,
+          "predicted_score": 0.5514,
+          "forecasted_daily_pax": 1996,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Res_InternationalCity"
+          ],
+          "rank": 3
+        },
+        {
+          "route_code": "C01",
+          "route_type": "City",
+          "length_km": 20.7,
+          "est_travel_min": 42.0,
+          "predicted_score": 0.521,
+          "forecasted_daily_pax": 2997,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 4
+        },
+        {
+          "route_code": "F18",
+          "route_type": "Feeder",
+          "length_km": 18.1,
+          "est_travel_min": 36.0,
+          "predicted_score": 0.5011,
+          "forecasted_daily_pax": 2579,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 5
+        },
+        {
+          "route_code": "X11",
+          "route_type": "Express",
+          "length_km": 23.2,
+          "est_travel_min": 47.0,
+          "predicted_score": 0.4986,
+          "forecasted_daily_pax": 2408,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 6
+        },
+        {
+          "route_code": "X66",
+          "route_type": "Express",
+          "length_km": 19.0,
+          "est_travel_min": 38.0,
+          "predicted_score": 0.4682,
+          "forecasted_daily_pax": 2186,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 7
+        },
+        {
+          "route_code": "F12",
+          "route_type": "Feeder",
+          "length_km": 27.0,
+          "est_travel_min": 54.0,
+          "predicted_score": 0.4407,
+          "forecasted_daily_pax": 2227,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 8
+        },
+        {
+          "route_code": "C04",
+          "route_type": "City",
+          "length_km": 34.4,
+          "est_travel_min": 69.0,
+          "predicted_score": 0.416,
+          "forecasted_daily_pax": 2427,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "origin_zone": "CBD_BusinessBay",
+      "destination_zone": "Core_Deira",
+      "date": "2025-11-28",
+      "priority": "speed",
+      "congestion_level": 3,
+      "congestion_label": "Moderate",
+      "congestion_confidence": 0.884,
+      "routes": [
+        {
+          "route_code": "C03",
+          "route_type": "City",
+          "length_km": 14.6,
+          "est_travel_min": 29.0,
+          "predicted_score": 0.8778,
+          "forecasted_daily_pax": 3344,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "Res_InternationalCity",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 1
+        },
+        {
+          "route_code": "X28",
+          "route_type": "Express",
+          "length_km": 12.5,
+          "est_travel_min": 25.0,
+          "predicted_score": 0.8595,
+          "forecasted_daily_pax": 2698,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 2
+        },
+        {
+          "route_code": "F25",
+          "route_type": "Feeder",
+          "length_km": 13.9,
+          "est_travel_min": 28.0,
+          "predicted_score": 0.8106,
+          "forecasted_daily_pax": 2621,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "CBD_BusinessBay",
+            "Core_Deira",
+            "CBD_Downtown",
+            "Res_AlQusais"
+          ],
+          "rank": 3
+        },
+        {
+          "route_code": "C01",
+          "route_type": "City",
+          "length_km": 20.7,
+          "est_travel_min": 42.0,
+          "predicted_score": 0.7487,
+          "forecasted_daily_pax": 3313,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 4
+        },
+        {
+          "route_code": "X11",
+          "route_type": "Express",
+          "length_km": 23.2,
+          "est_travel_min": 47.0,
+          "predicted_score": 0.7005,
+          "forecasted_daily_pax": 2572,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 5
+        },
+        {
+          "route_code": "E16",
+          "route_type": "Intercity",
+          "length_km": 22.1,
+          "est_travel_min": 44.0,
+          "predicted_score": 0.6446,
+          "forecasted_daily_pax": 2001,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Res_InternationalCity"
+          ],
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "origin_zone": "Ind_JebelAli",
+      "destination_zone": "CBD_Downtown",
+      "date": "2025-12-01",
+      "priority": "comfort",
+      "congestion_level": 3,
+      "congestion_label": "Moderate",
+      "congestion_confidence": 0.567,
+      "routes": [
+        {
+          "route_code": "C03",
+          "route_type": "City",
+          "length_km": 14.6,
+          "est_travel_min": 29.0,
+          "predicted_score": 0.7728,
+          "forecasted_daily_pax": 3386,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "Res_InternationalCity",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 1
+        },
+        {
+          "route_code": "E22",
+          "route_type": "Intercity",
+          "length_km": 13.0,
+          "est_travel_min": 26.0,
+          "predicted_score": 0.7004,
+          "forecasted_daily_pax": 2264,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Res_InternationalCity"
+          ],
+          "rank": 2
+        },
+        {
+          "route_code": "C02",
+          "route_type": "City",
+          "length_km": 18.1,
+          "est_travel_min": 36.0,
+          "predicted_score": 0.6906,
+          "forecasted_daily_pax": 2870,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Ind_JebelAli",
+            "Core_Deira",
+            "CBD_Downtown",
+            "Res_AlQusais"
+          ],
+          "rank": 3
+        },
+        {
+          "route_code": "C01",
+          "route_type": "City",
+          "length_km": 20.7,
+          "est_travel_min": 42.0,
+          "predicted_score": 0.6753,
+          "forecasted_daily_pax": 3476,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 4
+        },
+        {
+          "route_code": "F18",
+          "route_type": "Feeder",
+          "length_km": 18.1,
+          "est_travel_min": 36.0,
+          "predicted_score": 0.6468,
+          "forecasted_daily_pax": 2692,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 5
+        },
+        {
+          "route_code": "F12",
+          "route_type": "Feeder",
+          "length_km": 27.0,
+          "est_travel_min": 54.0,
+          "predicted_score": 0.5786,
+          "forecasted_daily_pax": 2524,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 6
+        },
+        {
+          "route_code": "E16",
+          "route_type": "Intercity",
+          "length_km": 22.1,
+          "est_travel_min": 44.0,
+          "predicted_score": 0.5762,
+          "forecasted_daily_pax": 2012,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Res_InternationalCity"
+          ],
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "origin_zone": "Coastal_Marina",
+      "destination_zone": "CBD_Downtown",
+      "date": "2025-07-20",
+      "priority": "balanced",
+      "congestion_level": 3,
+      "congestion_label": "Moderate",
+      "congestion_confidence": 0.757,
+      "routes": [
+        {
+          "route_code": "C03",
+          "route_type": "City",
+          "length_km": 14.6,
+          "est_travel_min": 29.0,
+          "predicted_score": 0.5433,
+          "forecasted_daily_pax": 2406,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "Res_InternationalCity",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 1
+        },
+        {
+          "route_code": "X28",
+          "route_type": "Express",
+          "length_km": 12.5,
+          "est_travel_min": 25.0,
+          "predicted_score": 0.5173,
+          "forecasted_daily_pax": 1759,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 2
+        },
+        {
+          "route_code": "C01",
+          "route_type": "City",
+          "length_km": 20.7,
+          "est_travel_min": 42.0,
+          "predicted_score": 0.4816,
+          "forecasted_daily_pax": 2395,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 3
+        },
+        {
+          "route_code": "X11",
+          "route_type": "Express",
+          "length_km": 23.2,
+          "est_travel_min": 47.0,
+          "predicted_score": 0.4609,
+          "forecasted_daily_pax": 1777,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 4
+        },
+        {
+          "route_code": "F18",
+          "route_type": "Feeder",
+          "length_km": 18.1,
+          "est_travel_min": 36.0,
+          "predicted_score": 0.4544,
+          "forecasted_daily_pax": 1945,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 5
+        },
+        {
+          "route_code": "F12",
+          "route_type": "Feeder",
+          "length_km": 27.0,
+          "est_travel_min": 54.0,
+          "predicted_score": 0.4061,
+          "forecasted_daily_pax": 1588,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina",
+            "Ind_JebelAli"
+          ],
+          "rank": 6
+        },
+        {
+          "route_code": "C04",
+          "route_type": "City",
+          "length_km": 34.4,
+          "est_travel_min": 69.0,
+          "predicted_score": 0.3925,
+          "forecasted_daily_pax": 1950,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "origin_zone": "Res_InternationalCity",
+      "destination_zone": "Core_Deira",
+      "date": "2025-10-15",
+      "priority": "capacity",
+      "congestion_level": 3,
+      "congestion_label": "Moderate",
+      "congestion_confidence": 0.567,
+      "routes": [
+        {
+          "route_code": "C03",
+          "route_type": "City",
+          "length_km": 14.6,
+          "est_travel_min": 29.0,
+          "predicted_score": 0.7864,
+          "forecasted_daily_pax": 3029,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "Res_InternationalCity",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 1
+        },
+        {
+          "route_code": "X28",
+          "route_type": "Express",
+          "length_km": 12.5,
+          "est_travel_min": 25.0,
+          "predicted_score": 0.7225,
+          "forecasted_daily_pax": 2392,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 2
+        },
+        {
+          "route_code": "C01",
+          "route_type": "City",
+          "length_km": 20.7,
+          "est_travel_min": 42.0,
+          "predicted_score": 0.7092,
+          "forecasted_daily_pax": 3063,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "Res_InternationalCity",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Coastal_Marina"
+          ],
+          "rank": 3
+        },
+        {
+          "route_code": "E22",
+          "route_type": "Intercity",
+          "length_km": 13.0,
+          "est_travel_min": 26.0,
+          "predicted_score": 0.6727,
+          "forecasted_daily_pax": 2115,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Res_InternationalCity"
+          ],
+          "rank": 4
+        },
+        {
+          "route_code": "X11",
+          "route_type": "Express",
+          "length_km": 23.2,
+          "est_travel_min": 47.0,
+          "predicted_score": 0.6432,
+          "forecasted_daily_pax": 2376,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "Res_AlQusais",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Res_InternationalCity",
+            "Coastal_Marina"
+          ],
+          "rank": 5
+        },
+        {
+          "route_code": "E16",
+          "route_type": "Intercity",
+          "length_km": 22.1,
+          "est_travel_min": 44.0,
+          "predicted_score": 0.5432,
+          "forecasted_daily_pax": 1716,
+          "congestion_level": 3,
+          "congestion_speed_kmph": 29.9,
+          "zones_served": [
+            "Core_Deira",
+            "CBD_BusinessBay",
+            "CBD_Downtown",
+            "Ind_JebelAli",
+            "Res_InternationalCity"
+          ],
+          "rank": 6
+        }
+      ]
+    }
+  ],
+  "all_routes_ranked": {
+    "balanced": [
+      {
+        "route_code": "C03",
+        "route_type": "City",
+        "length_km": 14.6,
+        "est_travel_min": 29.0,
+        "predicted_score": 0.6502,
+        "forecasted_daily_pax": 3368,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "Res_InternationalCity",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Coastal_Marina"
+        ],
+        "rank": 1
+      },
+      {
+        "route_code": "X28",
+        "route_type": "Express",
+        "length_km": 12.5,
+        "est_travel_min": 25.0,
+        "predicted_score": 0.6198,
+        "forecasted_daily_pax": 2698,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina"
+        ],
+        "rank": 2
+      },
+      {
+        "route_code": "F25",
+        "route_type": "Feeder",
+        "length_km": 13.9,
+        "est_travel_min": 28.0,
+        "predicted_score": 0.5779,
+        "forecasted_daily_pax": 2617,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "CBD_BusinessBay",
+          "Core_Deira",
+          "CBD_Downtown",
+          "Res_AlQusais"
+        ],
+        "rank": 3
+      },
+      {
+        "route_code": "E22",
+        "route_type": "Intercity",
+        "length_km": 13.0,
+        "est_travel_min": 26.0,
+        "predicted_score": 0.5776,
+        "forecasted_daily_pax": 2227,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Res_InternationalCity"
+        ],
+        "rank": 4
+      },
+      {
+        "route_code": "C02",
+        "route_type": "City",
+        "length_km": 18.1,
+        "est_travel_min": 36.0,
+        "predicted_score": 0.5648,
+        "forecasted_daily_pax": 2899,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Ind_JebelAli",
+          "Core_Deira",
+          "CBD_Downtown",
+          "Res_AlQusais"
+        ],
+        "rank": 5
+      },
+      {
+        "route_code": "C01",
+        "route_type": "City",
+        "length_km": 20.7,
+        "est_travel_min": 42.0,
+        "predicted_score": 0.5523,
+        "forecasted_daily_pax": 3305,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "Res_InternationalCity",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Coastal_Marina"
+        ],
+        "rank": 6
+      },
+      {
+        "route_code": "F18",
+        "route_type": "Feeder",
+        "length_km": 18.1,
+        "est_travel_min": 36.0,
+        "predicted_score": 0.5238,
+        "forecasted_daily_pax": 2714,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina",
+          "Ind_JebelAli"
+        ],
+        "rank": 7
+      },
+      {
+        "route_code": "X11",
+        "route_type": "Express",
+        "length_km": 23.2,
+        "est_travel_min": 47.0,
+        "predicted_score": 0.5151,
+        "forecasted_daily_pax": 2583,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina"
+        ],
+        "rank": 8
+      },
+      {
+        "route_code": "X66",
+        "route_type": "Express",
+        "length_km": 19.0,
+        "est_travel_min": 38.0,
+        "predicted_score": 0.4891,
+        "forecasted_daily_pax": 2435,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "Res_InternationalCity",
+          "Coastal_Marina",
+          "Ind_JebelAli"
+        ],
+        "rank": 9
+      },
+      {
+        "route_code": "F12",
+        "route_type": "Feeder",
+        "length_km": 27.0,
+        "est_travel_min": 54.0,
+        "predicted_score": 0.4538,
+        "forecasted_daily_pax": 2447,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina",
+          "Ind_JebelAli"
+        ],
+        "rank": 10
+      },
+      {
+        "route_code": "E16",
+        "route_type": "Intercity",
+        "length_km": 22.1,
+        "est_travel_min": 44.0,
+        "predicted_score": 0.4534,
+        "forecasted_daily_pax": 1935,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Res_InternationalCity"
+        ],
+        "rank": 11
+      },
+      {
+        "route_code": "C04",
+        "route_type": "City",
+        "length_km": 34.4,
+        "est_travel_min": 69.0,
+        "predicted_score": 0.4264,
+        "forecasted_daily_pax": 2622,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina"
+        ],
+        "rank": 12
+      }
+    ],
+    "speed": [
+      {
+        "route_code": "C03",
+        "route_type": "City",
+        "length_km": 14.6,
+        "est_travel_min": 29.0,
+        "predicted_score": 0.8771,
+        "forecasted_daily_pax": 3368,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "Res_InternationalCity",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Coastal_Marina"
+        ],
+        "rank": 1
+      },
+      {
+        "route_code": "X28",
+        "route_type": "Express",
+        "length_km": 12.5,
+        "est_travel_min": 25.0,
+        "predicted_score": 0.8572,
+        "forecasted_daily_pax": 2698,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina"
+        ],
+        "rank": 2
+      },
+      {
+        "route_code": "E22",
+        "route_type": "Intercity",
+        "length_km": 13.0,
+        "est_travel_min": 26.0,
+        "predicted_score": 0.8123,
+        "forecasted_daily_pax": 2227,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Res_InternationalCity"
+        ],
+        "rank": 3
+      },
+      {
+        "route_code": "F25",
+        "route_type": "Feeder",
+        "length_km": 13.9,
+        "est_travel_min": 28.0,
+        "predicted_score": 0.8083,
+        "forecasted_daily_pax": 2617,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "CBD_BusinessBay",
+          "Core_Deira",
+          "CBD_Downtown",
+          "Res_AlQusais"
+        ],
+        "rank": 4
+      },
+      {
+        "route_code": "C02",
+        "route_type": "City",
+        "length_km": 18.1,
+        "est_travel_min": 36.0,
+        "predicted_score": 0.774,
+        "forecasted_daily_pax": 2899,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Ind_JebelAli",
+          "Core_Deira",
+          "CBD_Downtown",
+          "Res_AlQusais"
+        ],
+        "rank": 5
+      },
+      {
+        "route_code": "C01",
+        "route_type": "City",
+        "length_km": 20.7,
+        "est_travel_min": 42.0,
+        "predicted_score": 0.7482,
+        "forecasted_daily_pax": 3305,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "Res_InternationalCity",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Coastal_Marina"
+        ],
+        "rank": 6
+      },
+      {
+        "route_code": "F18",
+        "route_type": "Feeder",
+        "length_km": 18.1,
+        "est_travel_min": 36.0,
+        "predicted_score": 0.733,
+        "forecasted_daily_pax": 2714,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina",
+          "Ind_JebelAli"
+        ],
+        "rank": 7
+      },
+      {
+        "route_code": "X11",
+        "route_type": "Express",
+        "length_km": 23.2,
+        "est_travel_min": 47.0,
+        "predicted_score": 0.6988,
+        "forecasted_daily_pax": 2583,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina"
+        ],
+        "rank": 8
+      },
+      {
+        "route_code": "X66",
+        "route_type": "Express",
+        "length_km": 19.0,
+        "est_travel_min": 38.0,
+        "predicted_score": 0.6937,
+        "forecasted_daily_pax": 2435,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "Res_InternationalCity",
+          "Coastal_Marina",
+          "Ind_JebelAli"
+        ],
+        "rank": 9
+      },
+      {
+        "route_code": "E16",
+        "route_type": "Intercity",
+        "length_km": 22.1,
+        "est_travel_min": 44.0,
+        "predicted_score": 0.6426,
+        "forecasted_daily_pax": 1935,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Res_InternationalCity"
+        ],
+        "rank": 10
+      },
+      {
+        "route_code": "F12",
+        "route_type": "Feeder",
+        "length_km": 27.0,
+        "est_travel_min": 54.0,
+        "predicted_score": 0.6182,
+        "forecasted_daily_pax": 2447,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina",
+          "Ind_JebelAli"
+        ],
+        "rank": 11
+      },
+      {
+        "route_code": "C04",
+        "route_type": "City",
+        "length_km": 34.4,
+        "est_travel_min": 69.0,
+        "predicted_score": 0.5539,
+        "forecasted_daily_pax": 2622,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina"
+        ],
+        "rank": 12
+      }
+    ],
+    "comfort": [
+      {
+        "route_code": "C03",
+        "route_type": "City",
+        "length_km": 14.6,
+        "est_travel_min": 29.0,
+        "predicted_score": 0.7702,
+        "forecasted_daily_pax": 3368,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "Res_InternationalCity",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Coastal_Marina"
+        ],
+        "rank": 1
+      },
+      {
+        "route_code": "X28",
+        "route_type": "Express",
+        "length_km": 12.5,
+        "est_travel_min": 25.0,
+        "predicted_score": 0.7398,
+        "forecasted_daily_pax": 2698,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina"
+        ],
+        "rank": 2
+      },
+      {
+        "route_code": "F25",
+        "route_type": "Feeder",
+        "length_km": 13.9,
+        "est_travel_min": 28.0,
+        "predicted_score": 0.6979,
+        "forecasted_daily_pax": 2617,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "CBD_BusinessBay",
+          "Core_Deira",
+          "CBD_Downtown",
+          "Res_AlQusais"
+        ],
+        "rank": 3
+      },
+      {
+        "route_code": "E22",
+        "route_type": "Intercity",
+        "length_km": 13.0,
+        "est_travel_min": 26.0,
+        "predicted_score": 0.6976,
+        "forecasted_daily_pax": 2227,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Res_InternationalCity"
+        ],
+        "rank": 4
+      },
+      {
+        "route_code": "C02",
+        "route_type": "City",
+        "length_km": 18.1,
+        "est_travel_min": 36.0,
+        "predicted_score": 0.6848,
+        "forecasted_daily_pax": 2899,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Ind_JebelAli",
+          "Core_Deira",
+          "CBD_Downtown",
+          "Res_AlQusais"
+        ],
+        "rank": 5
+      },
+      {
+        "route_code": "C01",
+        "route_type": "City",
+        "length_km": 20.7,
+        "est_travel_min": 42.0,
+        "predicted_score": 0.6723,
+        "forecasted_daily_pax": 3305,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "Res_InternationalCity",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Coastal_Marina"
+        ],
+        "rank": 6
+      },
+      {
+        "route_code": "F18",
+        "route_type": "Feeder",
+        "length_km": 18.1,
+        "est_travel_min": 36.0,
+        "predicted_score": 0.6438,
+        "forecasted_daily_pax": 2714,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina",
+          "Ind_JebelAli"
+        ],
+        "rank": 7
+      },
+      {
+        "route_code": "X11",
+        "route_type": "Express",
+        "length_km": 23.2,
+        "est_travel_min": 47.0,
+        "predicted_score": 0.6351,
+        "forecasted_daily_pax": 2583,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina"
+        ],
+        "rank": 8
+      },
+      {
+        "route_code": "X66",
+        "route_type": "Express",
+        "length_km": 19.0,
+        "est_travel_min": 38.0,
+        "predicted_score": 0.6091,
+        "forecasted_daily_pax": 2435,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "Res_InternationalCity",
+          "Coastal_Marina",
+          "Ind_JebelAli"
+        ],
+        "rank": 9
+      },
+      {
+        "route_code": "F12",
+        "route_type": "Feeder",
+        "length_km": 27.0,
+        "est_travel_min": 54.0,
+        "predicted_score": 0.5738,
+        "forecasted_daily_pax": 2447,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina",
+          "Ind_JebelAli"
+        ],
+        "rank": 10
+      },
+      {
+        "route_code": "E16",
+        "route_type": "Intercity",
+        "length_km": 22.1,
+        "est_travel_min": 44.0,
+        "predicted_score": 0.5734,
+        "forecasted_daily_pax": 1935,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Res_InternationalCity"
+        ],
+        "rank": 11
+      },
+      {
+        "route_code": "C04",
+        "route_type": "City",
+        "length_km": 34.4,
+        "est_travel_min": 69.0,
+        "predicted_score": 0.5464,
+        "forecasted_daily_pax": 2622,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina"
+        ],
+        "rank": 12
+      }
+    ],
+    "capacity": [
+      {
+        "route_code": "C03",
+        "route_type": "City",
+        "length_km": 14.6,
+        "est_travel_min": 29.0,
+        "predicted_score": 0.8382,
+        "forecasted_daily_pax": 3368,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "Res_InternationalCity",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Coastal_Marina"
+        ],
+        "rank": 1
+      },
+      {
+        "route_code": "X28",
+        "route_type": "Express",
+        "length_km": 12.5,
+        "est_travel_min": 25.0,
+        "predicted_score": 0.7676,
+        "forecasted_daily_pax": 2698,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina"
+        ],
+        "rank": 2
+      },
+      {
+        "route_code": "C01",
+        "route_type": "City",
+        "length_km": 20.7,
+        "est_travel_min": 42.0,
+        "predicted_score": 0.7402,
+        "forecasted_daily_pax": 3305,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "Res_InternationalCity",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Coastal_Marina"
+        ],
+        "rank": 3
+      },
+      {
+        "route_code": "C02",
+        "route_type": "City",
+        "length_km": 18.1,
+        "est_travel_min": 36.0,
+        "predicted_score": 0.7239,
+        "forecasted_daily_pax": 2899,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Ind_JebelAli",
+          "Core_Deira",
+          "CBD_Downtown",
+          "Res_AlQusais"
+        ],
+        "rank": 4
+      },
+      {
+        "route_code": "F25",
+        "route_type": "Feeder",
+        "length_km": 13.9,
+        "est_travel_min": 28.0,
+        "predicted_score": 0.7223,
+        "forecasted_daily_pax": 2617,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "CBD_BusinessBay",
+          "Core_Deira",
+          "CBD_Downtown",
+          "Res_AlQusais"
+        ],
+        "rank": 5
+      },
+      {
+        "route_code": "E22",
+        "route_type": "Intercity",
+        "length_km": 13.0,
+        "est_travel_min": 26.0,
+        "predicted_score": 0.7014,
+        "forecasted_daily_pax": 2227,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Res_InternationalCity"
+        ],
+        "rank": 6
+      },
+      {
+        "route_code": "F18",
+        "route_type": "Feeder",
+        "length_km": 18.1,
+        "est_travel_min": 36.0,
+        "predicted_score": 0.6807,
+        "forecasted_daily_pax": 2714,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina",
+          "Ind_JebelAli"
+        ],
+        "rank": 7
+      },
+      {
+        "route_code": "X11",
+        "route_type": "Express",
+        "length_km": 23.2,
+        "est_travel_min": 47.0,
+        "predicted_score": 0.6625,
+        "forecasted_daily_pax": 2583,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina"
+        ],
+        "rank": 8
+      },
+      {
+        "route_code": "X66",
+        "route_type": "Express",
+        "length_km": 19.0,
+        "est_travel_min": 38.0,
+        "predicted_score": 0.6234,
+        "forecasted_daily_pax": 2435,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "Res_InternationalCity",
+          "Coastal_Marina",
+          "Ind_JebelAli"
+        ],
+        "rank": 9
+      },
+      {
+        "route_code": "F12",
+        "route_type": "Feeder",
+        "length_km": 27.0,
+        "est_travel_min": 54.0,
+        "predicted_score": 0.59,
+        "forecasted_daily_pax": 2447,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina",
+          "Ind_JebelAli"
+        ],
+        "rank": 10
+      },
+      {
+        "route_code": "C04",
+        "route_type": "City",
+        "length_km": 34.4,
+        "est_travel_min": 69.0,
+        "predicted_score": 0.578,
+        "forecasted_daily_pax": 2622,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Res_AlQusais",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Res_InternationalCity",
+          "Coastal_Marina"
+        ],
+        "rank": 11
+      },
+      {
+        "route_code": "E16",
+        "route_type": "Intercity",
+        "length_km": 22.1,
+        "est_travel_min": 44.0,
+        "predicted_score": 0.558,
+        "forecasted_daily_pax": 1935,
+        "congestion_level": 3,
+        "congestion_speed_kmph": 29.9,
+        "zones_served": [
+          "Core_Deira",
+          "CBD_BusinessBay",
+          "CBD_Downtown",
+          "Ind_JebelAli",
+          "Res_InternationalCity"
+        ],
+        "rank": 12
+      }
+    ]
+  }
+}

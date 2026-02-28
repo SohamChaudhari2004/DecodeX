@@ -1,0 +1,242 @@
+{
+  "generated_at": "2025-07-01",
+  "training_data": {
+    "date_range": {
+      "start": "2022-01-01",
+      "end": "2025-06-30"
+    },
+    "total_daily_records": 15324,
+    "routes": 12,
+    "stops": 60,
+    "zones": 7
+  },
+  "models": {
+    "M1_ridership_forecast": {
+      "type": "Regression",
+      "task": "Predict daily passengers per route",
+      "selected_algorithm": "RF",
+      "features": [
+        "Route_ID",
+        "RouteType_enc",
+        "Route_Length_km",
+        "Avg_Travel_Time_Min",
+        "Year",
+        "Month",
+        "DayOfWeek",
+        "IsWeekend",
+        "Quarter",
+        "WeekOfYear",
+        "Congestion_Level",
+        "Avg_Speed_kmph"
+      ],
+      "benchmark": {
+        "RF": {
+          "r2": 0.9012,
+          "mae": 137.0,
+          "rmse": 174.0,
+          "mape": 6.51
+        },
+        "MLP": {
+          "r2": 0.9007,
+          "mae": 138.5,
+          "rmse": 174.5,
+          "mape": 6.56
+        },
+        "selected_best": "RF",
+        "selection_criterion": "highest R\u00b2"
+      },
+      "metrics_explanation": {
+        "R2": "Proportion of variance explained (1.0 = perfect)",
+        "MAE": "Mean Absolute Error in passengers",
+        "RMSE": "Root Mean Squared Error (penalises large errors more)",
+        "MAPE": "Mean Absolute Percentage Error (%)"
+      }
+    },
+    "M2_congestion_predictor": {
+      "type": "Classification",
+      "task": "Predict congestion level (1\u20135) for any future date",
+      "selected_algorithm": "GBC",
+      "classes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "features": [
+        "Year",
+        "Month",
+        "DayOfWeek",
+        "IsWeekend",
+        "Quarter",
+        "Cong_Lag1",
+        "Cong_Lag7",
+        "Cong_Lag14",
+        "Speed_Lag1",
+        "Cong_RolMean7",
+        "Speed_RolMean7"
+      ],
+      "benchmark": {
+        "GBC": {
+          "accuracy": 0.2846,
+          "precision_macro": 0.2649,
+          "recall_macro": 0.2473,
+          "f1_macro": 0.2478,
+          "confusion_matrix": [
+            [
+              9,
+              24,
+              11,
+              0,
+              1
+            ],
+            [
+              24,
+              33,
+              24,
+              8,
+              3
+            ],
+            [
+              4,
+              21,
+              22,
+              4,
+              4
+            ],
+            [
+              3,
+              15,
+              12,
+              3,
+              2
+            ],
+            [
+              0,
+              7,
+              10,
+              4,
+              5
+            ]
+          ]
+        },
+        "MLP": {
+          "accuracy": 0.3597,
+          "precision_macro": 0.2788,
+          "recall_macro": 0.2635,
+          "f1_macro": 0.243,
+          "confusion_matrix": [
+            [
+              11,
+              28,
+              6,
+              0,
+              0
+            ],
+            [
+              15,
+              55,
+              21,
+              1,
+              0
+            ],
+            [
+              2,
+              29,
+              23,
+              1,
+              0
+            ],
+            [
+              2,
+              18,
+              13,
+              2,
+              0
+            ],
+            [
+              0,
+              12,
+              12,
+              2,
+              0
+            ]
+          ]
+        },
+        "selected_best": "GBC",
+        "selection_criterion": "highest F1 macro"
+      },
+      "metrics_explanation": {
+        "accuracy": "% of exact congestion level predictions correct",
+        "precision_macro": "Macro-averaged precision across all 5 congestion classes",
+        "recall_macro": "Macro-averaged recall (sensitivity) across all 5 classes",
+        "f1_macro": "Harmonic mean of precision & recall \u2014 primary selection metric",
+        "confusion_matrix": "5x5 matrix of predicted vs actual congestion levels"
+      }
+    },
+    "M3_route_recommender": {
+      "type": "Regression",
+      "task": "Score and rank routes given origin zone, destination zone, date, and priority",
+      "selected_algorithm": "GBR",
+      "scoring_weights": {
+        "pax_efficiency": 0.4,
+        "speed": 0.3,
+        "congestion_penalty": 0.2,
+        "time": 0.1
+      },
+      "priority_modes": [
+        "balanced",
+        "speed",
+        "comfort",
+        "capacity"
+      ],
+      "features": [
+        "Route_ID",
+        "RouteType_enc",
+        "Route_Length_km",
+        "Avg_Travel_Time_Min",
+        "Month",
+        "DayOfWeek",
+        "IsWeekend",
+        "Congestion_Level",
+        "Avg_Speed_kmph"
+      ],
+      "benchmark": {
+        "GBR": {
+          "r2": 0.9767,
+          "mae": 0.0,
+          "rmse": 0.0,
+          "mape": 2.61
+        },
+        "MLP": {
+          "r2": 0.9608,
+          "mae": 0.0,
+          "rmse": 0.0,
+          "mape": 3.48
+        },
+        "selected_best": "GBR",
+        "selection_criterion": "highest R\u00b2"
+      },
+      "metrics_explanation": {
+        "R2": "Proportion of variance in route score explained by model",
+        "MAE": "Mean Absolute Error of predicted efficiency score",
+        "RMSE": "Root Mean Squared Error of predicted efficiency score",
+        "MAPE": "Mean Absolute Percentage Error (%)"
+      }
+    },
+    "M4_zone_trend": {
+      "type": "Regression",
+      "algorithm": "Linear Regression per Zone",
+      "zones_modeled": [
+        "CBD_BusinessBay",
+        "CBD_Downtown",
+        "Coastal_Marina",
+        "Core_Deira",
+        "Ind_JebelAli",
+        "Res_AlQusais",
+        "Res_InternationalCity"
+      ],
+      "description": "Linear demand trend model per zone for multi-month forecasting \u2014 chosen for interpretability over accuracy"
+    }
+  }
+}

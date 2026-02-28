@@ -1,0 +1,2532 @@
+{
+  "stops": [
+    {
+      "stop_id": 1,
+      "stop_name": "Res_InternationalCity_Stop_01",
+      "lat": 25.179934,
+      "lng": 55.412235,
+      "zone": "Res_InternationalCity",
+      "stop_type": "Metro_Link"
+    },
+    {
+      "stop_id": 2,
+      "stop_name": "Core_Deira_Stop_02",
+      "lat": 25.242762,
+      "lng": 55.315378,
+      "zone": "Core_Deira",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 3,
+      "stop_name": "Core_Deira_Stop_03",
+      "lat": 25.296584,
+      "lng": 55.324349,
+      "zone": "Core_Deira",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 4,
+      "stop_name": "Res_InternationalCity_Stop_04",
+      "lat": 25.158382,
+      "lng": 55.404497,
+      "zone": "Res_InternationalCity",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 5,
+      "stop_name": "CBD_BusinessBay_Stop_05",
+      "lat": 25.190839,
+      "lng": 55.235734,
+      "zone": "CBD_BusinessBay",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 6,
+      "stop_name": "CBD_Downtown_Stop_06",
+      "lat": 25.214329,
+      "lng": 55.248522,
+      "zone": "CBD_Downtown",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 7,
+      "stop_name": "CBD_Downtown_Stop_07",
+      "lat": 25.17984,
+      "lng": 55.250754,
+      "zone": "CBD_Downtown",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 8,
+      "stop_name": "CBD_Downtown_Stop_08",
+      "lat": 25.185411,
+      "lng": 55.290954,
+      "zone": "CBD_Downtown",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 9,
+      "stop_name": "Res_InternationalCity_Stop_09",
+      "lat": 25.159112,
+      "lng": 55.417218,
+      "zone": "Res_InternationalCity",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 10,
+      "stop_name": "Core_Deira_Stop_10",
+      "lat": 25.252995,
+      "lng": 55.327949,
+      "zone": "Core_Deira",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 11,
+      "stop_name": "Res_InternationalCity_Stop_11",
+      "lat": 25.157966,
+      "lng": 55.452046,
+      "zone": "Res_InternationalCity",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 12,
+      "stop_name": "Res_InternationalCity_Stop_12",
+      "lat": 25.159327,
+      "lng": 55.414889,
+      "zone": "Res_InternationalCity",
+      "stop_type": "Terminal"
+    },
+    {
+      "stop_id": 13,
+      "stop_name": "Res_AlQusais_Stop_13",
+      "lat": 25.293451,
+      "lng": 55.364583,
+      "zone": "Res_AlQusais",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 14,
+      "stop_name": "Core_Deira_Stop_14",
+      "lat": 25.320566,
+      "lng": 55.332873,
+      "zone": "Core_Deira",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 15,
+      "stop_name": "Res_AlQusais_Stop_15",
+      "lat": 25.291769,
+      "lng": 55.392427,
+      "zone": "Res_AlQusais",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 16,
+      "stop_name": "Coastal_Marina_Stop_16",
+      "lat": 25.056818,
+      "lng": 55.103334,
+      "zone": "Coastal_Marina",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 17,
+      "stop_name": "Core_Deira_Stop_17",
+      "lat": 25.255787,
+      "lng": 55.330142,
+      "zone": "Core_Deira",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 18,
+      "stop_name": "Core_Deira_Stop_18",
+      "lat": 25.242389,
+      "lng": 55.311689,
+      "zone": "Core_Deira",
+      "stop_type": "Interchange"
+    },
+    {
+      "stop_id": 19,
+      "stop_name": "Core_Deira_Stop_19",
+      "lat": 25.251462,
+      "lng": 55.321234,
+      "zone": "Core_Deira",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 20,
+      "stop_name": "CBD_Downtown_Stop_20",
+      "lat": 25.209642,
+      "lng": 55.296755,
+      "zone": "CBD_Downtown",
+      "stop_type": "Metro_Link"
+    },
+    {
+      "stop_id": 21,
+      "stop_name": "CBD_Downtown_Stop_21",
+      "lat": 25.181216,
+      "lng": 55.272816,
+      "zone": "CBD_Downtown",
+      "stop_type": "Interchange"
+    },
+    {
+      "stop_id": 22,
+      "stop_name": "Res_AlQusais_Stop_22",
+      "lat": 25.246837,
+      "lng": 55.410993,
+      "zone": "Res_AlQusais",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 23,
+      "stop_name": "Res_AlQusais_Stop_23",
+      "lat": 25.254873,
+      "lng": 55.365076,
+      "zone": "Res_AlQusais",
+      "stop_type": "Metro_Link"
+    },
+    {
+      "stop_id": 24,
+      "stop_name": "Core_Deira_Stop_24",
+      "lat": 25.281696,
+      "lng": 55.314931,
+      "zone": "Core_Deira",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 25,
+      "stop_name": "Res_AlQusais_Stop_25",
+      "lat": 25.284233,
+      "lng": 55.376098,
+      "zone": "Res_AlQusais",
+      "stop_type": "Metro_Link"
+    },
+    {
+      "stop_id": 26,
+      "stop_name": "CBD_Downtown_Stop_26",
+      "lat": 25.227909,
+      "lng": 55.285764,
+      "zone": "CBD_Downtown",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 27,
+      "stop_name": "Res_InternationalCity_Stop_27",
+      "lat": 25.117605,
+      "lng": 55.431438,
+      "zone": "Res_InternationalCity",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 28,
+      "stop_name": "Res_InternationalCity_Stop_28",
+      "lat": 25.141625,
+      "lng": 55.43585,
+      "zone": "Res_InternationalCity",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 29,
+      "stop_name": "Res_InternationalCity_Stop_29",
+      "lat": 25.165607,
+      "lng": 55.422142,
+      "zone": "Res_InternationalCity",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 30,
+      "stop_name": "Res_AlQusais_Stop_30",
+      "lat": 25.261215,
+      "lng": 55.403874,
+      "zone": "Res_AlQusais",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 31,
+      "stop_name": "Coastal_Marina_Stop_31",
+      "lat": 25.06083,
+      "lng": 55.124965,
+      "zone": "Coastal_Marina",
+      "stop_type": "Terminal"
+    },
+    {
+      "stop_id": 32,
+      "stop_name": "CBD_Downtown_Stop_32",
+      "lat": 25.208029,
+      "lng": 55.302164,
+      "zone": "CBD_Downtown",
+      "stop_type": "Interchange"
+    },
+    {
+      "stop_id": 33,
+      "stop_name": "Coastal_Marina_Stop_33",
+      "lat": 25.066405,
+      "lng": 55.145265,
+      "zone": "Coastal_Marina",
+      "stop_type": "Interchange"
+    },
+    {
+      "stop_id": 34,
+      "stop_name": "Res_AlQusais_Stop_34",
+      "lat": 25.304437,
+      "lng": 55.392511,
+      "zone": "Res_AlQusais",
+      "stop_type": "Interchange"
+    },
+    {
+      "stop_id": 35,
+      "stop_name": "CBD_BusinessBay_Stop_35",
+      "lat": 25.171959,
+      "lng": 55.267447,
+      "zone": "CBD_BusinessBay",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 36,
+      "stop_name": "Ind_JebelAli_Stop_36",
+      "lat": 25.010475,
+      "lng": 55.059161,
+      "zone": "Ind_JebelAli",
+      "stop_type": "Interchange"
+    },
+    {
+      "stop_id": 37,
+      "stop_name": "Ind_JebelAli_Stop_37",
+      "lat": 24.985102,
+      "lng": 55.060308,
+      "zone": "Ind_JebelAli",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 38,
+      "stop_name": "Core_Deira_Stop_38",
+      "lat": 25.25709,
+      "lng": 55.303217,
+      "zone": "Core_Deira",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 39,
+      "stop_name": "Ind_JebelAli_Stop_39",
+      "lat": 24.981774,
+      "lng": 55.073081,
+      "zone": "Ind_JebelAli",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 40,
+      "stop_name": "Ind_JebelAli_Stop_40",
+      "lat": 24.966139,
+      "lng": 55.093079,
+      "zone": "Ind_JebelAli",
+      "stop_type": "Terminal"
+    },
+    {
+      "stop_id": 41,
+      "stop_name": "CBD_Downtown_Stop_41",
+      "lat": 25.159625,
+      "lng": 55.27847,
+      "zone": "CBD_Downtown",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 42,
+      "stop_name": "Res_InternationalCity_Stop_42",
+      "lat": 25.172047,
+      "lng": 55.406348,
+      "zone": "Res_InternationalCity",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 43,
+      "stop_name": "Coastal_Marina_Stop_43",
+      "lat": 25.073153,
+      "lng": 55.141031,
+      "zone": "Coastal_Marina",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 44,
+      "stop_name": "CBD_BusinessBay_Stop_44",
+      "lat": 25.192796,
+      "lng": 55.273852,
+      "zone": "CBD_BusinessBay",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 45,
+      "stop_name": "CBD_BusinessBay_Stop_45",
+      "lat": 25.208856,
+      "lng": 55.289039,
+      "zone": "CBD_BusinessBay",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 46,
+      "stop_name": "CBD_Downtown_Stop_46",
+      "lat": 25.181963,
+      "lng": 55.30668,
+      "zone": "CBD_Downtown",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 47,
+      "stop_name": "CBD_Downtown_Stop_47",
+      "lat": 25.209737,
+      "lng": 55.322809,
+      "zone": "CBD_Downtown",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 48,
+      "stop_name": "Ind_JebelAli_Stop_48",
+      "lat": 24.975131,
+      "lng": 55.083463,
+      "zone": "Ind_JebelAli",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 49,
+      "stop_name": "CBD_BusinessBay_Stop_49",
+      "lat": 25.187993,
+      "lng": 55.26393,
+      "zone": "CBD_BusinessBay",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 50,
+      "stop_name": "Core_Deira_Stop_50",
+      "lat": 25.265183,
+      "lng": 55.301689,
+      "zone": "Core_Deira",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 51,
+      "stop_name": "Core_Deira_Stop_51",
+      "lat": 25.243754,
+      "lng": 55.318472,
+      "zone": "Core_Deira",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 52,
+      "stop_name": "Coastal_Marina_Stop_52",
+      "lat": 25.089411,
+      "lng": 55.131781,
+      "zone": "Coastal_Marina",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 53,
+      "stop_name": "Core_Deira_Stop_53",
+      "lat": 25.249335,
+      "lng": 55.302559,
+      "zone": "Core_Deira",
+      "stop_type": "Terminal"
+    },
+    {
+      "stop_id": 54,
+      "stop_name": "CBD_BusinessBay_Stop_54",
+      "lat": 25.178865,
+      "lng": 55.285122,
+      "zone": "CBD_BusinessBay",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 55,
+      "stop_name": "Ind_JebelAli_Stop_55",
+      "lat": 24.989549,
+      "lng": 55.091143,
+      "zone": "Ind_JebelAli",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 56,
+      "stop_name": "CBD_BusinessBay_Stop_56",
+      "lat": 25.17951,
+      "lng": 55.269883,
+      "zone": "CBD_BusinessBay",
+      "stop_type": "Interchange"
+    },
+    {
+      "stop_id": 57,
+      "stop_name": "Res_AlQusais_Stop_57",
+      "lat": 25.282198,
+      "lng": 55.404636,
+      "zone": "Res_AlQusais",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 58,
+      "stop_name": "CBD_BusinessBay_Stop_58",
+      "lat": 25.211988,
+      "lng": 55.256657,
+      "zone": "CBD_BusinessBay",
+      "stop_type": "Interchange"
+    },
+    {
+      "stop_id": 59,
+      "stop_name": "Ind_JebelAli_Stop_59",
+      "lat": 24.99001,
+      "lng": 55.071929,
+      "zone": "Ind_JebelAli",
+      "stop_type": "Regular"
+    },
+    {
+      "stop_id": 60,
+      "stop_name": "Core_Deira_Stop_60",
+      "lat": 25.269526,
+      "lng": 55.325948,
+      "zone": "Core_Deira",
+      "stop_type": "Regular"
+    }
+  ],
+  "routes": [
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "route_type": "City",
+      "length_km": 20.74,
+      "avg_travel_min": 53.1,
+      "stop_count": 15,
+      "zones_served": [
+        "Coastal_Marina",
+        "CBD_Downtown",
+        "Core_Deira",
+        "CBD_BusinessBay",
+        "Res_AlQusais",
+        "Ind_JebelAli",
+        "Res_InternationalCity"
+      ],
+      "polyline": [
+        [
+          25.056818,
+          55.103334
+        ],
+        [
+          25.073153,
+          55.141031
+        ],
+        [
+          25.089411,
+          55.131781
+        ],
+        [
+          25.066405,
+          55.145265
+        ],
+        [
+          25.209642,
+          55.296755
+        ],
+        [
+          25.17984,
+          55.250754
+        ],
+        [
+          25.214329,
+          55.248522
+        ],
+        [
+          25.265183,
+          55.301689
+        ],
+        [
+          25.242389,
+          55.311689
+        ],
+        [
+          25.211988,
+          55.256657
+        ],
+        [
+          25.254873,
+          55.365076
+        ],
+        [
+          25.185411,
+          55.290954
+        ],
+        [
+          24.99001,
+          55.071929
+        ],
+        [
+          25.159112,
+          55.417218
+        ],
+        [
+          25.181963,
+          55.30668
+        ]
+      ]
+    },
+    {
+      "route_id": 102,
+      "route_code": "C02",
+      "route_type": "City",
+      "length_km": 18.09,
+      "avg_travel_min": 44.9,
+      "stop_count": 13,
+      "zones_served": [
+        "Core_Deira",
+        "CBD_Downtown",
+        "Ind_JebelAli",
+        "Res_AlQusais"
+      ],
+      "polyline": [
+        [
+          25.242762,
+          55.315378
+        ],
+        [
+          25.281696,
+          55.314931
+        ],
+        [
+          25.242389,
+          55.311689
+        ],
+        [
+          25.252995,
+          55.327949
+        ],
+        [
+          25.209642,
+          55.296755
+        ],
+        [
+          25.208029,
+          55.302164
+        ],
+        [
+          25.17984,
+          55.250754
+        ],
+        [
+          25.265183,
+          55.301689
+        ],
+        [
+          24.966139,
+          55.093079
+        ],
+        [
+          25.304437,
+          55.392511
+        ],
+        [
+          25.25709,
+          55.303217
+        ],
+        [
+          25.293451,
+          55.364583
+        ],
+        [
+          25.227909,
+          55.285764
+        ]
+      ]
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "route_type": "City",
+      "length_km": 14.57,
+      "avg_travel_min": 52.4,
+      "stop_count": 15,
+      "zones_served": [
+        "Coastal_Marina",
+        "CBD_Downtown",
+        "Ind_JebelAli",
+        "Res_InternationalCity",
+        "Core_Deira",
+        "CBD_BusinessBay",
+        "Res_AlQusais"
+      ],
+      "polyline": [
+        [
+          25.073153,
+          55.141031
+        ],
+        [
+          25.089411,
+          55.131781
+        ],
+        [
+          25.066405,
+          55.145265
+        ],
+        [
+          25.06083,
+          55.124965
+        ],
+        [
+          25.181963,
+          55.30668
+        ],
+        [
+          25.214329,
+          55.248522
+        ],
+        [
+          25.227909,
+          55.285764
+        ],
+        [
+          24.989549,
+          55.091143
+        ],
+        [
+          25.159112,
+          55.417218
+        ],
+        [
+          25.243754,
+          55.318472
+        ],
+        [
+          24.981774,
+          55.073081
+        ],
+        [
+          25.251462,
+          55.321234
+        ],
+        [
+          25.187993,
+          55.26393
+        ],
+        [
+          25.254873,
+          55.365076
+        ],
+        [
+          25.209737,
+          55.322809
+        ]
+      ]
+    },
+    {
+      "route_id": 104,
+      "route_code": "X11",
+      "route_type": "Express",
+      "length_km": 23.18,
+      "avg_travel_min": 37.8,
+      "stop_count": 11,
+      "zones_served": [
+        "Res_AlQusais",
+        "Core_Deira",
+        "CBD_BusinessBay",
+        "CBD_Downtown",
+        "Res_InternationalCity",
+        "Coastal_Marina"
+      ],
+      "polyline": [
+        [
+          25.282198,
+          55.404636
+        ],
+        [
+          25.293451,
+          55.364583
+        ],
+        [
+          25.246837,
+          55.410993
+        ],
+        [
+          25.242389,
+          55.311689
+        ],
+        [
+          25.255787,
+          55.330142
+        ],
+        [
+          25.190839,
+          55.235734
+        ],
+        [
+          25.209642,
+          55.296755
+        ],
+        [
+          25.172047,
+          55.406348
+        ],
+        [
+          25.17984,
+          55.250754
+        ],
+        [
+          25.089411,
+          55.131781
+        ],
+        [
+          25.242762,
+          55.315378
+        ]
+      ]
+    },
+    {
+      "route_id": 105,
+      "route_code": "X28",
+      "route_type": "Express",
+      "length_km": 12.48,
+      "avg_travel_min": 57.2,
+      "stop_count": 11,
+      "zones_served": [
+        "Res_InternationalCity",
+        "Core_Deira",
+        "CBD_Downtown",
+        "Coastal_Marina",
+        "CBD_BusinessBay",
+        "Res_AlQusais"
+      ],
+      "polyline": [
+        [
+          25.141625,
+          55.43585
+        ],
+        [
+          25.117605,
+          55.431438
+        ],
+        [
+          25.157966,
+          55.452046
+        ],
+        [
+          25.25709,
+          55.303217
+        ],
+        [
+          25.281696,
+          55.314931
+        ],
+        [
+          25.185411,
+          55.290954
+        ],
+        [
+          25.255787,
+          55.330142
+        ],
+        [
+          25.056818,
+          55.103334
+        ],
+        [
+          25.190839,
+          55.235734
+        ],
+        [
+          25.254873,
+          55.365076
+        ],
+        [
+          25.243754,
+          55.318472
+        ]
+      ]
+    },
+    {
+      "route_id": 106,
+      "route_code": "F12",
+      "route_type": "Feeder",
+      "length_km": 27.03,
+      "avg_travel_min": 60.8,
+      "stop_count": 13,
+      "zones_served": [
+        "Res_InternationalCity",
+        "CBD_Downtown",
+        "Res_AlQusais",
+        "Ind_JebelAli",
+        "Coastal_Marina"
+      ],
+      "polyline": [
+        [
+          25.141625,
+          55.43585
+        ],
+        [
+          25.158382,
+          55.404497
+        ],
+        [
+          25.179934,
+          55.412235
+        ],
+        [
+          25.117605,
+          55.431438
+        ],
+        [
+          25.159625,
+          55.27847
+        ],
+        [
+          25.208029,
+          55.302164
+        ],
+        [
+          25.181216,
+          55.272816
+        ],
+        [
+          25.304437,
+          55.392511
+        ],
+        [
+          24.985102,
+          55.060308
+        ],
+        [
+          24.989549,
+          55.091143
+        ],
+        [
+          25.214329,
+          55.248522
+        ],
+        [
+          25.089411,
+          55.131781
+        ],
+        [
+          25.209642,
+          55.296755
+        ]
+      ]
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "route_type": "Feeder",
+      "length_km": 18.1,
+      "avg_travel_min": 66.4,
+      "stop_count": 15,
+      "zones_served": [
+        "Res_AlQusais",
+        "CBD_Downtown",
+        "Coastal_Marina",
+        "Res_InternationalCity",
+        "Ind_JebelAli"
+      ],
+      "polyline": [
+        [
+          25.293451,
+          55.364583
+        ],
+        [
+          25.282198,
+          55.404636
+        ],
+        [
+          25.246837,
+          55.410993
+        ],
+        [
+          25.304437,
+          55.392511
+        ],
+        [
+          25.159625,
+          55.27847
+        ],
+        [
+          25.181963,
+          55.30668
+        ],
+        [
+          25.181216,
+          55.272816
+        ],
+        [
+          25.056818,
+          55.103334
+        ],
+        [
+          25.261215,
+          55.403874
+        ],
+        [
+          25.158382,
+          55.404497
+        ],
+        [
+          25.159327,
+          55.414889
+        ],
+        [
+          25.165607,
+          55.422142
+        ],
+        [
+          25.179934,
+          55.412235
+        ],
+        [
+          24.989549,
+          55.091143
+        ],
+        [
+          25.17984,
+          55.250754
+        ]
+      ]
+    },
+    {
+      "route_id": 108,
+      "route_code": "F25",
+      "route_type": "Feeder",
+      "length_km": 13.89,
+      "avg_travel_min": 61.3,
+      "stop_count": 14,
+      "zones_served": [
+        "Res_AlQusais",
+        "CBD_Downtown",
+        "CBD_BusinessBay",
+        "Core_Deira"
+      ],
+      "polyline": [
+        [
+          25.291769,
+          55.392427
+        ],
+        [
+          25.293451,
+          55.364583
+        ],
+        [
+          25.261215,
+          55.403874
+        ],
+        [
+          25.282198,
+          55.404636
+        ],
+        [
+          25.181216,
+          55.272816
+        ],
+        [
+          25.159625,
+          55.27847
+        ],
+        [
+          25.214329,
+          55.248522
+        ],
+        [
+          25.192796,
+          55.273852
+        ],
+        [
+          25.209642,
+          55.296755
+        ],
+        [
+          25.208856,
+          55.289039
+        ],
+        [
+          25.181963,
+          55.30668
+        ],
+        [
+          25.296584,
+          55.324349
+        ],
+        [
+          25.209737,
+          55.322809
+        ],
+        [
+          25.185411,
+          55.290954
+        ]
+      ]
+    },
+    {
+      "route_id": 109,
+      "route_code": "E16",
+      "route_type": "Intercity",
+      "length_km": 22.08,
+      "avg_travel_min": 56.7,
+      "stop_count": 11,
+      "zones_served": [
+        "Ind_JebelAli",
+        "CBD_Downtown",
+        "CBD_BusinessBay",
+        "Core_Deira",
+        "Res_InternationalCity"
+      ],
+      "polyline": [
+        [
+          24.975131,
+          55.083463
+        ],
+        [
+          24.989549,
+          55.091143
+        ],
+        [
+          24.981774,
+          55.073081
+        ],
+        [
+          25.185411,
+          55.290954
+        ],
+        [
+          25.208029,
+          55.302164
+        ],
+        [
+          25.190839,
+          55.235734
+        ],
+        [
+          25.255787,
+          55.330142
+        ],
+        [
+          25.227909,
+          55.285764
+        ],
+        [
+          25.181216,
+          55.272816
+        ],
+        [
+          25.159327,
+          55.414889
+        ],
+        [
+          25.209642,
+          55.296755
+        ]
+      ]
+    },
+    {
+      "route_id": 110,
+      "route_code": "E22",
+      "route_type": "Intercity",
+      "length_km": 13.01,
+      "avg_travel_min": 48.3,
+      "stop_count": 13,
+      "zones_served": [
+        "Ind_JebelAli",
+        "CBD_Downtown",
+        "Res_InternationalCity",
+        "Res_AlQusais",
+        "Core_Deira"
+      ],
+      "polyline": [
+        [
+          24.981774,
+          55.073081
+        ],
+        [
+          24.985102,
+          55.060308
+        ],
+        [
+          24.966139,
+          55.093079
+        ],
+        [
+          24.99001,
+          55.071929
+        ],
+        [
+          25.181216,
+          55.272816
+        ],
+        [
+          25.159625,
+          55.27847
+        ],
+        [
+          25.185411,
+          55.290954
+        ],
+        [
+          25.158382,
+          55.404497
+        ],
+        [
+          25.214329,
+          55.248522
+        ],
+        [
+          24.975131,
+          55.083463
+        ],
+        [
+          25.261215,
+          55.403874
+        ],
+        [
+          25.251462,
+          55.321234
+        ],
+        [
+          25.209737,
+          55.322809
+        ]
+      ]
+    },
+    {
+      "route_id": 111,
+      "route_code": "C04",
+      "route_type": "City",
+      "length_km": 34.4,
+      "avg_travel_min": 65.0,
+      "stop_count": 12,
+      "zones_served": [
+        "Coastal_Marina",
+        "CBD_BusinessBay",
+        "Res_AlQusais",
+        "CBD_Downtown",
+        "Res_InternationalCity"
+      ],
+      "polyline": [
+        [
+          25.066405,
+          55.145265
+        ],
+        [
+          25.056818,
+          55.103334
+        ],
+        [
+          25.06083,
+          55.124965
+        ],
+        [
+          25.089411,
+          55.131781
+        ],
+        [
+          25.17951,
+          55.269883
+        ],
+        [
+          25.171959,
+          55.267447
+        ],
+        [
+          25.190839,
+          55.235734
+        ],
+        [
+          25.284233,
+          55.376098
+        ],
+        [
+          25.211988,
+          55.256657
+        ],
+        [
+          25.159625,
+          55.27847
+        ],
+        [
+          25.165607,
+          55.422142
+        ],
+        [
+          25.178865,
+          55.285122
+        ]
+      ]
+    },
+    {
+      "route_id": 112,
+      "route_code": "X66",
+      "route_type": "Express",
+      "length_km": 19.02,
+      "avg_travel_min": 66.8,
+      "stop_count": 10,
+      "zones_served": [
+        "Res_InternationalCity",
+        "CBD_BusinessBay",
+        "Res_AlQusais",
+        "Ind_JebelAli",
+        "Coastal_Marina"
+      ],
+      "polyline": [
+        [
+          25.158382,
+          55.404497
+        ],
+        [
+          25.179934,
+          55.412235
+        ],
+        [
+          25.165607,
+          55.422142
+        ],
+        [
+          25.208856,
+          55.289039
+        ],
+        [
+          25.171959,
+          55.267447
+        ],
+        [
+          25.291769,
+          55.392427
+        ],
+        [
+          24.99001,
+          55.071929
+        ],
+        [
+          25.066405,
+          55.145265
+        ],
+        [
+          25.284233,
+          55.376098
+        ],
+        [
+          25.17951,
+          55.269883
+        ]
+      ]
+    }
+  ],
+  "route_stop_sequences": [
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "stop_id": 16,
+      "sequence": 1,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 1.75
+    },
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "stop_id": 43,
+      "sequence": 2,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 0.74
+    },
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "stop_id": 52,
+      "sequence": 3,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 1.03
+    },
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "stop_id": 33,
+      "sequence": 4,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 1.51
+    },
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "stop_id": 20,
+      "sequence": 5,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.55
+    },
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "stop_id": 7,
+      "sequence": 6,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.53
+    },
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "stop_id": 6,
+      "sequence": 7,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.61
+    },
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "stop_id": 50,
+      "sequence": 8,
+      "zone": "Core_Deira",
+      "dwell_time_min": 1.45
+    },
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "stop_id": 18,
+      "sequence": 9,
+      "zone": "Core_Deira",
+      "dwell_time_min": 1.3
+    },
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "stop_id": 58,
+      "sequence": 10,
+      "zone": "CBD_BusinessBay",
+      "dwell_time_min": 0.87
+    },
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "stop_id": 23,
+      "sequence": 11,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.19
+    },
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "stop_id": 8,
+      "sequence": 12,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.9
+    },
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "stop_id": 59,
+      "sequence": 13,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 1.89
+    },
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "stop_id": 9,
+      "sequence": 14,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 1.53
+    },
+    {
+      "route_id": 101,
+      "route_code": "C01",
+      "stop_id": 46,
+      "sequence": 15,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.83
+    },
+    {
+      "route_id": 102,
+      "route_code": "C02",
+      "stop_id": 2,
+      "sequence": 1,
+      "zone": "Core_Deira",
+      "dwell_time_min": 1.34
+    },
+    {
+      "route_id": 102,
+      "route_code": "C02",
+      "stop_id": 24,
+      "sequence": 2,
+      "zone": "Core_Deira",
+      "dwell_time_min": 0.89
+    },
+    {
+      "route_id": 102,
+      "route_code": "C02",
+      "stop_id": 18,
+      "sequence": 3,
+      "zone": "Core_Deira",
+      "dwell_time_min": 1.38
+    },
+    {
+      "route_id": 102,
+      "route_code": "C02",
+      "stop_id": 10,
+      "sequence": 4,
+      "zone": "Core_Deira",
+      "dwell_time_min": 1.85
+    },
+    {
+      "route_id": 102,
+      "route_code": "C02",
+      "stop_id": 20,
+      "sequence": 5,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.1
+    },
+    {
+      "route_id": 102,
+      "route_code": "C02",
+      "stop_id": 32,
+      "sequence": 6,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.83
+    },
+    {
+      "route_id": 102,
+      "route_code": "C02",
+      "stop_id": 7,
+      "sequence": 7,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 2.0
+    },
+    {
+      "route_id": 102,
+      "route_code": "C02",
+      "stop_id": 50,
+      "sequence": 8,
+      "zone": "Core_Deira",
+      "dwell_time_min": 1.26
+    },
+    {
+      "route_id": 102,
+      "route_code": "C02",
+      "stop_id": 40,
+      "sequence": 9,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 0.64
+    },
+    {
+      "route_id": 102,
+      "route_code": "C02",
+      "stop_id": 34,
+      "sequence": 10,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 0.57
+    },
+    {
+      "route_id": 102,
+      "route_code": "C02",
+      "stop_id": 38,
+      "sequence": 11,
+      "zone": "Core_Deira",
+      "dwell_time_min": 0.66
+    },
+    {
+      "route_id": 102,
+      "route_code": "C02",
+      "stop_id": 13,
+      "sequence": 12,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.44
+    },
+    {
+      "route_id": 102,
+      "route_code": "C02",
+      "stop_id": 26,
+      "sequence": 13,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.69
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "stop_id": 43,
+      "sequence": 1,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 1.18
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "stop_id": 52,
+      "sequence": 2,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 1.93
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "stop_id": 33,
+      "sequence": 3,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 1.81
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "stop_id": 31,
+      "sequence": 4,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 0.9
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "stop_id": 46,
+      "sequence": 5,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.25
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "stop_id": 6,
+      "sequence": 6,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.77
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "stop_id": 26,
+      "sequence": 7,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.87
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "stop_id": 55,
+      "sequence": 8,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 1.81
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "stop_id": 9,
+      "sequence": 9,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 0.95
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "stop_id": 51,
+      "sequence": 10,
+      "zone": "Core_Deira",
+      "dwell_time_min": 1.46
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "stop_id": 39,
+      "sequence": 11,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 1.41
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "stop_id": 19,
+      "sequence": 12,
+      "zone": "Core_Deira",
+      "dwell_time_min": 0.73
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "stop_id": 49,
+      "sequence": 13,
+      "zone": "CBD_BusinessBay",
+      "dwell_time_min": 1.64
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "stop_id": 23,
+      "sequence": 14,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.31
+    },
+    {
+      "route_id": 103,
+      "route_code": "C03",
+      "stop_id": 47,
+      "sequence": 15,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.67
+    },
+    {
+      "route_id": 104,
+      "route_code": "X11",
+      "stop_id": 57,
+      "sequence": 1,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.64
+    },
+    {
+      "route_id": 104,
+      "route_code": "X11",
+      "stop_id": 13,
+      "sequence": 2,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.65
+    },
+    {
+      "route_id": 104,
+      "route_code": "X11",
+      "stop_id": 22,
+      "sequence": 3,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 0.69
+    },
+    {
+      "route_id": 104,
+      "route_code": "X11",
+      "stop_id": 18,
+      "sequence": 4,
+      "zone": "Core_Deira",
+      "dwell_time_min": 1.21
+    },
+    {
+      "route_id": 104,
+      "route_code": "X11",
+      "stop_id": 17,
+      "sequence": 5,
+      "zone": "Core_Deira",
+      "dwell_time_min": 1.32
+    },
+    {
+      "route_id": 104,
+      "route_code": "X11",
+      "stop_id": 5,
+      "sequence": 6,
+      "zone": "CBD_BusinessBay",
+      "dwell_time_min": 0.9
+    },
+    {
+      "route_id": 104,
+      "route_code": "X11",
+      "stop_id": 20,
+      "sequence": 7,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.81
+    },
+    {
+      "route_id": 104,
+      "route_code": "X11",
+      "stop_id": 42,
+      "sequence": 8,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 1.13
+    },
+    {
+      "route_id": 104,
+      "route_code": "X11",
+      "stop_id": 7,
+      "sequence": 9,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.82
+    },
+    {
+      "route_id": 104,
+      "route_code": "X11",
+      "stop_id": 52,
+      "sequence": 10,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 1.31
+    },
+    {
+      "route_id": 104,
+      "route_code": "X11",
+      "stop_id": 2,
+      "sequence": 11,
+      "zone": "Core_Deira",
+      "dwell_time_min": 1.59
+    },
+    {
+      "route_id": 105,
+      "route_code": "X28",
+      "stop_id": 28,
+      "sequence": 1,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 1.38
+    },
+    {
+      "route_id": 105,
+      "route_code": "X28",
+      "stop_id": 27,
+      "sequence": 2,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 0.51
+    },
+    {
+      "route_id": 105,
+      "route_code": "X28",
+      "stop_id": 11,
+      "sequence": 3,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 1.56
+    },
+    {
+      "route_id": 105,
+      "route_code": "X28",
+      "stop_id": 38,
+      "sequence": 4,
+      "zone": "Core_Deira",
+      "dwell_time_min": 0.59
+    },
+    {
+      "route_id": 105,
+      "route_code": "X28",
+      "stop_id": 24,
+      "sequence": 5,
+      "zone": "Core_Deira",
+      "dwell_time_min": 0.6
+    },
+    {
+      "route_id": 105,
+      "route_code": "X28",
+      "stop_id": 8,
+      "sequence": 6,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.55
+    },
+    {
+      "route_id": 105,
+      "route_code": "X28",
+      "stop_id": 17,
+      "sequence": 7,
+      "zone": "Core_Deira",
+      "dwell_time_min": 1.0
+    },
+    {
+      "route_id": 105,
+      "route_code": "X28",
+      "stop_id": 16,
+      "sequence": 8,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 1.27
+    },
+    {
+      "route_id": 105,
+      "route_code": "X28",
+      "stop_id": 5,
+      "sequence": 9,
+      "zone": "CBD_BusinessBay",
+      "dwell_time_min": 0.92
+    },
+    {
+      "route_id": 105,
+      "route_code": "X28",
+      "stop_id": 23,
+      "sequence": 10,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.23
+    },
+    {
+      "route_id": 105,
+      "route_code": "X28",
+      "stop_id": 51,
+      "sequence": 11,
+      "zone": "Core_Deira",
+      "dwell_time_min": 1.31
+    },
+    {
+      "route_id": 106,
+      "route_code": "F12",
+      "stop_id": 28,
+      "sequence": 1,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 0.59
+    },
+    {
+      "route_id": 106,
+      "route_code": "F12",
+      "stop_id": 4,
+      "sequence": 2,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 1.59
+    },
+    {
+      "route_id": 106,
+      "route_code": "F12",
+      "stop_id": 1,
+      "sequence": 3,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 1.7
+    },
+    {
+      "route_id": 106,
+      "route_code": "F12",
+      "stop_id": 27,
+      "sequence": 4,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 0.66
+    },
+    {
+      "route_id": 106,
+      "route_code": "F12",
+      "stop_id": 41,
+      "sequence": 5,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.79
+    },
+    {
+      "route_id": 106,
+      "route_code": "F12",
+      "stop_id": 32,
+      "sequence": 6,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.3
+    },
+    {
+      "route_id": 106,
+      "route_code": "F12",
+      "stop_id": 21,
+      "sequence": 7,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.71
+    },
+    {
+      "route_id": 106,
+      "route_code": "F12",
+      "stop_id": 34,
+      "sequence": 8,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 0.78
+    },
+    {
+      "route_id": 106,
+      "route_code": "F12",
+      "stop_id": 37,
+      "sequence": 9,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 1.19
+    },
+    {
+      "route_id": 106,
+      "route_code": "F12",
+      "stop_id": 55,
+      "sequence": 10,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 1.81
+    },
+    {
+      "route_id": 106,
+      "route_code": "F12",
+      "stop_id": 6,
+      "sequence": 11,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.61
+    },
+    {
+      "route_id": 106,
+      "route_code": "F12",
+      "stop_id": 52,
+      "sequence": 12,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 1.71
+    },
+    {
+      "route_id": 106,
+      "route_code": "F12",
+      "stop_id": 20,
+      "sequence": 13,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.78
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "stop_id": 13,
+      "sequence": 1,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.18
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "stop_id": 57,
+      "sequence": 2,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.13
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "stop_id": 22,
+      "sequence": 3,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.94
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "stop_id": 34,
+      "sequence": 4,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.99
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "stop_id": 41,
+      "sequence": 5,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.33
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "stop_id": 46,
+      "sequence": 6,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.58
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "stop_id": 21,
+      "sequence": 7,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.73
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "stop_id": 16,
+      "sequence": 8,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 0.95
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "stop_id": 30,
+      "sequence": 9,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.95
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "stop_id": 4,
+      "sequence": 10,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 1.37
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "stop_id": 12,
+      "sequence": 11,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 1.31
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "stop_id": 29,
+      "sequence": 12,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 1.62
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "stop_id": 1,
+      "sequence": 13,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 0.59
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "stop_id": 55,
+      "sequence": 14,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 1.38
+    },
+    {
+      "route_id": 107,
+      "route_code": "F18",
+      "stop_id": 7,
+      "sequence": 15,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.25
+    },
+    {
+      "route_id": 108,
+      "route_code": "F25",
+      "stop_id": 15,
+      "sequence": 1,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.35
+    },
+    {
+      "route_id": 108,
+      "route_code": "F25",
+      "stop_id": 13,
+      "sequence": 2,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 0.97
+    },
+    {
+      "route_id": 108,
+      "route_code": "F25",
+      "stop_id": 30,
+      "sequence": 3,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 0.89
+    },
+    {
+      "route_id": 108,
+      "route_code": "F25",
+      "stop_id": 57,
+      "sequence": 4,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.5
+    },
+    {
+      "route_id": 108,
+      "route_code": "F25",
+      "stop_id": 21,
+      "sequence": 5,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.97
+    },
+    {
+      "route_id": 108,
+      "route_code": "F25",
+      "stop_id": 41,
+      "sequence": 6,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.9
+    },
+    {
+      "route_id": 108,
+      "route_code": "F25",
+      "stop_id": 6,
+      "sequence": 7,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.7
+    },
+    {
+      "route_id": 108,
+      "route_code": "F25",
+      "stop_id": 44,
+      "sequence": 8,
+      "zone": "CBD_BusinessBay",
+      "dwell_time_min": 1.47
+    },
+    {
+      "route_id": 108,
+      "route_code": "F25",
+      "stop_id": 20,
+      "sequence": 9,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.19
+    },
+    {
+      "route_id": 108,
+      "route_code": "F25",
+      "stop_id": 45,
+      "sequence": 10,
+      "zone": "CBD_BusinessBay",
+      "dwell_time_min": 1.89
+    },
+    {
+      "route_id": 108,
+      "route_code": "F25",
+      "stop_id": 46,
+      "sequence": 11,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.9
+    },
+    {
+      "route_id": 108,
+      "route_code": "F25",
+      "stop_id": 3,
+      "sequence": 12,
+      "zone": "Core_Deira",
+      "dwell_time_min": 0.51
+    },
+    {
+      "route_id": 108,
+      "route_code": "F25",
+      "stop_id": 47,
+      "sequence": 13,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.43
+    },
+    {
+      "route_id": 108,
+      "route_code": "F25",
+      "stop_id": 8,
+      "sequence": 14,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.34
+    },
+    {
+      "route_id": 109,
+      "route_code": "E16",
+      "stop_id": 48,
+      "sequence": 1,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 0.95
+    },
+    {
+      "route_id": 109,
+      "route_code": "E16",
+      "stop_id": 55,
+      "sequence": 2,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 1.98
+    },
+    {
+      "route_id": 109,
+      "route_code": "E16",
+      "stop_id": 39,
+      "sequence": 3,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 1.71
+    },
+    {
+      "route_id": 109,
+      "route_code": "E16",
+      "stop_id": 8,
+      "sequence": 4,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.29
+    },
+    {
+      "route_id": 109,
+      "route_code": "E16",
+      "stop_id": 32,
+      "sequence": 5,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.5
+    },
+    {
+      "route_id": 109,
+      "route_code": "E16",
+      "stop_id": 5,
+      "sequence": 6,
+      "zone": "CBD_BusinessBay",
+      "dwell_time_min": 1.33
+    },
+    {
+      "route_id": 109,
+      "route_code": "E16",
+      "stop_id": 17,
+      "sequence": 7,
+      "zone": "Core_Deira",
+      "dwell_time_min": 1.9
+    },
+    {
+      "route_id": 109,
+      "route_code": "E16",
+      "stop_id": 26,
+      "sequence": 8,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.66
+    },
+    {
+      "route_id": 109,
+      "route_code": "E16",
+      "stop_id": 21,
+      "sequence": 9,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.82
+    },
+    {
+      "route_id": 109,
+      "route_code": "E16",
+      "stop_id": 12,
+      "sequence": 10,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 0.9
+    },
+    {
+      "route_id": 109,
+      "route_code": "E16",
+      "stop_id": 20,
+      "sequence": 11,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.83
+    },
+    {
+      "route_id": 110,
+      "route_code": "E22",
+      "stop_id": 39,
+      "sequence": 1,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 0.7
+    },
+    {
+      "route_id": 110,
+      "route_code": "E22",
+      "stop_id": 37,
+      "sequence": 2,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 1.97
+    },
+    {
+      "route_id": 110,
+      "route_code": "E22",
+      "stop_id": 40,
+      "sequence": 3,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 0.74
+    },
+    {
+      "route_id": 110,
+      "route_code": "E22",
+      "stop_id": 59,
+      "sequence": 4,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 1.16
+    },
+    {
+      "route_id": 110,
+      "route_code": "E22",
+      "stop_id": 21,
+      "sequence": 5,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.56
+    },
+    {
+      "route_id": 110,
+      "route_code": "E22",
+      "stop_id": 41,
+      "sequence": 6,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.34
+    },
+    {
+      "route_id": 110,
+      "route_code": "E22",
+      "stop_id": 8,
+      "sequence": 7,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 0.67
+    },
+    {
+      "route_id": 110,
+      "route_code": "E22",
+      "stop_id": 4,
+      "sequence": 8,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 1.92
+    },
+    {
+      "route_id": 110,
+      "route_code": "E22",
+      "stop_id": 6,
+      "sequence": 9,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.54
+    },
+    {
+      "route_id": 110,
+      "route_code": "E22",
+      "stop_id": 48,
+      "sequence": 10,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 0.72
+    },
+    {
+      "route_id": 110,
+      "route_code": "E22",
+      "stop_id": 30,
+      "sequence": 11,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 0.55
+    },
+    {
+      "route_id": 110,
+      "route_code": "E22",
+      "stop_id": 19,
+      "sequence": 12,
+      "zone": "Core_Deira",
+      "dwell_time_min": 1.05
+    },
+    {
+      "route_id": 110,
+      "route_code": "E22",
+      "stop_id": 47,
+      "sequence": 13,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.33
+    },
+    {
+      "route_id": 111,
+      "route_code": "C04",
+      "stop_id": 33,
+      "sequence": 1,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 1.89
+    },
+    {
+      "route_id": 111,
+      "route_code": "C04",
+      "stop_id": 16,
+      "sequence": 2,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 0.86
+    },
+    {
+      "route_id": 111,
+      "route_code": "C04",
+      "stop_id": 31,
+      "sequence": 3,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 0.74
+    },
+    {
+      "route_id": 111,
+      "route_code": "C04",
+      "stop_id": 52,
+      "sequence": 4,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 1.7
+    },
+    {
+      "route_id": 111,
+      "route_code": "C04",
+      "stop_id": 56,
+      "sequence": 5,
+      "zone": "CBD_BusinessBay",
+      "dwell_time_min": 0.77
+    },
+    {
+      "route_id": 111,
+      "route_code": "C04",
+      "stop_id": 35,
+      "sequence": 6,
+      "zone": "CBD_BusinessBay",
+      "dwell_time_min": 1.12
+    },
+    {
+      "route_id": 111,
+      "route_code": "C04",
+      "stop_id": 5,
+      "sequence": 7,
+      "zone": "CBD_BusinessBay",
+      "dwell_time_min": 0.77
+    },
+    {
+      "route_id": 111,
+      "route_code": "C04",
+      "stop_id": 25,
+      "sequence": 8,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.89
+    },
+    {
+      "route_id": 111,
+      "route_code": "C04",
+      "stop_id": 58,
+      "sequence": 9,
+      "zone": "CBD_BusinessBay",
+      "dwell_time_min": 1.67
+    },
+    {
+      "route_id": 111,
+      "route_code": "C04",
+      "stop_id": 41,
+      "sequence": 10,
+      "zone": "CBD_Downtown",
+      "dwell_time_min": 1.12
+    },
+    {
+      "route_id": 111,
+      "route_code": "C04",
+      "stop_id": 29,
+      "sequence": 11,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 1.5
+    },
+    {
+      "route_id": 111,
+      "route_code": "C04",
+      "stop_id": 54,
+      "sequence": 12,
+      "zone": "CBD_BusinessBay",
+      "dwell_time_min": 1.6
+    },
+    {
+      "route_id": 112,
+      "route_code": "X66",
+      "stop_id": 4,
+      "sequence": 1,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 0.84
+    },
+    {
+      "route_id": 112,
+      "route_code": "X66",
+      "stop_id": 1,
+      "sequence": 2,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 0.54
+    },
+    {
+      "route_id": 112,
+      "route_code": "X66",
+      "stop_id": 29,
+      "sequence": 3,
+      "zone": "Res_InternationalCity",
+      "dwell_time_min": 0.79
+    },
+    {
+      "route_id": 112,
+      "route_code": "X66",
+      "stop_id": 45,
+      "sequence": 4,
+      "zone": "CBD_BusinessBay",
+      "dwell_time_min": 0.99
+    },
+    {
+      "route_id": 112,
+      "route_code": "X66",
+      "stop_id": 35,
+      "sequence": 5,
+      "zone": "CBD_BusinessBay",
+      "dwell_time_min": 1.8
+    },
+    {
+      "route_id": 112,
+      "route_code": "X66",
+      "stop_id": 15,
+      "sequence": 6,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.95
+    },
+    {
+      "route_id": 112,
+      "route_code": "X66",
+      "stop_id": 59,
+      "sequence": 7,
+      "zone": "Ind_JebelAli",
+      "dwell_time_min": 0.92
+    },
+    {
+      "route_id": 112,
+      "route_code": "X66",
+      "stop_id": 33,
+      "sequence": 8,
+      "zone": "Coastal_Marina",
+      "dwell_time_min": 1.46
+    },
+    {
+      "route_id": 112,
+      "route_code": "X66",
+      "stop_id": 25,
+      "sequence": 9,
+      "zone": "Res_AlQusais",
+      "dwell_time_min": 1.1
+    },
+    {
+      "route_id": 112,
+      "route_code": "X66",
+      "stop_id": 56,
+      "sequence": 10,
+      "zone": "CBD_BusinessBay",
+      "dwell_time_min": 1.97
+    }
+  ]
+}

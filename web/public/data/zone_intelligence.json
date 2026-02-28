@@ -1,0 +1,2818 @@
+{
+  "zones": [
+    {
+      "zone": "CBD_BusinessBay",
+      "total_pax": 3368660,
+      "avg_daily_pax": 175.9,
+      "total_boardings": 1727293,
+      "total_alightings": 1641367,
+      "net_flow": 85926,
+      "cagr_2022_2024": 0.1112,
+      "stop_count": 8,
+      "stop_types": {
+        "Regular": 6,
+        "Interchange": 2
+      },
+      "routes_serving": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F25",
+        "E16",
+        "C04",
+        "X66"
+      ],
+      "centroid": {
+        "lat": 25.190351,
+        "lng": 55.267708
+      }
+    },
+    {
+      "zone": "CBD_Downtown",
+      "total_pax": 8716865,
+      "avg_daily_pax": 158.7,
+      "total_boardings": 4474864,
+      "total_alightings": 4242001,
+      "net_flow": 232863,
+      "cagr_2022_2024": 0.1114,
+      "stop_count": 10,
+      "stop_types": {
+        "Regular": 7,
+        "Interchange": 2,
+        "Metro_Link": 1
+      },
+      "routes_serving": [
+        "C01",
+        "C02",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "F25",
+        "E16",
+        "E22",
+        "C04"
+      ],
+      "centroid": {
+        "lat": 25.19577,
+        "lng": 55.285569
+      }
+    },
+    {
+      "zone": "Coastal_Marina",
+      "total_pax": 4328365,
+      "avg_daily_pax": 199.4,
+      "total_boardings": 2221259,
+      "total_alightings": 2107106,
+      "net_flow": 114153,
+      "cagr_2022_2024": 0.112,
+      "stop_count": 5,
+      "stop_types": {
+        "Regular": 3,
+        "Terminal": 1,
+        "Interchange": 1
+      },
+      "routes_serving": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "C04",
+        "X66"
+      ],
+      "centroid": {
+        "lat": 25.069323,
+        "lng": 55.129275
+      }
+    },
+    {
+      "zone": "Core_Deira",
+      "total_pax": 4637778,
+      "avg_daily_pax": 181.6,
+      "total_boardings": 2377512,
+      "total_alightings": 2260266,
+      "net_flow": 117246,
+      "cagr_2022_2024": 0.1096,
+      "stop_count": 13,
+      "stop_types": {
+        "Regular": 11,
+        "Interchange": 1,
+        "Terminal": 1
+      },
+      "routes_serving": [
+        "C01",
+        "C02",
+        "C03",
+        "X11",
+        "X28",
+        "F25",
+        "E16",
+        "E22"
+      ],
+      "centroid": {
+        "lat": 25.263779,
+        "lng": 55.317725
+      }
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "total_pax": 3212135,
+      "avg_daily_pax": 157.2,
+      "total_boardings": 1646233,
+      "total_alightings": 1565902,
+      "net_flow": 80331,
+      "cagr_2022_2024": 0.1129,
+      "stop_count": 7,
+      "stop_types": {
+        "Regular": 5,
+        "Interchange": 1,
+        "Terminal": 1
+      },
+      "routes_serving": [
+        "C01",
+        "C02",
+        "C03",
+        "F12",
+        "F18",
+        "E16",
+        "E22",
+        "X66"
+      ],
+      "centroid": {
+        "lat": 24.985454,
+        "lng": 55.076023
+      }
+    },
+    {
+      "zone": "Res_AlQusais",
+      "total_pax": 4799695,
+      "avg_daily_pax": 170.8,
+      "total_boardings": 2456020,
+      "total_alightings": 2343675,
+      "net_flow": 112345,
+      "cagr_2022_2024": 0.1116,
+      "stop_count": 8,
+      "stop_types": {
+        "Regular": 5,
+        "Metro_Link": 2,
+        "Interchange": 1
+      },
+      "routes_serving": [
+        "C01",
+        "C02",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "F25",
+        "E22",
+        "C04",
+        "X66"
+      ],
+      "centroid": {
+        "lat": 25.277377,
+        "lng": 55.388775
+      }
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "total_pax": 4387409,
+      "avg_daily_pax": 171.8,
+      "total_boardings": 2251031,
+      "total_alightings": 2136378,
+      "net_flow": 114653,
+      "cagr_2022_2024": 0.1105,
+      "stop_count": 9,
+      "stop_types": {
+        "Regular": 7,
+        "Metro_Link": 1,
+        "Terminal": 1
+      },
+      "routes_serving": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "E16",
+        "E22",
+        "C04",
+        "X66"
+      ],
+      "centroid": {
+        "lat": 25.156845,
+        "lng": 55.421851
+      }
+    }
+  ],
+  "zone_pairs": [
+    {
+      "origin": "CBD_BusinessBay",
+      "destination": "CBD_Downtown",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F25",
+        "E16",
+        "C04"
+      ]
+    },
+    {
+      "origin": "CBD_BusinessBay",
+      "destination": "Coastal_Marina",
+      "route_count": 6,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "C04",
+        "X66"
+      ]
+    },
+    {
+      "origin": "CBD_BusinessBay",
+      "destination": "Core_Deira",
+      "route_count": 6,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F25",
+        "E16"
+      ]
+    },
+    {
+      "origin": "CBD_BusinessBay",
+      "destination": "Ind_JebelAli",
+      "route_count": 4,
+      "routes": [
+        "C01",
+        "C03",
+        "E16",
+        "X66"
+      ]
+    },
+    {
+      "origin": "CBD_BusinessBay",
+      "destination": "Res_AlQusais",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F25",
+        "C04",
+        "X66"
+      ]
+    },
+    {
+      "origin": "CBD_BusinessBay",
+      "destination": "Res_InternationalCity",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "E16",
+        "C04",
+        "X66"
+      ]
+    },
+    {
+      "origin": "CBD_Downtown",
+      "destination": "CBD_BusinessBay",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F25",
+        "E16",
+        "C04"
+      ]
+    },
+    {
+      "origin": "CBD_Downtown",
+      "destination": "Coastal_Marina",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "C04"
+      ]
+    },
+    {
+      "origin": "CBD_Downtown",
+      "destination": "Core_Deira",
+      "route_count": 8,
+      "routes": [
+        "C01",
+        "C02",
+        "C03",
+        "X11",
+        "X28",
+        "F25",
+        "E16",
+        "E22"
+      ]
+    },
+    {
+      "origin": "CBD_Downtown",
+      "destination": "Ind_JebelAli",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C02",
+        "C03",
+        "F12",
+        "F18",
+        "E16",
+        "E22"
+      ]
+    },
+    {
+      "origin": "CBD_Downtown",
+      "destination": "Res_AlQusais",
+      "route_count": 10,
+      "routes": [
+        "C01",
+        "C02",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "F25",
+        "E22",
+        "C04"
+      ]
+    },
+    {
+      "origin": "CBD_Downtown",
+      "destination": "Res_InternationalCity",
+      "route_count": 9,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "E16",
+        "E22",
+        "C04"
+      ]
+    },
+    {
+      "origin": "Coastal_Marina",
+      "destination": "CBD_BusinessBay",
+      "route_count": 6,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "C04",
+        "X66"
+      ]
+    },
+    {
+      "origin": "Coastal_Marina",
+      "destination": "CBD_Downtown",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "C04"
+      ]
+    },
+    {
+      "origin": "Coastal_Marina",
+      "destination": "Core_Deira",
+      "route_count": 4,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28"
+      ]
+    },
+    {
+      "origin": "Coastal_Marina",
+      "destination": "Ind_JebelAli",
+      "route_count": 5,
+      "routes": [
+        "C01",
+        "C03",
+        "F12",
+        "F18",
+        "X66"
+      ]
+    },
+    {
+      "origin": "Coastal_Marina",
+      "destination": "Res_AlQusais",
+      "route_count": 8,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "C04",
+        "X66"
+      ]
+    },
+    {
+      "origin": "Coastal_Marina",
+      "destination": "Res_InternationalCity",
+      "route_count": 8,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "C04",
+        "X66"
+      ]
+    },
+    {
+      "origin": "Core_Deira",
+      "destination": "CBD_BusinessBay",
+      "route_count": 6,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F25",
+        "E16"
+      ]
+    },
+    {
+      "origin": "Core_Deira",
+      "destination": "CBD_Downtown",
+      "route_count": 8,
+      "routes": [
+        "C01",
+        "C02",
+        "C03",
+        "X11",
+        "X28",
+        "F25",
+        "E16",
+        "E22"
+      ]
+    },
+    {
+      "origin": "Core_Deira",
+      "destination": "Coastal_Marina",
+      "route_count": 4,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28"
+      ]
+    },
+    {
+      "origin": "Core_Deira",
+      "destination": "Ind_JebelAli",
+      "route_count": 5,
+      "routes": [
+        "C01",
+        "C02",
+        "C03",
+        "E16",
+        "E22"
+      ]
+    },
+    {
+      "origin": "Core_Deira",
+      "destination": "Res_AlQusais",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C02",
+        "C03",
+        "X11",
+        "X28",
+        "F25",
+        "E22"
+      ]
+    },
+    {
+      "origin": "Core_Deira",
+      "destination": "Res_InternationalCity",
+      "route_count": 6,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "E16",
+        "E22"
+      ]
+    },
+    {
+      "origin": "Ind_JebelAli",
+      "destination": "CBD_BusinessBay",
+      "route_count": 4,
+      "routes": [
+        "C01",
+        "C03",
+        "E16",
+        "X66"
+      ]
+    },
+    {
+      "origin": "Ind_JebelAli",
+      "destination": "CBD_Downtown",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C02",
+        "C03",
+        "F12",
+        "F18",
+        "E16",
+        "E22"
+      ]
+    },
+    {
+      "origin": "Ind_JebelAli",
+      "destination": "Coastal_Marina",
+      "route_count": 5,
+      "routes": [
+        "C01",
+        "C03",
+        "F12",
+        "F18",
+        "X66"
+      ]
+    },
+    {
+      "origin": "Ind_JebelAli",
+      "destination": "Core_Deira",
+      "route_count": 5,
+      "routes": [
+        "C01",
+        "C02",
+        "C03",
+        "E16",
+        "E22"
+      ]
+    },
+    {
+      "origin": "Ind_JebelAli",
+      "destination": "Res_AlQusais",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C02",
+        "C03",
+        "F12",
+        "F18",
+        "E22",
+        "X66"
+      ]
+    },
+    {
+      "origin": "Ind_JebelAli",
+      "destination": "Res_InternationalCity",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C03",
+        "F12",
+        "F18",
+        "E16",
+        "E22",
+        "X66"
+      ]
+    },
+    {
+      "origin": "Res_AlQusais",
+      "destination": "CBD_BusinessBay",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F25",
+        "C04",
+        "X66"
+      ]
+    },
+    {
+      "origin": "Res_AlQusais",
+      "destination": "CBD_Downtown",
+      "route_count": 10,
+      "routes": [
+        "C01",
+        "C02",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "F25",
+        "E22",
+        "C04"
+      ]
+    },
+    {
+      "origin": "Res_AlQusais",
+      "destination": "Coastal_Marina",
+      "route_count": 8,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "C04",
+        "X66"
+      ]
+    },
+    {
+      "origin": "Res_AlQusais",
+      "destination": "Core_Deira",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C02",
+        "C03",
+        "X11",
+        "X28",
+        "F25",
+        "E22"
+      ]
+    },
+    {
+      "origin": "Res_AlQusais",
+      "destination": "Ind_JebelAli",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C02",
+        "C03",
+        "F12",
+        "F18",
+        "E22",
+        "X66"
+      ]
+    },
+    {
+      "origin": "Res_AlQusais",
+      "destination": "Res_InternationalCity",
+      "route_count": 9,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "E22",
+        "C04",
+        "X66"
+      ]
+    },
+    {
+      "origin": "Res_InternationalCity",
+      "destination": "CBD_BusinessBay",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "E16",
+        "C04",
+        "X66"
+      ]
+    },
+    {
+      "origin": "Res_InternationalCity",
+      "destination": "CBD_Downtown",
+      "route_count": 9,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "E16",
+        "E22",
+        "C04"
+      ]
+    },
+    {
+      "origin": "Res_InternationalCity",
+      "destination": "Coastal_Marina",
+      "route_count": 8,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "C04",
+        "X66"
+      ]
+    },
+    {
+      "origin": "Res_InternationalCity",
+      "destination": "Core_Deira",
+      "route_count": 6,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "E16",
+        "E22"
+      ]
+    },
+    {
+      "origin": "Res_InternationalCity",
+      "destination": "Ind_JebelAli",
+      "route_count": 7,
+      "routes": [
+        "C01",
+        "C03",
+        "F12",
+        "F18",
+        "E16",
+        "E22",
+        "X66"
+      ]
+    },
+    {
+      "origin": "Res_InternationalCity",
+      "destination": "Res_AlQusais",
+      "route_count": 9,
+      "routes": [
+        "C01",
+        "C03",
+        "X11",
+        "X28",
+        "F12",
+        "F18",
+        "E22",
+        "C04",
+        "X66"
+      ]
+    }
+  ],
+  "h2_2025_forecast": [
+    {
+      "zone": "CBD_BusinessBay",
+      "month": 7,
+      "month_name": "Jul",
+      "forecast_pax": 93784
+    },
+    {
+      "zone": "CBD_Downtown",
+      "month": 7,
+      "month_name": "Jul",
+      "forecast_pax": 243275
+    },
+    {
+      "zone": "Coastal_Marina",
+      "month": 7,
+      "month_name": "Jul",
+      "forecast_pax": 120679
+    },
+    {
+      "zone": "Core_Deira",
+      "month": 7,
+      "month_name": "Jul",
+      "forecast_pax": 129362
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "month": 7,
+      "month_name": "Jul",
+      "forecast_pax": 89404
+    },
+    {
+      "zone": "Res_AlQusais",
+      "month": 7,
+      "month_name": "Jul",
+      "forecast_pax": 134295
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "month": 7,
+      "month_name": "Jul",
+      "forecast_pax": 122408
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "month": 8,
+      "month_name": "Aug",
+      "forecast_pax": 93534
+    },
+    {
+      "zone": "CBD_Downtown",
+      "month": 8,
+      "month_name": "Aug",
+      "forecast_pax": 242619
+    },
+    {
+      "zone": "Coastal_Marina",
+      "month": 8,
+      "month_name": "Aug",
+      "forecast_pax": 120400
+    },
+    {
+      "zone": "Core_Deira",
+      "month": 8,
+      "month_name": "Aug",
+      "forecast_pax": 128986
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "month": 8,
+      "month_name": "Aug",
+      "forecast_pax": 89142
+    },
+    {
+      "zone": "Res_AlQusais",
+      "month": 8,
+      "month_name": "Aug",
+      "forecast_pax": 133972
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "month": 8,
+      "month_name": "Aug",
+      "forecast_pax": 122108
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "month": 9,
+      "month_name": "Sep",
+      "forecast_pax": 93283
+    },
+    {
+      "zone": "CBD_Downtown",
+      "month": 9,
+      "month_name": "Sep",
+      "forecast_pax": 241963
+    },
+    {
+      "zone": "Coastal_Marina",
+      "month": 9,
+      "month_name": "Sep",
+      "forecast_pax": 120122
+    },
+    {
+      "zone": "Core_Deira",
+      "month": 9,
+      "month_name": "Sep",
+      "forecast_pax": 128609
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "month": 9,
+      "month_name": "Sep",
+      "forecast_pax": 88880
+    },
+    {
+      "zone": "Res_AlQusais",
+      "month": 9,
+      "month_name": "Sep",
+      "forecast_pax": 133648
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "month": 9,
+      "month_name": "Sep",
+      "forecast_pax": 121807
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "month": 10,
+      "month_name": "Oct",
+      "forecast_pax": 93033
+    },
+    {
+      "zone": "CBD_Downtown",
+      "month": 10,
+      "month_name": "Oct",
+      "forecast_pax": 241308
+    },
+    {
+      "zone": "Coastal_Marina",
+      "month": 10,
+      "month_name": "Oct",
+      "forecast_pax": 119844
+    },
+    {
+      "zone": "Core_Deira",
+      "month": 10,
+      "month_name": "Oct",
+      "forecast_pax": 128232
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "month": 10,
+      "month_name": "Oct",
+      "forecast_pax": 88618
+    },
+    {
+      "zone": "Res_AlQusais",
+      "month": 10,
+      "month_name": "Oct",
+      "forecast_pax": 133324
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "month": 10,
+      "month_name": "Oct",
+      "forecast_pax": 121506
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "month": 11,
+      "month_name": "Nov",
+      "forecast_pax": 92783
+    },
+    {
+      "zone": "CBD_Downtown",
+      "month": 11,
+      "month_name": "Nov",
+      "forecast_pax": 240652
+    },
+    {
+      "zone": "Coastal_Marina",
+      "month": 11,
+      "month_name": "Nov",
+      "forecast_pax": 119565
+    },
+    {
+      "zone": "Core_Deira",
+      "month": 11,
+      "month_name": "Nov",
+      "forecast_pax": 127855
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "month": 11,
+      "month_name": "Nov",
+      "forecast_pax": 88356
+    },
+    {
+      "zone": "Res_AlQusais",
+      "month": 11,
+      "month_name": "Nov",
+      "forecast_pax": 133001
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "month": 11,
+      "month_name": "Nov",
+      "forecast_pax": 121206
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "month": 12,
+      "month_name": "Dec",
+      "forecast_pax": 92533
+    },
+    {
+      "zone": "CBD_Downtown",
+      "month": 12,
+      "month_name": "Dec",
+      "forecast_pax": 239996
+    },
+    {
+      "zone": "Coastal_Marina",
+      "month": 12,
+      "month_name": "Dec",
+      "forecast_pax": 119287
+    },
+    {
+      "zone": "Core_Deira",
+      "month": 12,
+      "month_name": "Dec",
+      "forecast_pax": 127478
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "month": 12,
+      "month_name": "Dec",
+      "forecast_pax": 88094
+    },
+    {
+      "zone": "Res_AlQusais",
+      "month": 12,
+      "month_name": "Dec",
+      "forecast_pax": 132677
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "month": 12,
+      "month_name": "Dec",
+      "forecast_pax": 120905
+    }
+  ],
+  "historical_monthly": [
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2022,
+      "month": 1,
+      "total_pax": 77301
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2022,
+      "month": 1,
+      "total_pax": 198192
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2022,
+      "month": 1,
+      "total_pax": 101458
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2022,
+      "month": 1,
+      "total_pax": 106705
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2022,
+      "month": 1,
+      "total_pax": 74414
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2022,
+      "month": 1,
+      "total_pax": 109476
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2022,
+      "month": 1,
+      "total_pax": 99962
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2022,
+      "month": 2,
+      "total_pax": 70014
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2022,
+      "month": 2,
+      "total_pax": 181108
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2022,
+      "month": 2,
+      "total_pax": 89766
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2022,
+      "month": 2,
+      "total_pax": 98758
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2022,
+      "month": 2,
+      "total_pax": 66584
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2022,
+      "month": 2,
+      "total_pax": 99917
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2022,
+      "month": 2,
+      "total_pax": 92101
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2022,
+      "month": 3,
+      "total_pax": 79992
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2022,
+      "month": 3,
+      "total_pax": 205902
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2022,
+      "month": 3,
+      "total_pax": 101167
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2022,
+      "month": 3,
+      "total_pax": 109565
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2022,
+      "month": 3,
+      "total_pax": 75057
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2022,
+      "month": 3,
+      "total_pax": 110194
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2022,
+      "month": 3,
+      "total_pax": 103835
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2022,
+      "month": 4,
+      "total_pax": 67981
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2022,
+      "month": 4,
+      "total_pax": 175078
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2022,
+      "month": 4,
+      "total_pax": 88056
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2022,
+      "month": 4,
+      "total_pax": 93085
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2022,
+      "month": 4,
+      "total_pax": 65762
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2022,
+      "month": 4,
+      "total_pax": 96316
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2022,
+      "month": 4,
+      "total_pax": 88240
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2022,
+      "month": 5,
+      "total_pax": 68707
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2022,
+      "month": 5,
+      "total_pax": 180156
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2022,
+      "month": 5,
+      "total_pax": 89799
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2022,
+      "month": 5,
+      "total_pax": 96871
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2022,
+      "month": 5,
+      "total_pax": 66787
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2022,
+      "month": 5,
+      "total_pax": 99682
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2022,
+      "month": 5,
+      "total_pax": 89448
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2022,
+      "month": 6,
+      "total_pax": 60099
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2022,
+      "month": 6,
+      "total_pax": 153601
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2022,
+      "month": 6,
+      "total_pax": 74655
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2022,
+      "month": 6,
+      "total_pax": 81807
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2022,
+      "month": 6,
+      "total_pax": 57389
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2022,
+      "month": 6,
+      "total_pax": 85437
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2022,
+      "month": 6,
+      "total_pax": 78082
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2022,
+      "month": 7,
+      "total_pax": 60753
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2022,
+      "month": 7,
+      "total_pax": 160972
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2022,
+      "month": 7,
+      "total_pax": 79078
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2022,
+      "month": 7,
+      "total_pax": 81858
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2022,
+      "month": 7,
+      "total_pax": 58601
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2022,
+      "month": 7,
+      "total_pax": 87803
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2022,
+      "month": 7,
+      "total_pax": 79314
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2022,
+      "month": 8,
+      "total_pax": 62920
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2022,
+      "month": 8,
+      "total_pax": 160486
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2022,
+      "month": 8,
+      "total_pax": 79078
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2022,
+      "month": 8,
+      "total_pax": 85337
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2022,
+      "month": 8,
+      "total_pax": 59412
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2022,
+      "month": 8,
+      "total_pax": 89226
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2022,
+      "month": 8,
+      "total_pax": 81674
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2022,
+      "month": 9,
+      "total_pax": 67818
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2022,
+      "month": 9,
+      "total_pax": 176095
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2022,
+      "month": 9,
+      "total_pax": 84747
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2022,
+      "month": 9,
+      "total_pax": 94575
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2022,
+      "month": 9,
+      "total_pax": 64209
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2022,
+      "month": 9,
+      "total_pax": 96744
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2022,
+      "month": 9,
+      "total_pax": 87351
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2022,
+      "month": 10,
+      "total_pax": 69680
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2022,
+      "month": 10,
+      "total_pax": 179340
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2022,
+      "month": 10,
+      "total_pax": 89334
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2022,
+      "month": 10,
+      "total_pax": 96485
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2022,
+      "month": 10,
+      "total_pax": 65226
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2022,
+      "month": 10,
+      "total_pax": 99772
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2022,
+      "month": 10,
+      "total_pax": 90122
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2022,
+      "month": 11,
+      "total_pax": 75604
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2022,
+      "month": 11,
+      "total_pax": 196420
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2022,
+      "month": 11,
+      "total_pax": 96563
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2022,
+      "month": 11,
+      "total_pax": 103028
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2022,
+      "month": 11,
+      "total_pax": 72887
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2022,
+      "month": 11,
+      "total_pax": 108975
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2022,
+      "month": 11,
+      "total_pax": 98475
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2022,
+      "month": 12,
+      "total_pax": 82576
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2022,
+      "month": 12,
+      "total_pax": 210343
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2022,
+      "month": 12,
+      "total_pax": 106062
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2022,
+      "month": 12,
+      "total_pax": 112390
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2022,
+      "month": 12,
+      "total_pax": 76318
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2022,
+      "month": 12,
+      "total_pax": 116164
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2022,
+      "month": 12,
+      "total_pax": 106816
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2023,
+      "month": 1,
+      "total_pax": 90904
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2023,
+      "month": 1,
+      "total_pax": 235456
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2023,
+      "month": 1,
+      "total_pax": 119166
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2023,
+      "month": 1,
+      "total_pax": 124540
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2023,
+      "month": 1,
+      "total_pax": 85597
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2023,
+      "month": 1,
+      "total_pax": 131531
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2023,
+      "month": 1,
+      "total_pax": 117691
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2023,
+      "month": 2,
+      "total_pax": 75160
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2023,
+      "month": 2,
+      "total_pax": 200513
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2023,
+      "month": 2,
+      "total_pax": 99718
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2023,
+      "month": 2,
+      "total_pax": 105240
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2023,
+      "month": 2,
+      "total_pax": 72610
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2023,
+      "month": 2,
+      "total_pax": 106963
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2023,
+      "month": 2,
+      "total_pax": 99957
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2023,
+      "month": 3,
+      "total_pax": 84711
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2023,
+      "month": 3,
+      "total_pax": 216101
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2023,
+      "month": 3,
+      "total_pax": 108839
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2023,
+      "month": 3,
+      "total_pax": 115807
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2023,
+      "month": 3,
+      "total_pax": 81199
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2023,
+      "month": 3,
+      "total_pax": 120201
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2023,
+      "month": 3,
+      "total_pax": 110705
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2023,
+      "month": 4,
+      "total_pax": 72996
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2023,
+      "month": 4,
+      "total_pax": 187230
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2023,
+      "month": 4,
+      "total_pax": 95036
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2023,
+      "month": 4,
+      "total_pax": 98063
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2023,
+      "month": 4,
+      "total_pax": 69337
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2023,
+      "month": 4,
+      "total_pax": 105580
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2023,
+      "month": 4,
+      "total_pax": 93686
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2023,
+      "month": 5,
+      "total_pax": 76754
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2023,
+      "month": 5,
+      "total_pax": 197663
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2023,
+      "month": 5,
+      "total_pax": 97114
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2023,
+      "month": 5,
+      "total_pax": 104107
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2023,
+      "month": 5,
+      "total_pax": 73024
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2023,
+      "month": 5,
+      "total_pax": 106076
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2023,
+      "month": 5,
+      "total_pax": 100242
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2023,
+      "month": 6,
+      "total_pax": 64817
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2023,
+      "month": 6,
+      "total_pax": 167599
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2023,
+      "month": 6,
+      "total_pax": 81080
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2023,
+      "month": 6,
+      "total_pax": 90948
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2023,
+      "month": 6,
+      "total_pax": 62463
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2023,
+      "month": 6,
+      "total_pax": 91999
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2023,
+      "month": 6,
+      "total_pax": 83966
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2023,
+      "month": 7,
+      "total_pax": 66174
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2023,
+      "month": 7,
+      "total_pax": 172697
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2023,
+      "month": 7,
+      "total_pax": 85632
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2023,
+      "month": 7,
+      "total_pax": 90952
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2023,
+      "month": 7,
+      "total_pax": 64523
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2023,
+      "month": 7,
+      "total_pax": 95096
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2023,
+      "month": 7,
+      "total_pax": 85681
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2023,
+      "month": 8,
+      "total_pax": 66840
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2023,
+      "month": 8,
+      "total_pax": 173341
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2023,
+      "month": 8,
+      "total_pax": 85436
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2023,
+      "month": 8,
+      "total_pax": 93086
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2023,
+      "month": 8,
+      "total_pax": 63183
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2023,
+      "month": 8,
+      "total_pax": 94520
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2023,
+      "month": 8,
+      "total_pax": 87595
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2023,
+      "month": 9,
+      "total_pax": 73333
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2023,
+      "month": 9,
+      "total_pax": 188032
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2023,
+      "month": 9,
+      "total_pax": 92691
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2023,
+      "month": 9,
+      "total_pax": 99758
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2023,
+      "month": 9,
+      "total_pax": 70139
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2023,
+      "month": 9,
+      "total_pax": 104227
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2023,
+      "month": 9,
+      "total_pax": 96218
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2023,
+      "month": 10,
+      "total_pax": 74866
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2023,
+      "month": 10,
+      "total_pax": 196371
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2023,
+      "month": 10,
+      "total_pax": 98423
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2023,
+      "month": 10,
+      "total_pax": 104611
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2023,
+      "month": 10,
+      "total_pax": 72189
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2023,
+      "month": 10,
+      "total_pax": 106561
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2023,
+      "month": 10,
+      "total_pax": 99457
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2023,
+      "month": 11,
+      "total_pax": 82475
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2023,
+      "month": 11,
+      "total_pax": 213102
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2023,
+      "month": 11,
+      "total_pax": 106120
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2023,
+      "month": 11,
+      "total_pax": 112668
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2023,
+      "month": 11,
+      "total_pax": 78379
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2023,
+      "month": 11,
+      "total_pax": 116633
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2023,
+      "month": 11,
+      "total_pax": 107355
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2023,
+      "month": 12,
+      "total_pax": 89114
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2023,
+      "month": 12,
+      "total_pax": 229536
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2023,
+      "month": 12,
+      "total_pax": 116789
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2023,
+      "month": 12,
+      "total_pax": 123822
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2023,
+      "month": 12,
+      "total_pax": 84349
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2023,
+      "month": 12,
+      "total_pax": 124761
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2023,
+      "month": 12,
+      "total_pax": 117956
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2024,
+      "month": 1,
+      "total_pax": 100919
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2024,
+      "month": 1,
+      "total_pax": 261357
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2024,
+      "month": 1,
+      "total_pax": 126258
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2024,
+      "month": 1,
+      "total_pax": 137984
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2024,
+      "month": 1,
+      "total_pax": 96023
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2024,
+      "month": 1,
+      "total_pax": 141065
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2024,
+      "month": 1,
+      "total_pax": 130388
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2024,
+      "month": 2,
+      "total_pax": 90307
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2024,
+      "month": 2,
+      "total_pax": 229870
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2024,
+      "month": 2,
+      "total_pax": 114575
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2024,
+      "month": 2,
+      "total_pax": 123233
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2024,
+      "month": 2,
+      "total_pax": 84660
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2024,
+      "month": 2,
+      "total_pax": 128555
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2024,
+      "month": 2,
+      "total_pax": 116903
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2024,
+      "month": 3,
+      "total_pax": 92606
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2024,
+      "month": 3,
+      "total_pax": 239607
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2024,
+      "month": 3,
+      "total_pax": 121606
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2024,
+      "month": 3,
+      "total_pax": 127858
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2024,
+      "month": 3,
+      "total_pax": 89919
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2024,
+      "month": 3,
+      "total_pax": 132084
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2024,
+      "month": 3,
+      "total_pax": 120429
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2024,
+      "month": 4,
+      "total_pax": 83899
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2024,
+      "month": 4,
+      "total_pax": 218032
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2024,
+      "month": 4,
+      "total_pax": 105316
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2024,
+      "month": 4,
+      "total_pax": 114898
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2024,
+      "month": 4,
+      "total_pax": 79686
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2024,
+      "month": 4,
+      "total_pax": 117233
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2024,
+      "month": 4,
+      "total_pax": 109283
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2024,
+      "month": 5,
+      "total_pax": 86484
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2024,
+      "month": 5,
+      "total_pax": 223771
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2024,
+      "month": 5,
+      "total_pax": 109492
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2024,
+      "month": 5,
+      "total_pax": 117409
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2024,
+      "month": 5,
+      "total_pax": 82873
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2024,
+      "month": 5,
+      "total_pax": 124546
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2024,
+      "month": 5,
+      "total_pax": 110576
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2024,
+      "month": 6,
+      "total_pax": 73272
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2024,
+      "month": 6,
+      "total_pax": 184965
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2024,
+      "month": 6,
+      "total_pax": 93796
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2024,
+      "month": 6,
+      "total_pax": 98861
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2024,
+      "month": 6,
+      "total_pax": 68199
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2024,
+      "month": 6,
+      "total_pax": 103561
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2024,
+      "month": 6,
+      "total_pax": 94182
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2024,
+      "month": 7,
+      "total_pax": 76158
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2024,
+      "month": 7,
+      "total_pax": 196789
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2024,
+      "month": 7,
+      "total_pax": 96658
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2024,
+      "month": 7,
+      "total_pax": 104338
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2024,
+      "month": 7,
+      "total_pax": 72516
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2024,
+      "month": 7,
+      "total_pax": 107561
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2024,
+      "month": 7,
+      "total_pax": 98290
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2024,
+      "month": 8,
+      "total_pax": 74303
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2024,
+      "month": 8,
+      "total_pax": 194598
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2024,
+      "month": 8,
+      "total_pax": 97122
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2024,
+      "month": 8,
+      "total_pax": 105030
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2024,
+      "month": 8,
+      "total_pax": 72561
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2024,
+      "month": 8,
+      "total_pax": 105840
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2024,
+      "month": 8,
+      "total_pax": 97368
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2024,
+      "month": 9,
+      "total_pax": 82603
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2024,
+      "month": 9,
+      "total_pax": 212015
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2024,
+      "month": 9,
+      "total_pax": 107373
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2024,
+      "month": 9,
+      "total_pax": 114368
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2024,
+      "month": 9,
+      "total_pax": 80206
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2024,
+      "month": 9,
+      "total_pax": 118299
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2024,
+      "month": 9,
+      "total_pax": 106916
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2024,
+      "month": 10,
+      "total_pax": 86371
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2024,
+      "month": 10,
+      "total_pax": 223897
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2024,
+      "month": 10,
+      "total_pax": 110323
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2024,
+      "month": 10,
+      "total_pax": 119662
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2024,
+      "month": 10,
+      "total_pax": 83794
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2024,
+      "month": 10,
+      "total_pax": 124107
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2024,
+      "month": 10,
+      "total_pax": 112011
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2024,
+      "month": 11,
+      "total_pax": 92517
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2024,
+      "month": 11,
+      "total_pax": 237607
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2024,
+      "month": 11,
+      "total_pax": 120992
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2024,
+      "month": 11,
+      "total_pax": 127374
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2024,
+      "month": 11,
+      "total_pax": 89075
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2024,
+      "month": 11,
+      "total_pax": 133078
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2024,
+      "month": 11,
+      "total_pax": 121137
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2024,
+      "month": 12,
+      "total_pax": 101995
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2024,
+      "month": 12,
+      "total_pax": 267282
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2024,
+      "month": 12,
+      "total_pax": 131677
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2024,
+      "month": 12,
+      "total_pax": 137716
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2024,
+      "month": 12,
+      "total_pax": 94631
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2024,
+      "month": 12,
+      "total_pax": 146479
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2024,
+      "month": 12,
+      "total_pax": 133376
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2025,
+      "month": 1,
+      "total_pax": 108646
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2025,
+      "month": 1,
+      "total_pax": 279673
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2025,
+      "month": 1,
+      "total_pax": 136409
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2025,
+      "month": 1,
+      "total_pax": 150043
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2025,
+      "month": 1,
+      "total_pax": 103655
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2025,
+      "month": 1,
+      "total_pax": 153331
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2025,
+      "month": 1,
+      "total_pax": 141862
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2025,
+      "month": 2,
+      "total_pax": 93534
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2025,
+      "month": 2,
+      "total_pax": 245815
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2025,
+      "month": 2,
+      "total_pax": 120980
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2025,
+      "month": 2,
+      "total_pax": 128905
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2025,
+      "month": 2,
+      "total_pax": 88679
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2025,
+      "month": 2,
+      "total_pax": 136282
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2025,
+      "month": 2,
+      "total_pax": 123597
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2025,
+      "month": 3,
+      "total_pax": 100092
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2025,
+      "month": 3,
+      "total_pax": 260506
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2025,
+      "month": 3,
+      "total_pax": 129438
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2025,
+      "month": 3,
+      "total_pax": 139985
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2025,
+      "month": 3,
+      "total_pax": 93727
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2025,
+      "month": 3,
+      "total_pax": 145319
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2025,
+      "month": 3,
+      "total_pax": 131123
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2025,
+      "month": 4,
+      "total_pax": 90475
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2025,
+      "month": 4,
+      "total_pax": 237574
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2025,
+      "month": 4,
+      "total_pax": 115975
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2025,
+      "month": 4,
+      "total_pax": 126400
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2025,
+      "month": 4,
+      "total_pax": 87660
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2025,
+      "month": 4,
+      "total_pax": 129902
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2025,
+      "month": 4,
+      "total_pax": 118205
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2025,
+      "month": 5,
+      "total_pax": 92776
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2025,
+      "month": 5,
+      "total_pax": 240970
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2025,
+      "month": 5,
+      "total_pax": 121846
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2025,
+      "month": 5,
+      "total_pax": 129953
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2025,
+      "month": 5,
+      "total_pax": 88778
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2025,
+      "month": 5,
+      "total_pax": 133723
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2025,
+      "month": 5,
+      "total_pax": 123796
+    },
+    {
+      "zone": "CBD_BusinessBay",
+      "year": 2025,
+      "month": 6,
+      "total_pax": 80114
+    },
+    {
+      "zone": "CBD_Downtown",
+      "year": 2025,
+      "month": 6,
+      "total_pax": 207203
+    },
+    {
+      "zone": "Coastal_Marina",
+      "year": 2025,
+      "month": 6,
+      "total_pax": 102722
+    },
+    {
+      "zone": "Core_Deira",
+      "year": 2025,
+      "month": 6,
+      "total_pax": 109695
+    },
+    {
+      "zone": "Ind_JebelAli",
+      "year": 2025,
+      "month": 6,
+      "total_pax": 75855
+    },
+    {
+      "zone": "Res_AlQusais",
+      "year": 2025,
+      "month": 6,
+      "total_pax": 114876
+    },
+    {
+      "zone": "Res_InternationalCity",
+      "year": 2025,
+      "month": 6,
+      "total_pax": 102038
+    }
+  ]
+}

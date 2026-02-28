@@ -1,0 +1,951 @@
+{
+  "meta": {
+    "period": "H2 2025",
+    "months": [
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ]
+  },
+  "system": [
+    {
+      "month": 7,
+      "month_name": "Jul",
+      "total_pax": 795098,
+      "predicted_congestion": 4,
+      "congestion_confidence": 0.65,
+      "avg_speed_kmph": 24.2
+    },
+    {
+      "month": 8,
+      "month_name": "Aug",
+      "total_pax": 783560,
+      "predicted_congestion": 3,
+      "congestion_confidence": 0.678,
+      "avg_speed_kmph": 29.9
+    },
+    {
+      "month": 9,
+      "month_name": "Sep",
+      "total_pax": 815961,
+      "predicted_congestion": 4,
+      "congestion_confidence": 0.438,
+      "avg_speed_kmph": 24.2
+    },
+    {
+      "month": 10,
+      "month_name": "Oct",
+      "total_pax": 856235,
+      "predicted_congestion": 3,
+      "congestion_confidence": 0.567,
+      "avg_speed_kmph": 29.9
+    },
+    {
+      "month": 11,
+      "month_name": "Nov",
+      "total_pax": 898269,
+      "predicted_congestion": 3,
+      "congestion_confidence": 0.554,
+      "avg_speed_kmph": 29.9
+    },
+    {
+      "month": 12,
+      "month_name": "Dec",
+      "total_pax": 984026,
+      "predicted_congestion": 3,
+      "congestion_confidence": 0.567,
+      "avg_speed_kmph": 29.9
+    }
+  ],
+  "by_route": {
+    "C01": {
+      "route_type": "City",
+      "route_length_km": 20.74,
+      "avg_travel_time_min": 53.1,
+      "total_h2_pax": 543850,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 82979,
+          "avg_daily_pax": 2676.7,
+          "peak_day_pax": 2815,
+          "weekday_avg": 2795.7,
+          "weekend_avg": 2334.8
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 82105,
+          "avg_daily_pax": 2648.5,
+          "peak_day_pax": 2804,
+          "weekday_avg": 2790.9,
+          "weekend_avg": 2349.6
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 86207,
+          "avg_daily_pax": 2873.6,
+          "peak_day_pax": 3037,
+          "weekday_avg": 3023.6,
+          "weekend_avg": 2461.0
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 91440,
+          "avg_daily_pax": 2949.7,
+          "peak_day_pax": 3145,
+          "weekday_avg": 3106.8,
+          "weekend_avg": 2497.9
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 95404,
+          "avg_daily_pax": 3180.1,
+          "peak_day_pax": 3362,
+          "weekday_avg": 3343.2,
+          "weekend_avg": 2853.9
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 105715,
+          "avg_daily_pax": 3410.2,
+          "peak_day_pax": 3635,
+          "weekday_avg": 3555.3,
+          "weekend_avg": 2992.8
+        }
+      ]
+    },
+    "C02": {
+      "route_type": "City",
+      "route_length_km": 18.09,
+      "avg_travel_time_min": 44.9,
+      "total_h2_pax": 456525,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 71690,
+          "avg_daily_pax": 2312.6,
+          "peak_day_pax": 2511,
+          "weekday_avg": 2461.8,
+          "weekend_avg": 1883.5
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 70295,
+          "avg_daily_pax": 2267.6,
+          "peak_day_pax": 2464,
+          "weekday_avg": 2446.1,
+          "weekend_avg": 1892.6
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 73417,
+          "avg_daily_pax": 2447.2,
+          "peak_day_pax": 2661,
+          "weekday_avg": 2616.9,
+          "weekend_avg": 1980.6
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 75859,
+          "avg_daily_pax": 2447.1,
+          "peak_day_pax": 2644,
+          "weekday_avg": 2609.5,
+          "weekend_avg": 1980.1
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 79680,
+          "avg_daily_pax": 2656.0,
+          "peak_day_pax": 2917,
+          "weekday_avg": 2882.6,
+          "weekend_avg": 2202.9
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 85584,
+          "avg_daily_pax": 2760.8,
+          "peak_day_pax": 2947,
+          "weekday_avg": 2905.2,
+          "weekend_avg": 2345.6
+        }
+      ]
+    },
+    "C03": {
+      "route_type": "City",
+      "route_length_km": 14.57,
+      "avg_travel_time_min": 52.4,
+      "total_h2_pax": 543108,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 84244,
+          "avg_daily_pax": 2717.5,
+          "peak_day_pax": 2855,
+          "weekday_avg": 2831.8,
+          "weekend_avg": 2389.1
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 83345,
+          "avg_daily_pax": 2688.5,
+          "peak_day_pax": 2844,
+          "weekday_avg": 2826.0,
+          "weekend_avg": 2399.8
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 85540,
+          "avg_daily_pax": 2851.3,
+          "peak_day_pax": 2984,
+          "weekday_avg": 2963.2,
+          "weekend_avg": 2543.8
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 90445,
+          "avg_daily_pax": 2917.6,
+          "peak_day_pax": 3133,
+          "weekday_avg": 3058.6,
+          "weekend_avg": 2512.2
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 95863,
+          "avg_daily_pax": 3195.4,
+          "peak_day_pax": 3388,
+          "weekday_avg": 3368.1,
+          "weekend_avg": 2850.1
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 103671,
+          "avg_daily_pax": 3344.2,
+          "peak_day_pax": 3548,
+          "weekday_avg": 3466.9,
+          "weekend_avg": 2991.6
+        }
+      ]
+    },
+    "X11": {
+      "route_type": "Express",
+      "route_length_km": 23.18,
+      "avg_travel_time_min": 37.8,
+      "total_h2_pax": 422722,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 65596,
+          "avg_daily_pax": 2116.0,
+          "peak_day_pax": 2249,
+          "weekday_avg": 2235.0,
+          "weekend_avg": 1774.0
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 64656,
+          "avg_daily_pax": 2085.7,
+          "peak_day_pax": 2240,
+          "weekday_avg": 2226.4,
+          "weekend_avg": 1790.1
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 67185,
+          "avg_daily_pax": 2239.5,
+          "peak_day_pax": 2401,
+          "weekday_avg": 2372.3,
+          "weekend_avg": 1874.4
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 70102,
+          "avg_daily_pax": 2261.4,
+          "peak_day_pax": 2420,
+          "weekday_avg": 2376.8,
+          "weekend_avg": 1929.5
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 73752,
+          "avg_daily_pax": 2458.4,
+          "peak_day_pax": 2715,
+          "weekday_avg": 2633.6,
+          "weekend_avg": 2108.1
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 81431,
+          "avg_daily_pax": 2626.8,
+          "peak_day_pax": 2837,
+          "weekday_avg": 2787.0,
+          "weekend_avg": 2166.2
+        }
+      ]
+    },
+    "X28": {
+      "route_type": "Express",
+      "route_length_km": 12.48,
+      "avg_travel_time_min": 57.2,
+      "total_h2_pax": 425180,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 66073,
+          "avg_daily_pax": 2131.4,
+          "peak_day_pax": 2269,
+          "weekday_avg": 2257.0,
+          "weekend_avg": 1770.1
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 64776,
+          "avg_daily_pax": 2089.5,
+          "peak_day_pax": 2253,
+          "weekday_avg": 2237.4,
+          "weekend_avg": 1779.1
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 66841,
+          "avg_daily_pax": 2228.0,
+          "peak_day_pax": 2388,
+          "weekday_avg": 2365.5,
+          "weekend_avg": 1849.9
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 69838,
+          "avg_daily_pax": 2252.8,
+          "peak_day_pax": 2434,
+          "weekday_avg": 2385.3,
+          "weekend_avg": 1872.1
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 75664,
+          "avg_daily_pax": 2522.1,
+          "peak_day_pax": 2749,
+          "weekday_avg": 2719.7,
+          "weekend_avg": 2127.0
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 81988,
+          "avg_daily_pax": 2644.8,
+          "peak_day_pax": 2863,
+          "weekday_avg": 2800.7,
+          "weekend_avg": 2196.6
+        }
+      ]
+    },
+    "F12": {
+      "route_type": "Feeder",
+      "route_length_km": 27.03,
+      "avg_travel_time_min": 60.8,
+      "total_h2_pax": 392316,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 60676,
+          "avg_daily_pax": 1957.3,
+          "peak_day_pax": 2104,
+          "weekday_avg": 2082.2,
+          "weekend_avg": 1598.2
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 59631,
+          "avg_daily_pax": 1923.6,
+          "peak_day_pax": 2093,
+          "weekday_avg": 2073.5,
+          "weekend_avg": 1608.7
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 62149,
+          "avg_daily_pax": 2071.6,
+          "peak_day_pax": 2228,
+          "weekday_avg": 2207.8,
+          "weekend_avg": 1697.2
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 65953,
+          "avg_daily_pax": 2127.5,
+          "peak_day_pax": 2294,
+          "weekday_avg": 2250.0,
+          "weekend_avg": 1775.2
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 68347,
+          "avg_daily_pax": 2278.2,
+          "peak_day_pax": 2493,
+          "weekday_avg": 2452.0,
+          "weekend_avg": 1930.7
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 75560,
+          "avg_daily_pax": 2437.4,
+          "peak_day_pax": 2639,
+          "weekday_avg": 2570.0,
+          "weekend_avg": 2056.2
+        }
+      ]
+    },
+    "F18": {
+      "route_type": "Feeder",
+      "route_length_km": 18.1,
+      "avg_travel_time_min": 66.4,
+      "total_h2_pax": 446380,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 69230,
+          "avg_daily_pax": 2233.2,
+          "peak_day_pax": 2361,
+          "weekday_avg": 2346.4,
+          "weekend_avg": 1907.9
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 68410,
+          "avg_daily_pax": 2206.8,
+          "peak_day_pax": 2364,
+          "weekday_avg": 2347.3,
+          "weekend_avg": 1911.7
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 72894,
+          "avg_daily_pax": 2429.8,
+          "peak_day_pax": 2594,
+          "weekday_avg": 2577.4,
+          "weekend_avg": 2024.0
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 74796,
+          "avg_daily_pax": 2412.8,
+          "peak_day_pax": 2589,
+          "weekday_avg": 2567.7,
+          "weekend_avg": 1967.5
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 77038,
+          "avg_daily_pax": 2567.9,
+          "peak_day_pax": 2763,
+          "weekday_avg": 2725.8,
+          "weekend_avg": 2252.2
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 84012,
+          "avg_daily_pax": 2710.1,
+          "peak_day_pax": 2913,
+          "weekday_avg": 2851.8,
+          "weekend_avg": 2302.5
+        }
+      ]
+    },
+    "F25": {
+      "route_type": "Feeder",
+      "route_length_km": 13.89,
+      "avg_travel_time_min": 61.3,
+      "total_h2_pax": 419896,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 65309,
+          "avg_daily_pax": 2106.7,
+          "peak_day_pax": 2270,
+          "weekday_avg": 2257.0,
+          "weekend_avg": 1674.8
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 64004,
+          "avg_daily_pax": 2064.6,
+          "peak_day_pax": 2261,
+          "weekday_avg": 2242.0,
+          "weekend_avg": 1692.3
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 66089,
+          "avg_daily_pax": 2203.0,
+          "peak_day_pax": 2387,
+          "weekday_avg": 2367.2,
+          "weekend_avg": 1751.4
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 69756,
+          "avg_daily_pax": 2250.2,
+          "peak_day_pax": 2480,
+          "weekday_avg": 2431.1,
+          "weekend_avg": 1730.1
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 72671,
+          "avg_daily_pax": 2422.4,
+          "peak_day_pax": 2657,
+          "weekday_avg": 2637.3,
+          "weekend_avg": 1992.5
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 82067,
+          "avg_daily_pax": 2647.3,
+          "peak_day_pax": 2925,
+          "weekday_avg": 2845.0,
+          "weekend_avg": 2078.9
+        }
+      ]
+    },
+    "E16": {
+      "route_type": "Intercity",
+      "route_length_km": 22.08,
+      "avg_travel_time_min": 56.7,
+      "total_h2_pax": 302198,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 46935,
+          "avg_daily_pax": 1514.0,
+          "peak_day_pax": 1636,
+          "weekday_avg": 1619.6,
+          "weekend_avg": 1210.6
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 46166,
+          "avg_daily_pax": 1489.2,
+          "peak_day_pax": 1622,
+          "weekday_avg": 1615.0,
+          "weekend_avg": 1225.1
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 47419,
+          "avg_daily_pax": 1580.6,
+          "peak_day_pax": 1690,
+          "weekday_avg": 1679.6,
+          "weekend_avg": 1308.5
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 50560,
+          "avg_daily_pax": 1631.0,
+          "peak_day_pax": 1758,
+          "weekday_avg": 1742.4,
+          "weekend_avg": 1310.5
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 52677,
+          "avg_daily_pax": 1755.9,
+          "peak_day_pax": 2006,
+          "weekday_avg": 1939.3,
+          "weekend_avg": 1389.0
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 58441,
+          "avg_daily_pax": 1885.2,
+          "peak_day_pax": 2070,
+          "weekday_avg": 2037.3,
+          "weekend_avg": 1448.0
+        }
+      ]
+    },
+    "E22": {
+      "route_type": "Intercity",
+      "route_length_km": 13.01,
+      "avg_travel_time_min": 48.3,
+      "total_h2_pax": 356192,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 55610,
+          "avg_daily_pax": 1793.9,
+          "peak_day_pax": 1939,
+          "weekday_avg": 1909.2,
+          "weekend_avg": 1462.4
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 55287,
+          "avg_daily_pax": 1783.5,
+          "peak_day_pax": 1944,
+          "weekday_avg": 1930.2,
+          "weekend_avg": 1475.2
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 56836,
+          "avg_daily_pax": 1894.5,
+          "peak_day_pax": 2065,
+          "weekday_avg": 2027.9,
+          "weekend_avg": 1527.9
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 60313,
+          "avg_daily_pax": 1945.6,
+          "peak_day_pax": 2106,
+          "weekday_avg": 2088.0,
+          "weekend_avg": 1536.0
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 61595,
+          "avg_daily_pax": 2053.2,
+          "peak_day_pax": 2250,
+          "weekday_avg": 2237.3,
+          "weekend_avg": 1684.9
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 66551,
+          "avg_daily_pax": 2146.8,
+          "peak_day_pax": 2308,
+          "weekday_avg": 2278.1,
+          "weekend_avg": 1769.4
+        }
+      ]
+    },
+    "C04": {
+      "route_type": "City",
+      "route_length_km": 34.4,
+      "avg_travel_time_min": 65.0,
+      "total_h2_pax": 435468,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 66662,
+          "avg_daily_pax": 2150.4,
+          "peak_day_pax": 2234,
+          "weekday_avg": 2217.9,
+          "weekend_avg": 1956.2
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 65644,
+          "avg_daily_pax": 2117.5,
+          "peak_day_pax": 2211,
+          "weekday_avg": 2190.9,
+          "weekend_avg": 1963.6
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 69424,
+          "avg_daily_pax": 2314.1,
+          "peak_day_pax": 2438,
+          "weekday_avg": 2401.5,
+          "weekend_avg": 2073.8
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 72377,
+          "avg_daily_pax": 2334.7,
+          "peak_day_pax": 2437,
+          "weekday_avg": 2407.0,
+          "weekend_avg": 2127.1
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 76963,
+          "avg_daily_pax": 2565.4,
+          "peak_day_pax": 2693,
+          "weekday_avg": 2656.0,
+          "weekend_avg": 2384.3
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 84398,
+          "avg_daily_pax": 2722.5,
+          "peak_day_pax": 2861,
+          "weekday_avg": 2811.0,
+          "weekend_avg": 2468.0
+        }
+      ]
+    },
+    "X66": {
+      "route_type": "Express",
+      "route_length_km": 19.02,
+      "avg_travel_time_min": 66.8,
+      "total_h2_pax": 389314,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 60094,
+          "avg_daily_pax": 1938.5,
+          "peak_day_pax": 2067,
+          "weekday_avg": 2041.1,
+          "weekend_avg": 1643.5
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 59241,
+          "avg_daily_pax": 1911.0,
+          "peak_day_pax": 2052,
+          "weekday_avg": 2034.5,
+          "weekend_avg": 1651.7
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 61960,
+          "avg_daily_pax": 2065.3,
+          "peak_day_pax": 2198,
+          "weekday_avg": 2183.6,
+          "weekend_avg": 1740.1
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 64796,
+          "avg_daily_pax": 2090.2,
+          "peak_day_pax": 2264,
+          "weekday_avg": 2218.8,
+          "weekend_avg": 1720.4
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 68615,
+          "avg_daily_pax": 2287.2,
+          "peak_day_pax": 2470,
+          "weekday_avg": 2440.4,
+          "weekend_avg": 1980.7
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 74608,
+          "avg_daily_pax": 2406.7,
+          "peak_day_pax": 2589,
+          "weekday_avg": 2522.3,
+          "weekend_avg": 2074.5
+        }
+      ]
+    }
+  },
+  "by_route_type": {
+    "City": {
+      "total_h2_pax": 1978951,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 305575
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 301389
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 314588
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 330121
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 347910
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 379368
+        }
+      ]
+    },
+    "Express": {
+      "total_h2_pax": 1237216,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 191763
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 188673
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 195986
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 204736
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 218031
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 238027
+        }
+      ]
+    },
+    "Feeder": {
+      "total_h2_pax": 1258592,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 195215
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 192045
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 201132
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 210505
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 218056
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 241639
+        }
+      ]
+    },
+    "Intercity": {
+      "total_h2_pax": 658390,
+      "monthly": [
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "total_pax": 102545
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "total_pax": 101453
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "total_pax": 104255
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "total_pax": 110873
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "total_pax": 114272
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "total_pax": 124992
+        }
+      ]
+    }
+  }
+}
